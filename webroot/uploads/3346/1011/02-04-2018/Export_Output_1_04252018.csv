@@ -1,0 +1,85 @@
+FDRID*Campaign*Field*Value*HTML File Name*TYPE*AttributeGroup*GroupNumber
+4473399*Contacts*Product Tagging*"GRT,CID"**General**1
+4473399*Contacts*Org Category*"Company"**General**1
+4473399*Base Information*Social Media Handle*"https://www.facebook.com/householdessentials"**After Raw Data*Social Media*1
+4473399*LOB*Primary SIC Code*"Primary SIC Code: 5099 - Durable Goods, not elsewhere classified; Primary NAICS Code: 423990 - Other Miscellaneous Durable Goods Merchant Wholesalers. City: Brentwood; City Size: Inquire; County: Suffolk; ZIP: 11717; Area Code: 631; State: NY; Country: United States; Time Zone: Inquire. Phone: Inquire; Fax: InquireÂ ..."**After Raw Data*Primary SIC*1
+4473399*Base Information*ISO*"https://www.householdessential.com/ecommerce/Leifheit-USA:-Always-a-Better-Idea.cfm?cat_id=655"*337.html*After Normalized_Reference URL*ISO*1
+4473399*Base Information*Social Media Handle*"https://www.householdessential.com/ecommerce/Leifheit-USA:-Always-a-Better-Idea.cfm?cat_id=655"*337.html*After Normalized_Reference URL*Social Media*1
+4473399*LOB*Primary SIC Code*"https://www.manta.com/c/mm0b9c4/huntington-window-fashions"*314.html*After Normalized_Reference URL*Primary SIC*1
+4473399*Base Information*ISO*"https://www.householdessential.com/ecommerce/Leifheit-USA:-Always-a-Better-Idea.cfm?cat_id=655"*337.html*After Raw Data_Reference URL*ISO*1
+4473399*Base Information*Languages*"http://leifheitus.com"**After Raw Data_Reference URL*Organization_Languages*1
+4473399*Base Information*Social Media Handle*"https://www.householdessential.com/ecommerce/Leifheit-USA:-Always-a-Better-Idea.cfm?cat_id=655"*337.html*After Raw Data_Reference URL*Social Media*1
+4473399*LOB*Primary SIC Code*"https://www.manta.com/c/mm0b9c4/huntington-window-fashions"*319.html*After Raw Data_Reference URL*Primary SIC*1
+4473399*Personnel*Last Name*"Roehrig"**After Normalized*Personnel*1
+4473399*Base Information*Organization Name*"Leifheit International USA Inc."**After Normalized*Organisation_Name*1
+4473399*Personnel*First Name*"Elke"**After Normalized*Personnel*1
+4473399*Base Information*Organization Relationship Type*"Subsidiary"**After Normalized*Organization_Info*1
+4473399*Base Information*Inception Date*"1959"**After Normalized*Organization_Info*1
+4473399*Base Information*Main URL Address*"www.leifheitus.com"*139.html*After Normalized*Organization_Info*1
+4473399*Base Information*Location Type*"Headquarters"**After Normalized*Organization_Info*1
+4473399*Base Information*English Spoken*"No"**After Normalized*Organization_Info*1
+4473399*Base Information*Social Media Handle*"https://www.facebook.com/householdessentials"**After Normalized*Social Media*1
+4473399*Affiliates*Organization Relationship type*"subsidiary-org-org"**After Normalized*Affiliates*1
+4473399*Affiliates*Affiliate Name*"Leifheit AG"**After Normalized*Affiliates*1
+4473399*Brands*BrandName*"LEIFHEIT"**After Normalized*Brands*1
+4473399*Brands*BrandDesc*"Housewares and Glass"**After Normalized*Brands*1
+4473399*Brands*Product Service Category*"Brand"**After Normalized*Brands*1
+4473399*Brands*PTO Description*"Housewares and Glass"**After Normalized*Brands*1
+4473399*Brands*No Longer in production*"No"**After Normalized*Brands*1
+4473399*LOB*Primary SIC Code*"3354"**After Normalized*Primary SIC*1
+4473399*LOB*Primary SIC Description*"Aluminum Extruded Products"**After Normalized*Primary SIC*1
+4473399*LOB*Primary Industry NAICS Code*"331318"**After Normalized*Primary SIC*1
+4473399*LOB*Primary Industry NAICS Description*"Other Aluminum Rolling, Drawing, and Extruding"**After Normalized*Primary SIC*1
+4473399*LOB*Secondary SIC Code*"3421"**After Normalized*Secondary SIC*1
+4473399*LOB*Secondary SIC Description*"Cutlery"**After Normalized*Secondary SIC*1
+4473399*Personnel*Personnel Relationshipid*"13287523"**After Normalized*Personnel*1
+4473399*Personnel*Employee Title*"Contact"**After Normalized*Personnel*1
+4473399*Narratives*Narrative type*"Brief Description"**After Normalized*Narratives*1
+4473399*Narratives*Narrative text*"Manufacturer and distributor of household products, such as kitchen and bathroom scales, laundry bags, step stools, home ladders, cleaning, ironing and many more."**After Normalized*Narratives*1
+4473399*Narratives*Organization Description*"Distributor"**After Normalized*Organization_Description*1
+4473399*Personnel*Personnel ID*"13287511"**After Normalized*Personnel*1
+4473399*Base Information*Organization Category*"Company"**After Normalized*Organization_Info*1
+4473399*Affiliates*Relationship_ID*"33453231"**After Normalized*Affiliates*1
+4473399*Affiliates*Relationship_Name*"Leifheit AG subsidiary Leifheit International USA Inc."**After Normalized*Affiliates*1
+4473399*Affiliates*Locations*"Nassau; Germany; Company"**After Normalized*Affiliates*1
+4473399*Narratives*Narrative_usage*"BTC"**After Normalized*Narratives*1
+4473399*Personnel*Last Name*"Roehrig"**Before*Personnel*1
+4473399*Base Information*Physical Street*"510 Broadhollow Rd., Ste. 201"**Before*Organization_Info*1
+4473399*Base Information*Physical City*"Melville"**Before*Organization_Info*1
+4473399*Base Information*Physical State*"New York"**Before*Organization_Info*1
+4473399*Base Information*Physical Country*"United States"**Before*Organization_Info*1
+4473399*Base Information*Organization Name*"Leifheit International USA Inc."**Before*Organisation_Name*1
+4473399*Base Information*Physical Postal1*"11747"**Before*Organization_Info*1
+4473399*Personnel*First Name*"Elke"**Before*Personnel*1
+4473399*Base Information*Organization Relationship Type*"Subsidiary"**Before*Organization_Info*1
+4473399*Base Information*Inception Date*"1959"**Before*Organization_Info*1
+4473399*Base Information*Main URL Address*"www.leifheitus.com"**Before*Organization_Info*1
+4473399*Base Information*Location Type*"Headquarters"**Before*Organization_Info*1
+4473399*Base Information*English Spoken*"No"**Before*Organization_Info*1
+4473399*Base Information*Area Code*"866"**Before*Phone*1
+4473399*Affiliates*Organization Relationship type*"subsidiary-org-org"**Before*Affiliates*1
+4473399*Affiliates*Affiliate Name*"Leifheit AG"**Before*Affiliates*1
+4473399*Brands*BrandName*"LEIFHEIT"**Before*Brands*1
+4473399*Brands*BrandDesc*"Housewares and Glass"**Before*Brands*1
+4473399*Brands*Product Service Category*"Brand"**Before*Brands*1
+4473399*Brands*PTO Description*"Housewares and Glass"**Before*Brands*1
+4473399*Brands*No Longer in production*"No"**Before*Brands*1
+4473399*LOB*Primary SIC Code*"3354"**Before*Primary SIC*1
+4473399*LOB*Primary SIC Description*"Aluminum Extruded Products"**Before*Primary SIC*1
+4473399*LOB*Primary Industry NAICS Code*"331318"**Before*Primary SIC*1
+4473399*LOB*Primary Industry NAICS Description*"Other Aluminum Rolling, Drawing, and Extruding"**Before*Primary SIC*1
+4473399*LOB*Secondary SIC Code*"3421"**Before*Secondary SIC*1
+4473399*LOB*Secondary SIC Description*"Cutlery"**Before*Secondary SIC*1
+4473399*Personnel*Personnel Relationshipid*"13287523"**Before*Personnel*1
+4473399*Personnel*Employee Title*"Contact"**Before*Personnel*1
+4473399*Narratives*Narrative type*"Brief Description"**Before*Narratives*1
+4473399*Narratives*Narrative text*"Manufacturer and distributor of household products, such as kitchen and bathroom scales, laundry bags, step stools, home ladders, cleaning, ironing and many more."**Before*Narratives*1
+4473399*Narratives*Organization Description*"Distributor"**Before*Organization_Description*1
+4473399*Personnel*Personnel ID*"13287511"**Before*Personnel*1
+4473399*Base Information*Organization Category*"Company"**Before*Organization_Info*1
+4473399*Base Information*PhoneType*"Toll-free"**Before*Phone*1
+4473399*Affiliates*Relationship_ID*"33453231"**Before*Affiliates*1
+4473399*Affiliates*Relationship_Name*"Leifheit AG subsidiary Leifheit International USA Inc."**Before*Affiliates*1
+4473399*Affiliates*Locations*"Nassau; Germany; Company"**Before*Affiliates*1
+4473399*Narratives*Narrative_usage*"BTC"**Before*Narratives*1
+4473399*Base Information*Phone Number*"695-3434"**Before*Phone*1

@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+ body{background:#f3f3f4 !important}
+.container{width:auto !important;}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover{background:#104f94;}
+.logout:hover{background:none !important;border-bottom:1px dotted #eee;}
+.logout:focus{background:none !important;}
+.logout:active{background:none !important;}
+.logout ul li:hover{background:none !important;border-bottom:1px dotted #eee;}
+.logout ul li:focus{background:none !important;}
+.logout > li > a{background:none !important;}
+.logout > li > a:focus, .logout > li > a{background:none !important;color:#555 !important}
+.logout > li > a:focus, .logout > li > a:hover{background:red !important;}
+.logout > li > a:focus, .logout > li > a:hover{background:none !important;}
+.logout li a{color:#989898 !important;}
+/*.logout:hover{background:url(onehover.png) no-repeat right top;}*/
+.formcontent{background:#fff !important;border-radius:0px !important;border-top: 3px solid #104f94 !important;padding:2px 15px !important;}
+.formcontent h4{border-bottom: 1px solid #e7eaec; color: #323232; font-size: 15px;padding-bottom: 10px;}
+#projectforms{margin:0px !important;padding:0px !important;width:auto !important;}
+#projectforms input{border-radius:0px !important;}
+.form-control,input,button{border-radius:0px !important;}
+.form-control:focus{border-color: #104f94 !important;box-shadow:none !important;}
+#projectforms label{top:0 !important;color:#515050 !important;}
+ul.dropdown-menu li{border-bottom:1px dotted #fff;}
+.txtleft{text-align:left !important;}

@@ -1,0 +1,100 @@
+.full-widt{position: absolute;top: 0;}
+.bg-image-lite-green {border: 1px solid #8eb021;border-radius:3px;}
+.bg-image-dark-blue{border: 1px solid #3572b0;border-radius:3px;}
+.bg-image-yellow{border: 1px solid #f6c342;border-radius:3px;}
+.bg-image-dark-red {border: 1px solid #d04437;border-radius:3px;}
+
+.b-1-dark-red{border: 1px solid #d04437 !important;border-radius: 3px !important;}
+.b-1-yellow{border: 1px solid #f6c342 !important;border-radius:3px !important;}
+.b-1-dark-blue{border: 1px solid #3572b0 !important;border-radius:3px !important;}
+.b-1-lite-green{border: 1px solid #8eb021 !important;border-radius:3px !important;}
+.cursor-pointer{cursor:pointer;}
+.bg-green {
+  background-color: #1BB899;
+}
+.bg-lite-green {
+  background-color: #8EB021 !important;
+}
+.bg-red {
+  background-color: #FF5D48 !important;
+}
+.bg-dark-red {
+  background-color: #D04437 !important;
+}
+.bg-fafa {
+  background-color: #fafafa;
+}
+
+.bg-dark-blue{
+  background-color: #3572B0 !important;
+}
+.bg-yellow{
+  background-color: #F6C342 !important;
+}
+.bg-lite-blue {
+  background-color: #e6f3ff !important;
+}
+.bg-transparent {
+  background-color: transparent !important;
+}
+.bg-primary {
+  background-color: #ff6600;
+}
+.bg-black {
+  color: #000;
+}
+.ft-blue {
+  color: #0076c1;
+}
+
+
+/* Text Colors */
+.text-white {
+  color: #fff !important;
+}
+.fs-18 {
+  font-size: 18px !important;
+}
+/* Line height*/
+.lh-15 {
+  line-height: 15px !important;
+}
+.lh-20 {
+  line-height: 20px !important;
+}
+.no-padding {
+  padding: 0px !important;
+}
+.no-margin {
+  margin: 0px !important;
+}
+.hide,
+.hide_1 {
+  display: none;
+}
+.row{margin:0px;}
+.min-wid-420{min-width:420px !important;}
+.min-ht-80{min-height:80px;}
+/* Pages Notifications plugin*/
+.pgn-wrapper {
+  position: fixed;
+  z-index: 1000;
+}
+#alertDiv > .pgn-wrapper {
+  position: relative !important;
+  z-index: 999 !important;
+}
+.pgn-wrapper[data-position$='-left'] {
+  left: 30px;
+}
+.pgn-wrapper[data-position$='-right'] {
+  right: 20px;
+}
+.pgn-wrapper[data-position^='top-'] {
+  top: 20px;
+}
+
+
+
+
+
