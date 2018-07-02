@@ -1,0 +1,157 @@
+{
+    "3350": "Narratives",
+    "UserList": {
+        "1": "admin",
+        "91822": "userone",
+        "99146": "userone",
+        "99147": "user"
+    },
+    "UserListRole": {
+        "91822_": "userone ()",
+        "99146_3": "userone (Team Leader)",
+        "99147_4": "user (Team Member)"
+    },
+    "AttributeGroupMaster": [],
+    "AttributeGroupMasterDirect": [],
+    "ExportAttributeGroupMaster": [],
+    "ExportAttributeSubGroupMaster": [],
+    "Menu": {
+        "3": {
+            "Manage Project": {
+                "Manage Users": "UserGroupMapping"
+            }
+        },
+        "4": {
+            "Cengage Production": {
+                "Production": "GetJobCore"
+            },
+            "PU Queries": {
+                "PU Queries": "PuQueries"
+            }
+        }
+    },
+    "ProjectStatus": {
+        "1": "Production Completed",
+        "2": "Production Query",
+        "3": "Production Inprogress",
+        "4": "Ready for Production",
+        "5": "Import Completed"
+    },
+    "ProjectGroupStatus": {
+        "Input Import": {
+            "5": "Import Completed"
+        },
+        "Production": {
+            "1": "Production Completed",
+            "2": "Production Query",
+            "3": "Production Inprogress",
+            "4": "Ready for Production"
+        }
+    },
+    "Module": {
+        "141": "Manage Project",
+        "6694018": "Cengage Production",
+        "128": "PU Queries"
+    },
+    "ModuleUser": {
+        "141": {
+            "99146": {
+                "Id": 99146,
+                "Username": "userone"
+            }
+        },
+        "6694018": {
+            "99147": {
+                "Id": 99147,
+                "Username": "user"
+            }
+        },
+        "128": {
+            "99147": {
+                "Id": 99147,
+                "Username": "user"
+            }
+        }
+    },
+    "ModuleStatusList": {
+        "6694018": [
+            "Bucket 1 Ready for Production",
+            "PU PEG Rework Inprogress",
+            "PU PEG Rework Completed",
+            "Bucket 1 Production Inprogress",
+            "Bucket 1 Production Completed",
+            "Bucket 1 Production Query",
+            "Ready for PU Rework",
+            "PU Rework Inprogress",
+            "PU Rework Completed",
+            "Ready for PU PEG Rework"
+        ]
+    },
+    "ModuleStatus": {
+        "6694018": {
+            "5": {
+                "ModuleId": 6694018,
+                "ModStatus": "Bucket 1 Ready for Production",
+                "ModuleStatusIdentifier": "ReadyforProduction",
+                "StatusId": 5,
+                "FromStatus": "Import Completed"
+            },
+            "3": {
+                "ModuleId": 6694018,
+                "ModStatus": "Bucket 1 Production Inprogress",
+                "ModuleStatusIdentifier": "ProductionInprogress",
+                "StatusId": 3,
+                "FromStatus": "Production Inprogress"
+            },
+            "2": {
+                "ModuleId": 6694018,
+                "ModStatus": "Bucket 1 Production Query",
+                "ModuleStatusIdentifier": "ProductionQuery",
+                "StatusId": 2,
+                "FromStatus": "Production Query"
+            },
+            "1": {
+                "ModuleId": 6694018,
+                "ModStatus": "Bucket 1 Production Completed",
+                "ModuleStatusIdentifier": "ProductionCompleted",
+                "StatusId": 1,
+                "FromStatus": "Production Completed"
+            }
+        }
+    },
+    "ModuleStatus_Navigation": {
+        "5": [
+            "Bucket 1 Ready for Production",
+            false
+        ],
+        "3": [
+            "Bucket 1 Production Inprogress",
+            false
+        ],
+        "2": [
+            "Bucket 1 Production Query",
+            false
+        ],
+        "1": [
+            "Bucket 1 Production Completed",
+            false
+        ]
+    },
+    "ProjectConfig": {
+        "ProdDB_PageLimit": "20",
+        "ProductionView": "3",
+        "HygineCheck": ""
+    },
+    "UserGroups": {
+        "6": "Team 1",
+        "7": "Team 2",
+        "8": "YP Group",
+        "1008": "Factset Group",
+        "1009": "LE Group",
+        "1010": "cengagenpo",
+        "1011": "NPO",
+        "1012": "MojoCengage",
+        "1013": "Content Aggregation Group",
+        "1014": "Vessel Enrichment Group"
+    }
+}

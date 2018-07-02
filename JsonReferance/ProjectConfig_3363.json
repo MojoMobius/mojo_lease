@@ -1,0 +1,118 @@
+{
+    "3363": "Training",
+    "UserList": {
+        "1": "admin",
+        "1316": "adi",
+        "98361": "vendorm"
+    },
+    "UserListRole": {
+        "98361_31": "vendorm (Production User)"
+    },
+    "AttributeGroupMaster": [],
+    "AttributeGroupMasterDirect": [],
+    "ExportAttributeGroupMaster": [],
+    "ExportAttributeSubGroupMaster": [],
+    "ProjectStatus": {
+        "1": "Query",
+        "2": "Production Completed",
+        "3": "Production Inprogress",
+        "4": "Ready for Production",
+        "5": "Import Completed"
+    },
+    "ProjectGroupStatus": {
+        "Import": {
+            "5": "Import Completed"
+        },
+        "Production": {
+            "1": "Query",
+            "2": "Production Completed",
+            "3": "Production Inprogress",
+            "4": "Ready for Production"
+        }
+    },
+    "Module": {
+        "6694017": "NPO Production",
+        "141": "Manage Project",
+        "6694018": "Cengage Production"
+    },
+    "ModuleStatusList": {
+        "6694017": [
+            "Ready for Production",
+            "Production Inprogress",
+            "Production Completed",
+            "Production Query"
+        ],
+        "6694018": [
+            "Bucket 1 Ready for Production",
+            "PU PEG Rework Inprogress",
+            "PU PEG Rework Completed",
+            "Bucket 1 Production Inprogress",
+            "Bucket 1 Production Completed",
+            "Bucket 1 Production Query",
+            "Ready for PU Rework",
+            "PU Rework Inprogress",
+            "PU Rework Completed",
+            "Ready for PU PEG Rework"
+        ]
+    },
+    "ModuleStatus": {
+        "6694018": {
+            "5": {
+                "ModuleId": 6694018,
+                "ModStatus": "Bucket 1 Ready for Production",
+                "ModuleStatusIdentifier": "ReadyforProduction",
+                "StatusId": 5,
+                "FromStatus": "Import Completed"
+            },
+            "4": {
+                "ModuleId": 6694018,
+                "ModStatus": "Bucket 1 Production Inprogress",
+                "ModuleStatusIdentifier": "ProductionInprogress",
+                "StatusId": 4,
+                "FromStatus": "Ready for Production"
+            },
+            "3": {
+                "ModuleId": 6694018,
+                "ModStatus": "Bucket 1 Production Query",
+                "ModuleStatusIdentifier": "ProductionQuery",
+                "StatusId": 3,
+                "FromStatus": "Production Inprogress"
+            }
+        }
+    },
+    "ModuleStatus_Navigation": {
+        "5": [
+            "Bucket 1 Ready for Production",
+            false
+        ],
+        "4": [
+            "Bucket 1 Production Inprogress",
+            false
+        ],
+        "3": [
+            "Bucket 1 Production Completed",
+            false,
+            [
+                "Bucket 1 Production Query",
+                false
+            ]
+        ]
+    },
+    "ProjectConfig": {
+        "ProdDB_PageLimit": "20",
+        "ProductionView": "3",
+        "HygineCheck": ""
+    },
+    "UserGroups": {
+        "6": "Team 1",
+        "7": "Team 2",
+        "8": "YP Group",
+        "1008": "Factset Group",
+        "1009": "LE Group",
+        "1010": "cengagenpo",
+        "1011": "NPO",
+        "1012": "MojoCengage",
+        "1013": "Content Aggregation Group",
+        "1014": "Vessel Enrichment Group"
+    }
+}

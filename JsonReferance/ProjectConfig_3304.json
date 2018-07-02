@@ -1,0 +1,1109 @@
+{
+    "3304": "News Monitoring_GTR",
+    "UserList": {
+        "1": "admin",
+        "83150": "UserA",
+        "95431": "teamlead",
+        "98016": "userb"
+    },
+    "UserListRole": {
+        "83150_31": "UserA (Production User)",
+        "95431_3": "teamlead (Team Leader)",
+        "98016_28": "userb (QCUser)"
+    },
+    "RegionList": {
+        "1011": "No Region"
+    },
+    "AttributeList": {
+        "1011": [
+            7672,
+            7673,
+            7674,
+            7675,
+            7677,
+            7678,
+            7679,
+            7680,
+            7681,
+            7682,
+            7683,
+            7684,
+            7685,
+            7686,
+            7687,
+            7688,
+            7689,
+            7690,
+            7691,
+            7692,
+            7694
+        ]
+    },
+    "AttributeOrder": {
+        "1011": {
+            "7672": {
+                "DispalyOrder": "1",
+                "ProjectAttributeId": 7672,
+                "AttributeName": "Company Name",
+                "AttributeId": 230,
+                "DisplayAttributeName": "Company Name",
+                "IsDistinct": 0,
+                "ControlName": "MultiTextBox"
+            },
+            "7673": {
+                "DispalyOrder": "2",
+                "ProjectAttributeId": 7673,
+                "AttributeName": "Parameter",
+                "AttributeId": 3203,
+                "DisplayAttributeName": "Parameter",
+                "IsDistinct": 0,
+                "ControlName": "MultiTextBox"
+            },
+            "7674": {
+                "DispalyOrder": "3",
+                "ProjectAttributeId": 7674,
+                "AttributeName": "Customers",
+                "AttributeId": 3204,
+                "DisplayAttributeName": "Customers",
+                "IsDistinct": 0,
+                "ControlName": "MultiTextBox"
+            },
+            "7675": {
+                "DispalyOrder": "4",
+                "ProjectAttributeId": 7675,
+                "AttributeName": "Products",
+                "AttributeId": 3205,
+                "DisplayAttributeName": "Products",
+                "IsDistinct": 0,
+                "ControlName": "MultiTextBox"
+            },
+            "7677": {
+                "DispalyOrder": "6",
+                "ProjectAttributeId": 7677,
+                "AttributeName": "Economic Impact factors",
+                "AttributeId": 3207,
+                "DisplayAttributeName": "Economic Impact factors",
+                "IsDistinct": 0,
+                "ControlName": "MultiTextBox"
+            },
+            "7678": {
+                "DispalyOrder": "7",
+                "ProjectAttributeId": 7678,
+                "AttributeName": "Litigation",
+                "AttributeId": 3208,
+                "DisplayAttributeName": "Litigation",
+                "IsDistinct": 0,
+                "ControlName": "MultiTextBox"
+            },
+            "7679": {
+                "DispalyOrder": "8",
+                "ProjectAttributeId": 7679,
+                "AttributeName": "Commodity News",
+                "AttributeId": 3209,
+                "DisplayAttributeName": "Commodity News",
+                "IsDistinct": 0,
+                "ControlName": "MultiTextBox"
+            },
+            "7680": {
+                "DispalyOrder": "9",
+                "ProjectAttributeId": 7680,
+                "AttributeName": "Product News",
+                "AttributeId": 3210,
+                "DisplayAttributeName": "Product News",
+                "IsDistinct": 0,
+                "ControlName": "MultiTextBox"
+            },
+            "7681": {
+                "DispalyOrder": "10",
+                "ProjectAttributeId": 7681,
+                "AttributeName": "Production Capacity",
+                "AttributeId": 3211,
+                "DisplayAttributeName": "Production Capacity",
+                "IsDistinct": 0,
+                "ControlName": "MultiTextBox"
+            },
+            "7682": {
+                "DispalyOrder": "11",
+                "ProjectAttributeId": 7682,
+                "AttributeName": "Plants",
+                "AttributeId": 3212,
+                "DisplayAttributeName": "Plants",
+                "IsDistinct": 0,
+                "ControlName": "MultiTextBox"
+            },
+            "7683": {
+                "DispalyOrder": "12",
+                "ProjectAttributeId": 7683,
+                "AttributeName": "Geopolitical Events",
+                "AttributeId": 3213,
+                "DisplayAttributeName": "Geopolitical Events",
+                "IsDistinct": 0,
+                "ControlName": "MultiTextBox"
+            },
+            "7684": {
+                "DispalyOrder": "13",
+                "ProjectAttributeId": 7684,
+                "AttributeName": "Natural Events",
+                "AttributeId": 3214,
+                "DisplayAttributeName": "Natural Events",
+                "IsDistinct": 0,
+                "ControlName": "MultiTextBox"
+            },
+            "7685": {
+                "DispalyOrder": "14",
+                "ProjectAttributeId": 7685,
+                "AttributeName": "Accidents",
+                "AttributeId": 3215,
+                "DisplayAttributeName": "Accidents",
+                "IsDistinct": 0,
+                "ControlName": "MultiTextBox"
+            },
+            "7686": {
+                "DispalyOrder": "15",
+                "ProjectAttributeId": 7686,
+                "AttributeName": "Market Size",
+                "AttributeId": 3216,
+                "DisplayAttributeName": "Market Size",
+                "IsDistinct": 0,
+                "ControlName": "MultiTextBox"
+            },
+            "7687": {
+                "DispalyOrder": "16",
+                "ProjectAttributeId": 7687,
+                "AttributeName": "Market Share",
+                "AttributeId": 3217,
+                "DisplayAttributeName": "Market Share",
+                "IsDistinct": 0,
+                "ControlName": "MultiTextBox"
+            },
+            "7688": {
+                "DispalyOrder": "17",
+                "ProjectAttributeId": 7688,
+                "AttributeName": "Market Growth",
+                "AttributeId": 3218,
+                "DisplayAttributeName": "Market Growth",
+                "IsDistinct": 0,
+                "ControlName": "MultiTextBox"
+            },
+            "7689": {
+                "DispalyOrder": "18",
+                "ProjectAttributeId": 7689,
+                "AttributeName": "Employment",
+                "AttributeId": 3219,
+                "DisplayAttributeName": "Employment, job market, cuts, layoffs",
+                "IsDistinct": 0,
+                "ControlName": "MultiTextBox"
+            },
+            "7690": {
+                "DispalyOrder": "19",
+                "ProjectAttributeId": 7690,
+                "AttributeName": "Competitors",
+                "AttributeId": 3220,
+                "DisplayAttributeName": "Competitors",
+                "IsDistinct": 0,
+                "ControlName": "MultiTextBox"
+            },
+            "7691": {
+                "DispalyOrder": "20",
+                "ProjectAttributeId": 7691,
+                "AttributeName": "Company R&D",
+                "AttributeId": 3221,
+                "DisplayAttributeName": "Company R&D",
+                "IsDistinct": 0,
+                "ControlName": "MultiTextBox"
+            },
+            "7692": {
+                "DispalyOrder": "21",
+                "ProjectAttributeId": 7692,
+                "AttributeName": "DOMAIN_ID",
+                "AttributeId": 306,
+                "DisplayAttributeName": "DOMAIN_ID",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "7694": {
+                "DispalyOrder": "23",
+                "ProjectAttributeId": 7694,
+                "AttributeName": "SOURCE_URL",
+                "AttributeId": 4772,
+                "DisplayAttributeName": "SOURCE_URL",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            }
+        }
+    },
+    "ValidationRules": {
+        "7672": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7673": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7674": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7675": {
+            "IsMandatory": 1,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7677": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7678": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7679": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7680": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7681": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7682": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7683": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7684": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7685": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7686": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7687": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7688": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7689": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7690": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7691": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7692": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7694": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        }
+    },
+    "ModuleAttributes": {
+        "1011": {
+            "139": {
+                "static": {
+                    "1": {
+                        "AttributeMasterId": 230,
+                        "ProjectAttributeMasterId": 7672,
+                        "DispalyOrder": "1",
+                        "DisplayAttributeName": "Company Name",
+                        "IsDistinct": 0,
+                        "ControlName": "MultiTextBox",
+                        "Options": null,
+                        "AttributeName": "Company Name",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "2": {
+                        "AttributeMasterId": 3203,
+                        "ProjectAttributeMasterId": 7673,
+                        "DispalyOrder": "2",
+                        "DisplayAttributeName": "Parameter",
+                        "IsDistinct": 0,
+                        "ControlName": "MultiTextBox",
+                        "Options": null,
+                        "AttributeName": "Parameter",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "21": {
+                        "AttributeMasterId": 306,
+                        "ProjectAttributeMasterId": 7692,
+                        "DispalyOrder": "21",
+                        "DisplayAttributeName": "DOMAIN_ID",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "DOMAIN_ID",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "23": {
+                        "AttributeMasterId": 3079,
+                        "ProjectAttributeMasterId": 7694,
+                        "DispalyOrder": "23",
+                        "DisplayAttributeName": "SOURCE_URL",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "SOURCE_URL",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    }
+                },
+                "production": {
+                    "3": {
+                        "AttributeMasterId": 3204,
+                        "ProjectAttributeMasterId": 7674,
+                        "DispalyOrder": "3",
+                        "DisplayAttributeName": "Customers",
+                        "IsDistinct": 0,
+                        "ControlName": "MultiTextBox",
+                        "Options": null,
+                        "AttributeName": "Customers",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "4": {
+                        "AttributeMasterId": 3205,
+                        "ProjectAttributeMasterId": 7675,
+                        "DispalyOrder": "4",
+                        "DisplayAttributeName": "Products",
+                        "IsDistinct": 0,
+                        "ControlName": "MultiTextBox",
+                        "Options": null,
+                        "AttributeName": "Products",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "6": {
+                        "AttributeMasterId": 3207,
+                        "ProjectAttributeMasterId": 7677,
+                        "DispalyOrder": "6",
+                        "DisplayAttributeName": "Economic Impact factors",
+                        "IsDistinct": 0,
+                        "ControlName": "MultiTextBox",
+                        "Options": null,
+                        "AttributeName": "Economic Impact factors",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "7": {
+                        "AttributeMasterId": 3208,
+                        "ProjectAttributeMasterId": 7678,
+                        "DispalyOrder": "7",
+                        "DisplayAttributeName": "Litigation",
+                        "IsDistinct": 0,
+                        "ControlName": "MultiTextBox",
+                        "Options": null,
+                        "AttributeName": "Litigation",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "8": {
+                        "AttributeMasterId": 3209,
+                        "ProjectAttributeMasterId": 7679,
+                        "DispalyOrder": "8",
+                        "DisplayAttributeName": "Commodity News",
+                        "IsDistinct": 0,
+                        "ControlName": "MultiTextBox",
+                        "Options": null,
+                        "AttributeName": "Commodity News",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "9": {
+                        "AttributeMasterId": 3210,
+                        "ProjectAttributeMasterId": 7680,
+                        "DispalyOrder": "9",
+                        "DisplayAttributeName": "Product News",
+                        "IsDistinct": 0,
+                        "ControlName": "MultiTextBox",
+                        "Options": null,
+                        "AttributeName": "Product News",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "10": {
+                        "AttributeMasterId": 3211,
+                        "ProjectAttributeMasterId": 7681,
+                        "DispalyOrder": "10",
+                        "DisplayAttributeName": "Production Capacity",
+                        "IsDistinct": 0,
+                        "ControlName": "MultiTextBox",
+                        "Options": null,
+                        "AttributeName": "Production Capacity",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "11": {
+                        "AttributeMasterId": 3212,
+                        "ProjectAttributeMasterId": 7682,
+                        "DispalyOrder": "11",
+                        "DisplayAttributeName": "Plants",
+                        "IsDistinct": 0,
+                        "ControlName": "MultiTextBox",
+                        "Options": null,
+                        "AttributeName": "Plants",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "12": {
+                        "AttributeMasterId": 3213,
+                        "ProjectAttributeMasterId": 7683,
+                        "DispalyOrder": "12",
+                        "DisplayAttributeName": "Geopolitical Events",
+                        "IsDistinct": 0,
+                        "ControlName": "MultiTextBox",
+                        "Options": null,
+                        "AttributeName": "Geopolitical Events",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "13": {
+                        "AttributeMasterId": 3214,
+                        "ProjectAttributeMasterId": 7684,
+                        "DispalyOrder": "13",
+                        "DisplayAttributeName": "Natural Events",
+                        "IsDistinct": 0,
+                        "ControlName": "MultiTextBox",
+                        "Options": null,
+                        "AttributeName": "Natural Events",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "14": {
+                        "AttributeMasterId": 3215,
+                        "ProjectAttributeMasterId": 7685,
+                        "DispalyOrder": "14",
+                        "DisplayAttributeName": "Accidents",
+                        "IsDistinct": 0,
+                        "ControlName": "MultiTextBox",
+                        "Options": null,
+                        "AttributeName": "Accidents",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "15": {
+                        "AttributeMasterId": 3216,
+                        "ProjectAttributeMasterId": 7686,
+                        "DispalyOrder": "15",
+                        "DisplayAttributeName": "Market Size",
+                        "IsDistinct": 0,
+                        "ControlName": "MultiTextBox",
+                        "Options": null,
+                        "AttributeName": "Market Size",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "16": {
+                        "AttributeMasterId": 3217,
+                        "ProjectAttributeMasterId": 7687,
+                        "DispalyOrder": "16",
+                        "DisplayAttributeName": "Market Share",
+                        "IsDistinct": 0,
+                        "ControlName": "MultiTextBox",
+                        "Options": null,
+                        "AttributeName": "Market Share",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "17": {
+                        "AttributeMasterId": 3218,
+                        "ProjectAttributeMasterId": 7688,
+                        "DispalyOrder": "17",
+                        "DisplayAttributeName": "Market Growth",
+                        "IsDistinct": 0,
+                        "ControlName": "MultiTextBox",
+                        "Options": null,
+                        "AttributeName": "Market Growth",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "18": {
+                        "AttributeMasterId": 3219,
+                        "ProjectAttributeMasterId": 7689,
+                        "DispalyOrder": "18",
+                        "DisplayAttributeName": "Employment, job market, cuts, layoffs",
+                        "IsDistinct": 0,
+                        "ControlName": "MultiTextBox",
+                        "Options": null,
+                        "AttributeName": "Employment",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "19": {
+                        "AttributeMasterId": 3220,
+                        "ProjectAttributeMasterId": 7690,
+                        "DispalyOrder": "19",
+                        "DisplayAttributeName": "Competitors",
+                        "IsDistinct": 0,
+                        "ControlName": "MultiTextBox",
+                        "Options": null,
+                        "AttributeName": "Competitors",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "20": {
+                        "AttributeMasterId": 3221,
+                        "ProjectAttributeMasterId": 7691,
+                        "DispalyOrder": "20",
+                        "DisplayAttributeName": "Company R&D",
+                        "IsDistinct": 0,
+                        "ControlName": "MultiTextBox",
+                        "Options": null,
+                        "AttributeName": "Company R&D",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    }
+                }
+            }
+        }
+    },
+    "AttributeGroupMaster": {
+        "139": {
+            "41": "ProductAttributes"
+        }
+    },
+    "AttributeGroupMasterDirect": {
+        "41": "ProductAttributes"
+    },
+    "ExportAttributeGroupMaster": {
+        "230": "ProductAttributes",
+        "3203": "ProductAttributes",
+        "306": "ProductAttributes",
+        "3079": "ProductAttributes",
+        "3204": "ProductAttributes",
+        "3205": "ProductAttributes",
+        "3207": "ProductAttributes",
+        "3208": "ProductAttributes",
+        "3209": "ProductAttributes",
+        "3210": "ProductAttributes",
+        "3211": "ProductAttributes",
+        "3212": "ProductAttributes",
+        "3213": "ProductAttributes",
+        "3214": "ProductAttributes",
+        "3215": "ProductAttributes",
+        "3216": "ProductAttributes",
+        "3217": "ProductAttributes",
+        "3218": "ProductAttributes",
+        "3219": "ProductAttributes",
+        "3220": "ProductAttributes",
+        "3221": "ProductAttributes"
+    },
+    "ExportAttributeSubGroupMaster": [],
+    "Menu": {
+        "3": {
+            "Mojo Production": {
+                "Job Dashboard": "ProductionDashboards"
+            },
+            "Manage Project": {
+                "Delivery Output": "DeliveryExport"
+            }
+        },
+        "31": {
+            "Mojo Production": {
+                "Get Job": "Getjobcore"
+            }
+        }
+    },
+    "ProjectStatus": {
+        "1": "Query",
+        "2": "Production Completed",
+        "3": "Production In progress",
+        "4": "Ready for Production",
+        "5": "Import Completed",
+        "6": "Import Inprogress"
+    },
+    "ProjectGroupStatus": {
+        "Production": {
+            "1": "Query",
+            "2": "Production Completed",
+            "3": "Production In progress",
+            "4": "Ready for Production"
+        },
+        "Import": {
+            "5": "Import Completed",
+            "6": "Import Inprogress"
+        }
+    },
+    "Module": {
+        "139": "Mojo Production",
+        "141": "Manage Project",
+        "140": "Queries"
+    },
+    "ModuleStatusList": {
+        "139": [
+            "Ready for Production",
+            "Production In Progress",
+            "Ready for QC",
+            "QC sample selected",
+            "Ready For TL Rebutal",
+            "Skip",
+            "Skip Inprogress",
+            "Rework",
+            "Rework InProgress",
+            "QC Rejected",
+            "ReadyForRejection",
+            "FileRejected",
+            "Change",
+            "No Change",
+            "NA",
+            "Production Completed",
+            "Query",
+            "Hold",
+            "QC Inprogress",
+            "QC Complete",
+            "Ready  For Json",
+            "Delivered"
+        ]
+    },
+    "ModuleConfig": {
+        "139": {
+            "IsInputMandatory": 1,
+            "IsHistoryTrack": 2,
+            "IsUrlMonitoring": null,
+            "IsAllowedToDisplay": 1,
+            "IsModuleGroup": null,
+            "IsHygineCheck": null
+        },
+        "141": {
+            "IsInputMandatory": 2,
+            "IsHistoryTrack": 2,
+            "IsUrlMonitoring": 0,
+            "IsAllowedToDisplay": 0,
+            "IsModuleGroup": null,
+            "IsHygineCheck": null
+        },
+        "140": {
+            "IsInputMandatory": 2,
+            "IsHistoryTrack": 2,
+            "IsUrlMonitoring": 0,
+            "IsAllowedToDisplay": 0,
+            "IsModuleGroup": null,
+            "IsHygineCheck": null
+        }
+    },
+    "ModuleStatus": {
+        "139": {
+            "5": {
+                "ModuleId": 139,
+                "ModStatus": "Ready for Production",
+                "ModuleStatusIdentifier": "ReadyForProduction",
+                "StatusId": 5,
+                "FromStatus": "Import Completed"
+            },
+            "4": {
+                "ModuleId": 139,
+                "ModStatus": "Production In Progress",
+                "ModuleStatusIdentifier": "ProductionInProgress",
+                "StatusId": 4,
+                "FromStatus": "Ready for Production"
+            },
+            "3": {
+                "ModuleId": 139,
+                "ModStatus": "Production Completed",
+                "ModuleStatusIdentifier": "ProductionComplete",
+                "StatusId": 3,
+                "FromStatus": "Production In progress"
+            },
+            "1": {
+                "ModuleId": 139,
+                "ModStatus": "Query",
+                "ModuleStatusIdentifier": "Query",
+                "StatusId": 1,
+                "FromStatus": "Query"
+            }
+        }
+    },
+    "ModuleStatus_Navigation": {
+        "5": [
+            "Ready for Production",
+            4
+        ],
+        "4": [
+            "Production In Progress",
+            3
+        ],
+        "3": [
+            "Production Completed",
+            2
+        ],
+        "1": [
+            "Query",
+            1
+        ]
+    },
+    "ModuleUser": {
+        "139": {
+            "83150": {
+                "Id": 83150,
+                "Username": "UserA"
+            },
+            "95431": {
+                "Id": 95431,
+                "Username": "teamlead"
+            }
+        },
+        "141": {
+            "95431": {
+                "Id": 95431,
+                "Username": "teamlead"
+            }
+        }
+    },
+    "ProjectConfig": {
+        "DomainId": "306",
+        "DomainUrl": "3079",
+        "ProdDB_PageLimit": "20",
+        "ProductionView": "2",
+        "HygineCheck": ""
+    },
+    "UserGroups": {
+        "6": "Team 1",
+        "7": "Team 2",
+        "8": "YP Group",
+        "1008": "Factset Group",
+        "1009": "LE Group",
+        "1010": "cengagenpo",
+        "1011": "NPO",
+        "1012": "MojoCengage",
+        "1013": "Content Aggregation Group",
+        "1014": "Vessel Enrichment Group"
+    }
+}

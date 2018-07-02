@@ -1,0 +1,1754 @@
+{
+    "3306": "Cengage_Contact",
+    "UserList": {
+        "1": "admin",
+        "98230": "Dharmaraj",
+        "98231": "Patteswarakumar",
+        "98233": "Gokilavani",
+        "98234": "Vijayasaran",
+        "98235": "Raseena",
+        "98236": "Mohanambal",
+        "98237": "SanthoshKumar",
+        "98238": "Balajeevitha",
+        "98239": "Sugapriya",
+        "98240": "Sivakumar",
+        "98241": "SankarGanesh",
+        "98242": "VishnuBharathi",
+        "98244": "Muthumani",
+        "98247": "Sivakumarr",
+        "98248": "VigneshKumarN",
+        "98249": "Chandrasekar",
+        "98250": "Ranjani",
+        "98251": "Nithyaspa",
+        "98262": "VigneshKumarR"
+    },
+    "UserListRole": {
+        "98230_3": "Dharmaraj (Team Leader)",
+        "98231_3": "Patteswarakumar (Team Leader)",
+        "98233_31": "Gokilavani (Production User)",
+        "98234_31": "Vijayasaran (Production User)",
+        "98235_31": "Raseena (Production User)",
+        "98236_31": "Mohanambal (Production User)",
+        "98237_31": "SanthoshKumar (Production User)",
+        "98238_31": "Balajeevitha (Production User)",
+        "98239_31": "Sugapriya (Production User)",
+        "98240_3": "Sivakumar (Team Leader)",
+        "98241_31": "SankarGanesh (Production User)",
+        "98242_31": "VishnuBharathi (Production User)",
+        "98244_31": "Muthumani (Production User)",
+        "98247_31": "Sivakumarr (Production User)",
+        "98248_31": "VigneshKumarN (Production User)",
+        "98249_31": "Chandrasekar (Production User)",
+        "98250_31": "Ranjani (Production User)",
+        "98251_31": "Nithyaspa (Production User)",
+        "98262_31": "VigneshKumarR (Production User)"
+    },
+    "RegionList": {
+        "6": "US"
+    },
+    "AttributeList": {
+        "6": [
+            7695,
+            7695,
+            7695,
+            7696,
+            7696,
+            7696,
+            7697,
+            7697,
+            7697,
+            7698,
+            7698,
+            7698,
+            7699,
+            7699,
+            7699,
+            7700,
+            7700,
+            7700,
+            7701,
+            7701,
+            7701,
+            7702,
+            7702,
+            7702,
+            7703,
+            7704,
+            7705,
+            7706,
+            7707,
+            7707,
+            7708,
+            7708,
+            7709,
+            7709,
+            7710,
+            7710,
+            7711,
+            7711,
+            7712,
+            7712,
+            7712,
+            7713,
+            7713,
+            7714,
+            7714,
+            7714,
+            7715,
+            7715,
+            7715,
+            7716,
+            7716,
+            7716,
+            7717,
+            7717,
+            7717,
+            7718,
+            7718,
+            7718,
+            7785,
+            7719,
+            7719,
+            7719,
+            7720,
+            7720,
+            7720,
+            7721,
+            7721,
+            7721,
+            7722,
+            7722
+        ]
+    },
+    "AttributeOrder": {
+        "6": {
+            "7695": {
+                "DispalyOrder": "1",
+                "ProjectAttributeId": 7695,
+                "AttributeName": "FRD_ID",
+                "AttributeId": 3222,
+                "DisplayAttributeName": "FRD ID",
+                "IsDistinct": 1,
+                "ControlName": "Label"
+            },
+            "7696": {
+                "DispalyOrder": "2",
+                "ProjectAttributeId": 7696,
+                "AttributeName": "Company_Name",
+                "AttributeId": 236,
+                "DisplayAttributeName": "Company Name",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "7697": {
+                "DispalyOrder": "3",
+                "ProjectAttributeId": 7697,
+                "AttributeName": "Physical_Street",
+                "AttributeId": 3223,
+                "DisplayAttributeName": "Physical Street",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "7698": {
+                "DispalyOrder": "4",
+                "ProjectAttributeId": 7698,
+                "AttributeName": "Physical_City",
+                "AttributeId": 3224,
+                "DisplayAttributeName": "Physical City",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "7699": {
+                "DispalyOrder": "5",
+                "ProjectAttributeId": 7699,
+                "AttributeName": "Physical_State",
+                "AttributeId": 3225,
+                "DisplayAttributeName": "Physical State",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "7700": {
+                "DispalyOrder": "6",
+                "ProjectAttributeId": 7700,
+                "AttributeName": "Physical_Country",
+                "AttributeId": 3226,
+                "DisplayAttributeName": "Physical Country",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "7701": {
+                "DispalyOrder": "7",
+                "ProjectAttributeId": 7701,
+                "AttributeName": "Physical_Postal_Code",
+                "AttributeId": 3227,
+                "DisplayAttributeName": "Physical Postal Code",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "7702": {
+                "DispalyOrder": "8",
+                "ProjectAttributeId": 7702,
+                "AttributeName": "Url",
+                "AttributeId": 4688,
+                "DisplayAttributeName": "Url",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "7703": {
+                "DispalyOrder": "9",
+                "ProjectAttributeId": 7703,
+                "AttributeName": "No_Contact",
+                "AttributeId": 3229,
+                "DisplayAttributeName": "No Contact",
+                "IsDistinct": 0,
+                "ControlName": "DropDownList",
+                "Options": [
+                    "Yes",
+                    "No"
+                ],
+                "OptionsWithKey": {
+                    "115": "Yes",
+                    "116": "No"
+                }
+            },
+            "7704": {
+                "DispalyOrder": "10",
+                "ProjectAttributeId": 7704,
+                "AttributeName": "Single_Contact",
+                "AttributeId": 3230,
+                "DisplayAttributeName": "Single Contact",
+                "IsDistinct": 0,
+                "ControlName": "DropDownList",
+                "Options": [
+                    "Yes",
+                    "No"
+                ],
+                "OptionsWithKey": {
+                    "117": "Yes",
+                    "118": "No"
+                }
+            },
+            "7705": {
+                "DispalyOrder": "11",
+                "ProjectAttributeId": 7705,
+                "AttributeName": "PATE",
+                "AttributeId": 3231,
+                "DisplayAttributeName": "PATE",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "7706": {
+                "DispalyOrder": "12",
+                "ProjectAttributeId": 7706,
+                "AttributeName": "Count_PATE",
+                "AttributeId": 3232,
+                "DisplayAttributeName": "Count",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "7707": {
+                "DispalyOrder": "13",
+                "ProjectAttributeId": 7707,
+                "AttributeName": "Manual",
+                "AttributeId": 3233,
+                "DisplayAttributeName": "Manual",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "7708": {
+                "DispalyOrder": "14",
+                "ProjectAttributeId": 7708,
+                "AttributeName": "Count",
+                "AttributeId": 3234,
+                "DisplayAttributeName": "Count",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "7709": {
+                "DispalyOrder": "15",
+                "ProjectAttributeId": 7709,
+                "AttributeName": "More_Contacts",
+                "AttributeId": 3235,
+                "DisplayAttributeName": "More than 5 Contacts",
+                "IsDistinct": 0,
+                "ControlName": "DropDownList",
+                "Options": [
+                    "Yes",
+                    "No"
+                ],
+                "OptionsWithKey": {
+                    "113": "Yes",
+                    "114": "No"
+                }
+            },
+            "7710": {
+                "DispalyOrder": "16",
+                "ProjectAttributeId": 7710,
+                "AttributeName": "Gov_Source",
+                "AttributeId": 3236,
+                "DisplayAttributeName": "Gov Source",
+                "IsDistinct": 0,
+                "ControlName": "DropDownList",
+                "Options": [
+                    "Yes",
+                    "No"
+                ],
+                "OptionsWithKey": {
+                    "111": "Yes",
+                    "112": "No"
+                }
+            },
+            "7711": {
+                "DispalyOrder": "17",
+                "ProjectAttributeId": 7711,
+                "AttributeName": "Enitity_Number",
+                "AttributeId": 3237,
+                "DisplayAttributeName": "Enitity Number\/Keyword",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "7712": {
+                "DispalyOrder": "18",
+                "ProjectAttributeId": 7712,
+                "AttributeName": "Comments",
+                "AttributeId": 4474,
+                "DisplayAttributeName": "Comments",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "7713": {
+                "DispalyOrder": "19",
+                "ProjectAttributeId": 7713,
+                "AttributeName": "Special_Events",
+                "AttributeId": 3238,
+                "DisplayAttributeName": "Special Events",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "7714": {
+                "DispalyOrder": "20",
+                "ProjectAttributeId": 7714,
+                "AttributeName": "Prefix",
+                "AttributeId": 2060,
+                "DisplayAttributeName": "Prefix",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "7715": {
+                "DispalyOrder": "21",
+                "ProjectAttributeId": 7715,
+                "AttributeName": "First_Name",
+                "AttributeId": 3542,
+                "DisplayAttributeName": "First Name",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "7716": {
+                "DispalyOrder": "22",
+                "ProjectAttributeId": 7716,
+                "AttributeName": "Last_Name",
+                "AttributeId": 2062,
+                "DisplayAttributeName": "Last Name",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "7717": {
+                "DispalyOrder": "23",
+                "ProjectAttributeId": 7717,
+                "AttributeName": "Suffix",
+                "AttributeId": 722,
+                "DisplayAttributeName": "Suffix",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "7718": {
+                "DispalyOrder": "24",
+                "ProjectAttributeId": 7718,
+                "AttributeName": "Title",
+                "AttributeId": 761,
+                "DisplayAttributeName": "Title",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "7785": {
+                "DispalyOrder": "25",
+                "ProjectAttributeId": 7785,
+                "AttributeName": "Title_Found",
+                "AttributeId": 3288,
+                "DisplayAttributeName": "Title Found",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "7719": {
+                "DispalyOrder": "26",
+                "ProjectAttributeId": 7719,
+                "AttributeName": "Mapped_Valid_Title",
+                "AttributeId": 3239,
+                "DisplayAttributeName": "Mapped Valid Title",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "7720": {
+                "DispalyOrder": "27",
+                "ProjectAttributeId": 7720,
+                "AttributeName": "Email",
+                "AttributeId": 3363,
+                "DisplayAttributeName": "Email",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "7721": {
+                "DispalyOrder": "28",
+                "ProjectAttributeId": 7721,
+                "AttributeName": "Reference_Url",
+                "AttributeId": 3240,
+                "DisplayAttributeName": "Reference Url",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "7722": {
+                "DispalyOrder": "29",
+                "ProjectAttributeId": 7722,
+                "AttributeName": "Status",
+                "AttributeId": 3368,
+                "DisplayAttributeName": "Status",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            }
+        }
+    },
+    "ValidationRules": {
+        "7695": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7696": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7697": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7698": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7699": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7700": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7701": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7702": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7703": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7704": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7705": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7706": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7707": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7708": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7709": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7710": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7711": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7712": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7713": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7714": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7715": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7716": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7717": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7718": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7785": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7719": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 1,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7720": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7721": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7722": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        }
+    },
+    "ModuleAttributes": {
+        "6": {
+            "147": {
+                "static": {
+                    "1": {
+                        "AttributeMasterId": 3222,
+                        "ProjectAttributeMasterId": 7695,
+                        "DispalyOrder": "1",
+                        "DisplayAttributeName": "FRD ID",
+                        "IsDistinct": 1,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "FRD_ID",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    }
+                },
+                "readonly": {
+                    "2": {
+                        "AttributeMasterId": 236,
+                        "ProjectAttributeMasterId": 7696,
+                        "DispalyOrder": "2",
+                        "DisplayAttributeName": "Company Name",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Company_Name",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "3": {
+                        "AttributeMasterId": 3223,
+                        "ProjectAttributeMasterId": 7697,
+                        "DispalyOrder": "3",
+                        "DisplayAttributeName": "Physical Street",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Physical_Street",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "4": {
+                        "AttributeMasterId": 3224,
+                        "ProjectAttributeMasterId": 7698,
+                        "DispalyOrder": "4",
+                        "DisplayAttributeName": "Physical City",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Physical_City",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "5": {
+                        "AttributeMasterId": 3225,
+                        "ProjectAttributeMasterId": 7699,
+                        "DispalyOrder": "5",
+                        "DisplayAttributeName": "Physical State",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Physical_State",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "6": {
+                        "AttributeMasterId": 3226,
+                        "ProjectAttributeMasterId": 7700,
+                        "DispalyOrder": "6",
+                        "DisplayAttributeName": "Physical Country",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Physical_Country",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "7": {
+                        "AttributeMasterId": 3227,
+                        "ProjectAttributeMasterId": 7701,
+                        "DispalyOrder": "7",
+                        "DisplayAttributeName": "Physical Postal Code",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Physical_Postal_Code",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    }
+                },
+                "production": {
+                    "18": {
+                        "AttributeMasterId": 229,
+                        "ProjectAttributeMasterId": 7712,
+                        "DispalyOrder": "18",
+                        "DisplayAttributeName": "Comments",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Comments",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "20": {
+                        "AttributeMasterId": 2060,
+                        "ProjectAttributeMasterId": 7714,
+                        "DispalyOrder": "20",
+                        "DisplayAttributeName": "Prefix",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Prefix",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "21": {
+                        "AttributeMasterId": 348,
+                        "ProjectAttributeMasterId": 7715,
+                        "DispalyOrder": "21",
+                        "DisplayAttributeName": "First Name",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "First_Name",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "22": {
+                        "AttributeMasterId": 2062,
+                        "ProjectAttributeMasterId": 7716,
+                        "DispalyOrder": "22",
+                        "DisplayAttributeName": "Last Name",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Last_Name",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "23": {
+                        "AttributeMasterId": 722,
+                        "ProjectAttributeMasterId": 7717,
+                        "DispalyOrder": "23",
+                        "DisplayAttributeName": "Suffix",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Suffix",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "24": {
+                        "AttributeMasterId": 761,
+                        "ProjectAttributeMasterId": 7718,
+                        "DispalyOrder": "24",
+                        "DisplayAttributeName": "Title",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Title",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "25": {
+                        "AttributeMasterId": 3288,
+                        "ProjectAttributeMasterId": 7785,
+                        "DispalyOrder": "25",
+                        "DisplayAttributeName": "Title Found",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Title_Found",
+                        "MainGroupId": 68,
+                        "SubGroupId": 0
+                    },
+                    "26": {
+                        "AttributeMasterId": 3239,
+                        "ProjectAttributeMasterId": 7719,
+                        "DispalyOrder": "26",
+                        "DisplayAttributeName": "Mapped Valid Title",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Mapped_Valid_Title",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "27": {
+                        "AttributeMasterId": 316,
+                        "ProjectAttributeMasterId": 7720,
+                        "DispalyOrder": "27",
+                        "DisplayAttributeName": "Email",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Email",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "28": {
+                        "AttributeMasterId": 3240,
+                        "ProjectAttributeMasterId": 7721,
+                        "DispalyOrder": "28",
+                        "DisplayAttributeName": "Reference Url",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Reference_Url",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "29": {
+                        "AttributeMasterId": 705,
+                        "ProjectAttributeMasterId": 7722,
+                        "DispalyOrder": "29",
+                        "DisplayAttributeName": "Status",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Status",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    }
+                }
+            }
+        }
+    },
+    "AttributeGroupMaster": {
+        "147": {
+            "41": "ProductAttributes",
+            "68": "Log"
+        }
+    },
+    "AttributeGroupMasterDirect": {
+        "41": "ProductAttributes",
+        "68": "Log"
+    },
+    "ExportAttributeGroupMaster": {
+        "3222": "ProductAttributes",
+        "236": "ProductAttributes",
+        "3223": "ProductAttributes",
+        "3224": "ProductAttributes",
+        "3225": "ProductAttributes",
+        "3226": "ProductAttributes",
+        "3227": "ProductAttributes",
+        "229": "ProductAttributes",
+        "2060": "ProductAttributes",
+        "348": "ProductAttributes",
+        "2062": "ProductAttributes",
+        "722": "ProductAttributes",
+        "761": "ProductAttributes",
+        "3288": "Log",
+        "3239": "ProductAttributes",
+        "316": "ProductAttributes",
+        "3240": "ProductAttributes",
+        "705": "ProductAttributes"
+    },
+    "ExportAttributeSubGroupMaster": [],
+    "Menu": {
+        "3": {
+            "Manage Project": {
+                "Delivery Output": "DeliveryExport",
+                "Input Import": "Importinitiates",
+                "Production Dashboard": "ProductionDashBoards",
+                "Production View": "ProductionView"
+            },
+            "Queries": {
+                "PU Query": "puquery"
+            }
+        },
+        "31": {
+            "Contact": {
+                "Production": "Getjobcore"
+            },
+            "Contact Validation": {
+                "Production": "GetJobcore"
+            },
+            "Link Extract": {
+                "Production": "GetJobcore"
+            }
+        }
+    },
+    "ProjectStatus": {
+        "1": "Contact Validation Query",
+        "2": "Contact Validation Completed",
+        "3": "Contact Validation Inprogress",
+        "4": "Ready for Contact Validation",
+        "5": "Link Extraction Query",
+        "6": "Link Extraction Completed",
+        "7": "Link Extraction Inprogress",
+        "8": "Ready for Link Extraction",
+        "9": "Import Completed",
+        "10": "Import Inprogress",
+        "11": "Contact Query",
+        "12": "Contact Production Completed",
+        "13": "Contact Production Inprogress",
+        "14": "Ready for Contact Production"
+    },
+    "ProjectGroupStatus": {
+        "Link Extract": {
+            "5": "Link Extraction Query",
+            "6": "Link Extraction Completed",
+            "7": "Link Extraction Inprogress",
+            "8": "Ready for Link Extraction"
+        },
+        "Contact": {
+            "11": "Contact Query",
+            "12": "Contact Production Completed",
+            "13": "Contact Production Inprogress",
+            "14": "Ready for Contact Production"
+        },
+        "Contact Validation": {
+            "1": "Contact Validation Query",
+            "2": "Contact Validation Completed",
+            "3": "Contact Validation Inprogress",
+            "4": "Ready for Contact Validation"
+        },
+        "Input Import": {
+            "9": "Import Completed",
+            "10": "Import Inprogress"
+        }
+    },
+    "Module": {
+        "147": "Contact",
+        "141": "Manage Project",
+        "150": "Contact Validation",
+        "149": "Link Extract",
+        "140": "Queries"
+    },
+    "ModuleStatusList": {
+        "147": [
+            "Ready for Contact Production",
+            "Contact Production InProgress",
+            "Contact Production Completed",
+            "Contact Query"
+        ],
+        "150": [
+            "Ready for Contact Validation",
+            "Contact Validation Inprogress",
+            "Contact Validation Completed",
+            "Contact Validation Query"
+        ],
+        "149": [
+            "Ready for Link Extraction",
+            "Link Extraction Inprogress",
+            "Link Extraction Completed",
+            "Link Extraction Query"
+        ]
+    },
+    "ModuleConfig": {
+        "147": {
+            "IsInputMandatory": 1,
+            "IsHistoryTrack": 2,
+            "IsUrlMonitoring": null,
+            "IsAllowedToDisplay": 1,
+            "IsModuleGroup": null,
+            "IsHygineCheck": null
+        },
+        "141": {
+            "IsInputMandatory": 2,
+            "IsHistoryTrack": 2,
+            "IsUrlMonitoring": null,
+            "IsAllowedToDisplay": null,
+            "IsModuleGroup": null,
+            "IsHygineCheck": null
+        },
+        "150": {
+            "IsInputMandatory": 1,
+            "IsHistoryTrack": 2,
+            "IsUrlMonitoring": null,
+            "IsAllowedToDisplay": 1,
+            "IsModuleGroup": null,
+            "IsHygineCheck": null
+        },
+        "149": {
+            "IsInputMandatory": 1,
+            "IsHistoryTrack": 2,
+            "IsUrlMonitoring": null,
+            "IsAllowedToDisplay": 1,
+            "IsModuleGroup": null,
+            "IsHygineCheck": null
+        },
+        "140": {
+            "IsInputMandatory": 2,
+            "IsHistoryTrack": 2,
+            "IsUrlMonitoring": null,
+            "IsAllowedToDisplay": null,
+            "IsModuleGroup": null,
+            "IsHygineCheck": null
+        }
+    },
+    "ModuleStatus": {
+        "147": {
+            "6": {
+                "ModuleId": 147,
+                "ModStatus": "Ready for Contact Production",
+                "ModuleStatusIdentifier": "ReadyforContactProduction",
+                "StatusId": 6,
+                "FromStatus": "Link Extraction Completed"
+            },
+            "14": {
+                "ModuleId": 147,
+                "ModStatus": "Contact Production InProgress",
+                "ModuleStatusIdentifier": "ContactProductionInProgress",
+                "StatusId": 14,
+                "FromStatus": "Ready for Contact Production"
+            },
+            "13": {
+                "ModuleId": 147,
+                "ModStatus": "Contact Production Completed",
+                "ModuleStatusIdentifier": "ContactProductionCompleted",
+                "StatusId": 13,
+                "FromStatus": "Contact Production Inprogress"
+            },
+            "11": {
+                "ModuleId": 147,
+                "ModStatus": "Contact Query",
+                "ModuleStatusIdentifier": "ContactQuery",
+                "StatusId": 11,
+                "FromStatus": "Contact Query"
+            }
+        },
+        "150": {
+            "12": {
+                "ModuleId": 150,
+                "ModStatus": "Ready for Contact Validation",
+                "ModuleStatusIdentifier": "ReadyforContactValidation",
+                "StatusId": 12,
+                "FromStatus": "Contact Production Completed"
+            },
+            "4": {
+                "ModuleId": 150,
+                "ModStatus": "Contact Validation Inprogress",
+                "ModuleStatusIdentifier": "ContactValidationInprogress",
+                "StatusId": 4,
+                "FromStatus": "Ready for Contact Validation"
+            },
+            "3": {
+                "ModuleId": 150,
+                "ModStatus": "Contact Validation Completed",
+                "ModuleStatusIdentifier": "ContactValidationCompleted",
+                "StatusId": 3,
+                "FromStatus": "Contact Validation Inprogress"
+            },
+            "1": {
+                "ModuleId": 150,
+                "ModStatus": "Contact Validation Query",
+                "ModuleStatusIdentifier": "ContactValidationQuery",
+                "StatusId": 1,
+                "FromStatus": "Contact Validation Query"
+            }
+        },
+        "149": {
+            "8": {
+                "ModuleId": 149,
+                "ModStatus": "Link Extraction Inprogress",
+                "ModuleStatusIdentifier": "LinkExtractionInprogress",
+                "StatusId": 8,
+                "FromStatus": "Ready for Link Extraction"
+            },
+            "7": {
+                "ModuleId": 149,
+                "ModStatus": "Link Extraction Completed",
+                "ModuleStatusIdentifier": "LinkExtractionCompleted",
+                "StatusId": 7,
+                "FromStatus": "Link Extraction Inprogress"
+            },
+            "5": {
+                "ModuleId": 149,
+                "ModStatus": "Link Extraction Query",
+                "ModuleStatusIdentifier": "LinkExtractionQuery",
+                "StatusId": 5,
+                "FromStatus": "Link Extraction Query"
+            },
+            "9": {
+                "ModuleId": 149,
+                "ModStatus": "Ready for Link Extraction",
+                "ModuleStatusIdentifier": "ReadyforLinkExtraction",
+                "StatusId": 9,
+                "FromStatus": "Import Completed"
+            }
+        }
+    },
+    "ModuleStatus_Navigation": {
+        "6": [
+            "Ready for Contact Production",
+            14
+        ],
+        "14": [
+            "Contact Production InProgress",
+            13
+        ],
+        "13": [
+            "Contact Production Completed",
+            12
+        ],
+        "11": [
+            "Contact Query",
+            11
+        ],
+        "12": [
+            "Ready for Contact Validation",
+            4
+        ],
+        "4": [
+            "Contact Validation Inprogress",
+            3
+        ],
+        "3": [
+            "Contact Validation Completed",
+            2
+        ],
+        "1": [
+            "Contact Validation Query",
+            1
+        ],
+        "8": [
+            "Link Extraction Inprogress",
+            7
+        ],
+        "7": [
+            "Link Extraction Completed",
+            6
+        ],
+        "5": [
+            "Link Extraction Query",
+            5
+        ],
+        "9": [
+            "Ready for Link Extraction",
+            8
+        ]
+    },
+    "ModuleUser": {
+        "147": {
+            "98233": {
+                "Id": 98233,
+                "Username": "Gokilavani"
+            },
+            "98234": {
+                "Id": 98234,
+                "Username": "Vijayasaran"
+            },
+            "98235": {
+                "Id": 98235,
+                "Username": "Raseena"
+            },
+            "98236": {
+                "Id": 98236,
+                "Username": "Mohanambal"
+            },
+            "98237": {
+                "Id": 98237,
+                "Username": "SanthoshKumar"
+            },
+            "98238": {
+                "Id": 98238,
+                "Username": "Balajeevitha"
+            },
+            "98239": {
+                "Id": 98239,
+                "Username": "Sugapriya"
+            },
+            "98241": {
+                "Id": 98241,
+                "Username": "SankarGanesh"
+            },
+            "98242": {
+                "Id": 98242,
+                "Username": "VishnuBharathi"
+            },
+            "98244": {
+                "Id": 98244,
+                "Username": "Muthumani"
+            },
+            "98247": {
+                "Id": 98247,
+                "Username": "Sivakumarr"
+            },
+            "98248": {
+                "Id": 98248,
+                "Username": "VigneshKumarN"
+            },
+            "98249": {
+                "Id": 98249,
+                "Username": "Chandrasekar"
+            },
+            "98250": {
+                "Id": 98250,
+                "Username": "Ranjani"
+            },
+            "98251": {
+                "Id": 98251,
+                "Username": "Nithyaspa"
+            },
+            "98262": {
+                "Id": 98262,
+                "Username": "VigneshKumarR"
+            }
+        },
+        "141": {
+            "98230": {
+                "Id": 98230,
+                "Username": "Dharmaraj"
+            },
+            "98231": {
+                "Id": 98231,
+                "Username": "Patteswarakumar"
+            },
+            "98240": {
+                "Id": 98240,
+                "Username": "Sivakumar"
+            }
+        },
+        "150": {
+            "98233": {
+                "Id": 98233,
+                "Username": "Gokilavani"
+            },
+            "98234": {
+                "Id": 98234,
+                "Username": "Vijayasaran"
+            },
+            "98235": {
+                "Id": 98235,
+                "Username": "Raseena"
+            },
+            "98236": {
+                "Id": 98236,
+                "Username": "Mohanambal"
+            },
+            "98237": {
+                "Id": 98237,
+                "Username": "SanthoshKumar"
+            },
+            "98238": {
+                "Id": 98238,
+                "Username": "Balajeevitha"
+            },
+            "98239": {
+                "Id": 98239,
+                "Username": "Sugapriya"
+            },
+            "98241": {
+                "Id": 98241,
+                "Username": "SankarGanesh"
+            },
+            "98242": {
+                "Id": 98242,
+                "Username": "VishnuBharathi"
+            },
+            "98244": {
+                "Id": 98244,
+                "Username": "Muthumani"
+            },
+            "98247": {
+                "Id": 98247,
+                "Username": "Sivakumarr"
+            },
+            "98248": {
+                "Id": 98248,
+                "Username": "VigneshKumarN"
+            },
+            "98249": {
+                "Id": 98249,
+                "Username": "Chandrasekar"
+            },
+            "98250": {
+                "Id": 98250,
+                "Username": "Ranjani"
+            },
+            "98251": {
+                "Id": 98251,
+                "Username": "Nithyaspa"
+            },
+            "98262": {
+                "Id": 98262,
+                "Username": "VigneshKumarR"
+            }
+        },
+        "149": {
+            "98233": {
+                "Id": 98233,
+                "Username": "Gokilavani"
+            },
+            "98234": {
+                "Id": 98234,
+                "Username": "Vijayasaran"
+            },
+            "98235": {
+                "Id": 98235,
+                "Username": "Raseena"
+            },
+            "98236": {
+                "Id": 98236,
+                "Username": "Mohanambal"
+            },
+            "98237": {
+                "Id": 98237,
+                "Username": "SanthoshKumar"
+            },
+            "98238": {
+                "Id": 98238,
+                "Username": "Balajeevitha"
+            },
+            "98239": {
+                "Id": 98239,
+                "Username": "Sugapriya"
+            },
+            "98241": {
+                "Id": 98241,
+                "Username": "SankarGanesh"
+            },
+            "98242": {
+                "Id": 98242,
+                "Username": "VishnuBharathi"
+            },
+            "98244": {
+                "Id": 98244,
+                "Username": "Muthumani"
+            },
+            "98247": {
+                "Id": 98247,
+                "Username": "Sivakumarr"
+            },
+            "98248": {
+                "Id": 98248,
+                "Username": "VigneshKumarN"
+            },
+            "98249": {
+                "Id": 98249,
+                "Username": "Chandrasekar"
+            },
+            "98250": {
+                "Id": 98250,
+                "Username": "Ranjani"
+            },
+            "98251": {
+                "Id": 98251,
+                "Username": "Nithyaspa"
+            },
+            "98262": {
+                "Id": 98262,
+                "Username": "VigneshKumarR"
+            }
+        },
+        "140": {
+            "98230": {
+                "Id": 98230,
+                "Username": "Dharmaraj"
+            },
+            "98231": {
+                "Id": 98231,
+                "Username": "Patteswarakumar"
+            },
+            "98240": {
+                "Id": 98240,
+                "Username": "Sivakumar"
+            }
+        }
+    },
+    "ProjectConfig": {
+        "DomainId": "3222",
+        "DomainUrl": "3228",
+        "ProdDB_PageLimit": "20",
+        "ProductionView": "1",
+        "HygineCheck": ""
+    },
+    "UserGroups": {
+        "6": "Team 1",
+        "7": "Team 2",
+        "8": "YP Group",
+        "1008": "Factset Group",
+        "1009": "LE Group",
+        "1010": "cengagenpo",
+        "1011": "NPO",
+        "1012": "MojoCengage",
+        "1013": "Content Aggregation Group",
+        "1014": "Vessel Enrichment Group"
+    }
+}

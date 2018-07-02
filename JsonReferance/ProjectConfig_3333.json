@@ -1,0 +1,359 @@
+{
+    "3333": "LE",
+    "UserList": {
+        "1": "admin",
+        "98742": "leuser",
+        "98743": "letl"
+    },
+    "UserListRole": {
+        "98742_31": "leuser (Production User)",
+        "98743_3": "letl (Team Leader)"
+    },
+    "RegionList": {
+        "1011": "No Region"
+    },
+    "AttributeList": {
+        "1011": [
+            8510,
+            8507,
+            8509,
+            8506,
+            8514,
+            8513
+        ]
+    },
+    "AttributeOrder": {
+        "1011": {
+            "8510": {
+                "DispalyOrder": "1",
+                "ProjectAttributeId": 8510,
+                "AttributeName": "ClientId",
+                "AttributeId": 2056,
+                "DisplayAttributeName": "ClientId",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "8507": {
+                "DispalyOrder": "2",
+                "ProjectAttributeId": 8507,
+                "AttributeName": "Outputid",
+                "AttributeId": 3587,
+                "DisplayAttributeName": "Outputid",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "8509": {
+                "DispalyOrder": "3",
+                "ProjectAttributeId": 8509,
+                "AttributeName": "Domain",
+                "AttributeId": 305,
+                "DisplayAttributeName": "Domain",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "8506": {
+                "DispalyOrder": "4",
+                "ProjectAttributeId": 8506,
+                "AttributeName": "ContactLINK",
+                "AttributeId": 3586,
+                "DisplayAttributeName": "ContactLINK",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "8514": {
+                "DispalyOrder": "5",
+                "ProjectAttributeId": 8514,
+                "AttributeName": "Is_Valid_Address",
+                "AttributeId": 3588,
+                "DisplayAttributeName": "Is Valid_Address",
+                "IsDistinct": 0,
+                "ControlName": "DropDownList",
+                "Options": [
+                    "Yes",
+                    "No"
+                ],
+                "OptionsWithKey": {
+                    "1190": "Yes",
+                    "1191": "No"
+                }
+            },
+            "8513": {
+                "DispalyOrder": "6",
+                "ProjectAttributeId": 8513,
+                "AttributeName": "Remarks",
+                "AttributeId": 3372,
+                "DisplayAttributeName": "Remarks",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            }
+        }
+    },
+    "ModuleAttributes": {
+        "1011": {
+            "148": {
+                "static": {
+                    "1": {
+                        "AttributeMasterId": 2056,
+                        "ProjectAttributeMasterId": 8510,
+                        "DispalyOrder": "1",
+                        "DisplayAttributeName": "ClientId",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "ClientId",
+                        "MainGroupId": 69,
+                        "SubGroupId": 0
+                    },
+                    "3": {
+                        "AttributeMasterId": 305,
+                        "ProjectAttributeMasterId": 8509,
+                        "DispalyOrder": "3",
+                        "DisplayAttributeName": "Domain",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Domain",
+                        "MainGroupId": 69,
+                        "SubGroupId": 0
+                    }
+                },
+                "production": {
+                    "2": {
+                        "AttributeMasterId": 3587,
+                        "ProjectAttributeMasterId": 8507,
+                        "DispalyOrder": "2",
+                        "DisplayAttributeName": "Outputid",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Outputid",
+                        "MainGroupId": 69,
+                        "SubGroupId": 0
+                    },
+                    "4": {
+                        "AttributeMasterId": 3586,
+                        "ProjectAttributeMasterId": 8506,
+                        "DispalyOrder": "4",
+                        "DisplayAttributeName": "ContactLINK",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "ContactLINK",
+                        "MainGroupId": 69,
+                        "SubGroupId": 0
+                    },
+                    "5": {
+                        "AttributeMasterId": 3588,
+                        "ProjectAttributeMasterId": 8514,
+                        "DispalyOrder": "5",
+                        "DisplayAttributeName": "Is Valid_Address",
+                        "IsDistinct": 0,
+                        "ControlName": "DropDownList",
+                        "Options": [
+                            "Yes",
+                            "No"
+                        ],
+                        "AttributeName": "Is_Valid_Address",
+                        "MainGroupId": 69,
+                        "SubGroupId": 0
+                    },
+                    "6": {
+                        "AttributeMasterId": 3372,
+                        "ProjectAttributeMasterId": 8513,
+                        "DispalyOrder": "6",
+                        "DisplayAttributeName": "Remarks",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Remarks",
+                        "MainGroupId": 69,
+                        "SubGroupId": 0
+                    }
+                }
+            }
+        }
+    },
+    "AttributeGroupMaster": {
+        "148": {
+            "69": "PH Details"
+        }
+    },
+    "AttributeGroupMasterDirect": {
+        "69": "PH Details"
+    },
+    "ExportAttributeGroupMaster": {
+        "2056": "PH Details",
+        "305": "PH Details",
+        "3587": "PH Details",
+        "3586": "PH Details",
+        "3588": "PH Details",
+        "3372": "PH Details"
+    },
+    "ExportAttributeSubGroupMaster": [],
+    "Menu": {
+        "31": {
+            "Core": {
+                "Production": "Getjobcore"
+            },
+            "Queries": {
+                "PU Query": "puquery"
+            }
+        },
+        "3": {
+            "Manage Project": {
+                "Delivery Output": "DeliveryExport",
+                "Input Import": "Importinitiates",
+                "Production Dashboard": "ProductionDashBoards",
+                "Production View": "ProductionView"
+            }
+        }
+    },
+    "ProjectStatus": {
+        "1": "Core Query",
+        "2": "Core Production Completed",
+        "3": "Core Production Inprogress",
+        "4": "Ready for Core Production",
+        "5": "Import Completed",
+        "6": "Import Inprogress"
+    },
+    "ProjectGroupStatus": {
+        "Input Import": {
+            "5": "Import Completed",
+            "6": "Import Inprogress"
+        },
+        "Production": {
+            "1": "Core Query",
+            "2": "Core Production Completed",
+            "3": "Core Production Inprogress",
+            "4": "Ready for Core Production"
+        }
+    },
+    "Module": {
+        "148": "Core",
+        "141": "Manage Project",
+        "140": "Queries"
+    },
+    "ModuleStatusList": {
+        "148": [
+            "Ready for Core Production",
+            "Core Production Inprogress",
+            "Core Production Completed",
+            "Core Query"
+        ]
+    },
+    "ModuleConfig": {
+        "148": {
+            "IsInputMandatory": 1,
+            "IsHistoryTrack": 2,
+            "IsUrlMonitoring": null,
+            "IsAllowedToDisplay": 1,
+            "IsModuleGroup": null,
+            "IsHygineCheck": null
+        },
+        "141": {
+            "IsInputMandatory": 2,
+            "IsHistoryTrack": 2,
+            "IsUrlMonitoring": null,
+            "IsAllowedToDisplay": null,
+            "IsModuleGroup": null,
+            "IsHygineCheck": null
+        },
+        "140": {
+            "IsInputMandatory": 2,
+            "IsHistoryTrack": 2,
+            "IsUrlMonitoring": null,
+            "IsAllowedToDisplay": null,
+            "IsModuleGroup": null,
+            "IsHygineCheck": null
+        }
+    },
+    "ModuleStatus": {
+        "148": {
+            "5": {
+                "ModuleId": 148,
+                "ModStatus": "Ready for Core Production",
+                "ModuleStatusIdentifier": "ReadyforCoreProduction",
+                "StatusId": 5,
+                "FromStatus": "Import Completed"
+            },
+            "4": {
+                "ModuleId": 148,
+                "ModStatus": "Core Production Inprogress",
+                "ModuleStatusIdentifier": "CoreProductionInprogress",
+                "StatusId": 4,
+                "FromStatus": "Ready for Core Production"
+            },
+            "3": {
+                "ModuleId": 148,
+                "ModStatus": "Core Production Completed",
+                "ModuleStatusIdentifier": "CoreProductionCompleted",
+                "StatusId": 3,
+                "FromStatus": "Core Production Inprogress"
+            },
+            "1": {
+                "ModuleId": 148,
+                "ModStatus": "Core Query",
+                "ModuleStatusIdentifier": "CoreQuery",
+                "StatusId": 1,
+                "FromStatus": "Core Query"
+            }
+        }
+    },
+    "ModuleStatus_Navigation": {
+        "5": [
+            "Ready for Core Production",
+            4
+        ],
+        "4": [
+            "Core Production Inprogress",
+            3
+        ],
+        "3": [
+            "Core Production Completed",
+            2
+        ],
+        "1": [
+            "Core Query",
+            1
+        ]
+    },
+    "ModuleUser": {
+        "148": {
+            "98742": {
+                "Id": 98742,
+                "Username": "leuser"
+            }
+        },
+        "141": {
+            "98743": {
+                "Id": 98743,
+                "Username": "letl"
+            }
+        },
+        "140": {
+            "98742": {
+                "Id": 98742,
+                "Username": "leuser"
+            }
+        }
+    },
+    "ProjectConfig": {
+        "DomainId": "2056",
+        "DomainUrl": "3586",
+        "ProdDB_PageLimit": "100",
+        "ProductionView": "2",
+        "HygineCheck": ""
+    },
+    "UserGroups": {
+        "6": "Team 1",
+        "7": "Team 2",
+        "8": "YP Group",
+        "1008": "Factset Group",
+        "1009": "LE Group",
+        "1010": "cengagenpo",
+        "1011": "NPO",
+        "1012": "MojoCengage",
+        "1013": "Content Aggregation Group",
+        "1014": "Vessel Enrichment Group"
+    }
+}
