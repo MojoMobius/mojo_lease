@@ -64,7 +64,7 @@ return [
      *   You should treat it as extremely sensitive data.
      */
     'Security' => [
-        'salt' => env('SECURITY_SALT', '98cda4e380ce3c60109734103746a7159828deb3259c215be7599a728c2bc2eb'),
+        'salt' => env('SECURITY_SALT', '__SALT__'),
     ],
 
     /**
@@ -150,7 +150,7 @@ return [
      *   breathing room to complete logging or error handling.
      */
     'Error' => [
-        'errorLevel' => E_PARSE,
+        'errorLevel' => E_ALL,
         'exceptionRenderer' => 'Cake\Error\ExceptionRenderer',
         'skipLog' => [],
         'log' => true,
@@ -220,26 +220,24 @@ return [
     'Datasources' => [
         'default' => [
             'className' => 'Cake\Database\Connection',
-            'driver' => 'Cake\Database\Driver\Sqlserver',
+            'driver' => 'Cake\Database\Driver\Mysql',
             'persistent' => false,
-            //'host' => '172.198.11.18',
-            'host' => '10.101.11.209',
-            //'host' => '52.201.161.133',
+            'host' => 'localhost',
             /**
              * CakePHP will use the default DB port based on the driver selected
              * MySQL on MAMP uses port 8889, MAMP users will want to uncomment
              * the following line and set the port accordingly
              */
-           // 'port' => '1433',
-            'username' => 'mojouser',
-            'password' => 'Mojo@user201',
-            'database' => 'D2K_Mojo_Entity_Validation',
-            'encoding' => PDO::SQLSRV_ENCODING_UTF8,
-            'timezone' => 'IST',
+            //'port' => 'non_standard_port_number',
+            'username' => 'my_app',
+            'password' => 'secret',
+            'database' => 'my_app',
+            'encoding' => 'utf8',
+            'timezone' => 'UTC',
             'flags' => [],
             'cacheMetadata' => true,
             'log' => false,
-            'charset' => 'utf-8',
+
             /**
              * Set identifier quoting to true if you are using reserved words or
              * special characters in your table or column names. Enabling this
@@ -248,7 +246,7 @@ return [
              * decreases performance because each query needs to be traversed and
              * manipulated before being executed.
              */
-            'quoteIdentifiers' => true,
+            'quoteIdentifiers' => false,
 
             /**
              * During development, if using MySQL < 5.6, uncommenting the
@@ -261,24 +259,6 @@ return [
 
             'url' => env('DATABASE_URL', null),
         ],
-        'd2k' => [
-        'className' => 'Cake\Database\Connection',
-            'driver' => 'Cake\Database\Driver\Sqlserver',
-            'persistent' => false,
-            //'host' => '172.198.11.18',
-            'host' => '10.101.11.209',
-            //'host' => '52.201.161.133',
-            'username' => 'd2kconfiguser',
-            'password' => 'D2k@user201',
-            'database' => 'D2K_V3_Config',
-            'encoding' => PDO::SQLSRV_ENCODING_UTF8,
-            'timezone' => 'IST',
-            'flags' => [],
-            'cacheMetadata' => true,
-            'log' => false,
-        'quoteIdentifiers' => true,
-        'url' => env('DATABASE_URL', null),
-    ],
 
         /**
          * The test connection is used during the test suite.
@@ -295,7 +275,7 @@ return [
             'encoding' => 'utf8',
             'timezone' => 'UTC',
             'cacheMetadata' => true,
-            'quoteIdentifiers' => true,
+            'quoteIdentifiers' => false,
             'log' => false,
             //'init' => ['SET GLOBAL innodb_stats_on_metadata = 0'],
             'url' => env('DATABASE_TEST_URL', null),
@@ -362,6 +342,5 @@ return [
      */
     'Session' => [
         'defaults' => 'php',
-        'timeout'=>12000
     ],
 ];
