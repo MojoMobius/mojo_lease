@@ -1,0 +1,975 @@
+{
+    "3331": "YP_Platform",
+    "UserList": {
+        "1": "admin",
+        "98676": "ypproduser",
+        "98677": "yptluser"
+    },
+    "UserListRole": {
+        "98676_31": "ypproduser (Production User)",
+        "98677_3": "yptluser (Team Leader)"
+    },
+    "RegionList": {
+        "1011": "No Region"
+    },
+    "AttributeList": {
+        "1011": [
+            8444,
+            8522,
+            8521,
+            8515,
+            8516,
+            8446,
+            8526,
+            8447,
+            8525,
+            8524,
+            8523,
+            8449,
+            8520,
+            8457,
+            8458,
+            8459,
+            8460,
+            8461,
+            8462,
+            8463,
+            8464,
+            8465,
+            8468,
+            8527,
+            8517,
+            8453
+        ]
+    },
+    "AttributeOrder": {
+        "1011": {
+            "8444": {
+                "DispalyOrder": "1",
+                "ProjectAttributeId": 8444,
+                "AttributeName": "YP_ID",
+                "AttributeId": 3552,
+                "DisplayAttributeName": "YP ID",
+                "IsDistinct": 1,
+                "ControlName": "Label"
+            },
+            "8522": {
+                "DispalyOrder": "2",
+                "ProjectAttributeId": 8522,
+                "AttributeName": "Mobius Website",
+                "AttributeId": 3595,
+                "DisplayAttributeName": "Website",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "8521": {
+                "DispalyOrder": "3",
+                "ProjectAttributeId": 8521,
+                "AttributeName": "Mobius Website_Status",
+                "AttributeId": 3594,
+                "DisplayAttributeName": "Website_Status",
+                "IsDistinct": 1,
+                "ControlName": "DropDownList",
+                "Options": [
+                    "Yes",
+                    "No"
+                ],
+                "OptionsWithKey": {
+                    "1200": "Yes",
+                    "1201": "No"
+                }
+            },
+            "8515": {
+                "DispalyOrder": "4",
+                "ProjectAttributeId": 8515,
+                "AttributeName": "Company Name",
+                "AttributeId": 230,
+                "DisplayAttributeName": "Company Name",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "8516": {
+                "DispalyOrder": "5",
+                "ProjectAttributeId": 8516,
+                "AttributeName": "Company Name_Status",
+                "AttributeId": 3589,
+                "DisplayAttributeName": "Company Name_Status",
+                "IsDistinct": 1,
+                "ControlName": "DropDownList",
+                "Options": [
+                    "Yes",
+                    "No"
+                ],
+                "OptionsWithKey": {
+                    "1192": "Yes",
+                    "1193": "No"
+                }
+            },
+            "8446": {
+                "DispalyOrder": "6",
+                "ProjectAttributeId": 8446,
+                "AttributeName": "Address",
+                "AttributeId": 24,
+                "DisplayAttributeName": "Address",
+                "IsDistinct": 1,
+                "ControlName": "MultiTextBox"
+            },
+            "8526": {
+                "DispalyOrder": "7",
+                "ProjectAttributeId": 8526,
+                "AttributeName": "Address_Status",
+                "AttributeId": 3599,
+                "DisplayAttributeName": "Address_Status",
+                "IsDistinct": 1,
+                "ControlName": "DropDownList",
+                "Options": [
+                    "Yes",
+                    "No"
+                ],
+                "OptionsWithKey": {
+                    "1194": "Yes",
+                    "1195": "No"
+                }
+            },
+            "8447": {
+                "DispalyOrder": "8",
+                "ProjectAttributeId": 8447,
+                "AttributeName": "Phone",
+                "AttributeId": 3361,
+                "DisplayAttributeName": "Phone",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "8525": {
+                "DispalyOrder": "9",
+                "ProjectAttributeId": 8525,
+                "AttributeName": "Phone_Status",
+                "AttributeId": 3598,
+                "DisplayAttributeName": "Phone_Status",
+                "IsDistinct": 1,
+                "ControlName": "DropDownList",
+                "Options": [
+                    "Yes",
+                    "No"
+                ],
+                "OptionsWithKey": {
+                    "1196": "Yes",
+                    "1197": "No"
+                }
+            },
+            "8524": {
+                "DispalyOrder": "10",
+                "ProjectAttributeId": 8524,
+                "AttributeName": "Input URL",
+                "AttributeId": 3597,
+                "DisplayAttributeName": "Input URL",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "8523": {
+                "DispalyOrder": "11",
+                "ProjectAttributeId": 8523,
+                "AttributeName": "Input URL_Status",
+                "AttributeId": 3596,
+                "DisplayAttributeName": "Input URL_Status",
+                "IsDistinct": 1,
+                "ControlName": "DropDownList",
+                "Options": [
+                    "Yes",
+                    "No"
+                ],
+                "OptionsWithKey": {
+                    "1198": "Yes",
+                    "1199": "No"
+                }
+            },
+            "8449": {
+                "DispalyOrder": "12",
+                "ProjectAttributeId": 8449,
+                "AttributeName": "Category",
+                "AttributeId": 210,
+                "DisplayAttributeName": "Category",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "8520": {
+                "DispalyOrder": "13",
+                "ProjectAttributeId": 8520,
+                "AttributeName": "Category_Status",
+                "AttributeId": 3593,
+                "DisplayAttributeName": "Category_Status",
+                "IsDistinct": 1,
+                "ControlName": "DropDownList",
+                "Options": [
+                    "Yes",
+                    "No"
+                ],
+                "OptionsWithKey": {
+                    "1219": "Yes",
+                    "1220": "No"
+                }
+            },
+            "8457": {
+                "DispalyOrder": "14",
+                "ProjectAttributeId": 8457,
+                "AttributeName": "Licensed",
+                "AttributeId": 3556,
+                "DisplayAttributeName": "Licensed",
+                "IsDistinct": 1,
+                "ControlName": "DropDownList",
+                "Options": [
+                    "Yes",
+                    "No"
+                ],
+                "OptionsWithKey": {
+                    "1227": "Yes",
+                    "1228": "No"
+                }
+            },
+            "8458": {
+                "DispalyOrder": "15",
+                "ProjectAttributeId": 8458,
+                "AttributeName": "Bonded",
+                "AttributeId": 3557,
+                "DisplayAttributeName": "Bonded",
+                "IsDistinct": 1,
+                "ControlName": "DropDownList",
+                "Options": [
+                    "Yes",
+                    "No"
+                ],
+                "OptionsWithKey": {
+                    "1229": "Yes",
+                    "1230": "No"
+                }
+            },
+            "8459": {
+                "DispalyOrder": "16",
+                "ProjectAttributeId": 8459,
+                "AttributeName": "Insured",
+                "AttributeId": 3558,
+                "DisplayAttributeName": "Insured",
+                "IsDistinct": 1,
+                "ControlName": "DropDownList",
+                "Options": [
+                    "Yes",
+                    "No"
+                ],
+                "OptionsWithKey": {
+                    "1215": "Yes",
+                    "1216": "No"
+                }
+            },
+            "8460": {
+                "DispalyOrder": "17",
+                "ProjectAttributeId": 8460,
+                "AttributeName": "Free_Estimate",
+                "AttributeId": 3559,
+                "DisplayAttributeName": "Free Estimate",
+                "IsDistinct": 1,
+                "ControlName": "DropDownList",
+                "Options": [
+                    "Yes",
+                    "No"
+                ],
+                "OptionsWithKey": {
+                    "1217": "Yes",
+                    "1218": "No"
+                }
+            },
+            "8461": {
+                "DispalyOrder": "18",
+                "ProjectAttributeId": 8461,
+                "AttributeName": "Commercial",
+                "AttributeId": 3560,
+                "DisplayAttributeName": "Commercial",
+                "IsDistinct": 1,
+                "ControlName": "DropDownList",
+                "Options": [
+                    "Yes",
+                    "No"
+                ],
+                "OptionsWithKey": {
+                    "1231": "Yes",
+                    "1232": "No"
+                }
+            },
+            "8462": {
+                "DispalyOrder": "19",
+                "ProjectAttributeId": 8462,
+                "AttributeName": "Residential",
+                "AttributeId": 3561,
+                "DisplayAttributeName": "Residential",
+                "IsDistinct": 1,
+                "ControlName": "DropDownList",
+                "Options": [
+                    "Yes",
+                    "No"
+                ],
+                "OptionsWithKey": {
+                    "1233": "Yes",
+                    "1234": "No"
+                }
+            },
+            "8463": {
+                "DispalyOrder": "20",
+                "ProjectAttributeId": 8463,
+                "AttributeName": "Years_In_Business",
+                "AttributeId": 3562,
+                "DisplayAttributeName": "In Business Since",
+                "IsDistinct": 1,
+                "ControlName": "DropDownList",
+                "Options": [
+                    "Yes",
+                    "No"
+                ],
+                "OptionsWithKey": {
+                    "1235": "Yes",
+                    "1236": "No"
+                }
+            },
+            "8464": {
+                "DispalyOrder": "21",
+                "ProjectAttributeId": 8464,
+                "AttributeName": "Accepts_Credit_Cards",
+                "AttributeId": 3563,
+                "DisplayAttributeName": "Accepts Credit Cards",
+                "IsDistinct": 1,
+                "ControlName": "DropDownList",
+                "Options": [
+                    "Yes",
+                    "No"
+                ],
+                "OptionsWithKey": {
+                    "194": "Yes",
+                    "195": "No"
+                }
+            },
+            "8465": {
+                "DispalyOrder": "22",
+                "ProjectAttributeId": 8465,
+                "AttributeName": "Warranties",
+                "AttributeId": 3564,
+                "DisplayAttributeName": "Warranties",
+                "IsDistinct": 1,
+                "ControlName": "DropDownList",
+                "Options": [
+                    "Yes",
+                    "No"
+                ],
+                "OptionsWithKey": {
+                    "192": "Yes",
+                    "193": "No"
+                }
+            },
+            "8468": {
+                "DispalyOrder": "23",
+                "ProjectAttributeId": 8468,
+                "AttributeName": "HOO",
+                "AttributeId": 2074,
+                "DisplayAttributeName": "Business Hours",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "8527": {
+                "DispalyOrder": "24",
+                "ProjectAttributeId": 8527,
+                "AttributeName": "HOO_Status",
+                "AttributeId": 3600,
+                "DisplayAttributeName": "Business Hours_Status",
+                "IsDistinct": 1,
+                "ControlName": "DropDownList",
+                "Options": [
+                    "Yes",
+                    "No"
+                ],
+                "OptionsWithKey": {
+                    "1213": "Yes",
+                    "1214": "No"
+                }
+            },
+            "8517": {
+                "DispalyOrder": "287",
+                "ProjectAttributeId": 8517,
+                "AttributeName": "MOB Since_Status",
+                "AttributeId": 3590,
+                "DisplayAttributeName": "MOB Since_Status",
+                "IsDistinct": 1,
+                "ControlName": "Label",
+                "Options": [
+                    "Yes",
+                    "No"
+                ],
+                "OptionsWithKey": {
+                    "1225": "Yes",
+                    "1226": "No"
+                }
+            },
+            "8453": {
+                "DispalyOrder": "456",
+                "ProjectAttributeId": 8453,
+                "AttributeName": "MOB_HOO",
+                "AttributeId": 3553,
+                "DisplayAttributeName": "MOB_HOO",
+                "IsDistinct": 1,
+                "ControlName": "Label"
+            }
+        }
+    },
+    "ModuleAttributes": {
+        "1011": {
+            "148": {
+                "static": {
+                    "1": {
+                        "AttributeMasterId": 3552,
+                        "ProjectAttributeMasterId": 8444,
+                        "DispalyOrder": "1",
+                        "DisplayAttributeName": "YP ID",
+                        "IsDistinct": 1,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "YP_ID",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "10": {
+                        "AttributeMasterId": 3597,
+                        "ProjectAttributeMasterId": 8524,
+                        "DispalyOrder": "10",
+                        "DisplayAttributeName": "Input URL",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Input URL",
+                        "MainGroupId": 69,
+                        "SubGroupId": 0
+                    },
+                    "11": {
+                        "AttributeMasterId": 3596,
+                        "ProjectAttributeMasterId": 8523,
+                        "DispalyOrder": "11",
+                        "DisplayAttributeName": "Input URL_Status",
+                        "IsDistinct": 1,
+                        "ControlName": "DropDownList",
+                        "Options": [
+                            "Yes",
+                            "No"
+                        ],
+                        "AttributeName": "Input URL_Status",
+                        "MainGroupId": 69,
+                        "SubGroupId": 0
+                    }
+                },
+                "production": {
+                    "2": {
+                        "AttributeMasterId": 3595,
+                        "ProjectAttributeMasterId": 8522,
+                        "DispalyOrder": "2",
+                        "DisplayAttributeName": "Website",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Mobius Website",
+                        "MainGroupId": 69,
+                        "SubGroupId": 0
+                    },
+                    "3": {
+                        "AttributeMasterId": 3594,
+                        "ProjectAttributeMasterId": 8521,
+                        "DispalyOrder": "3",
+                        "DisplayAttributeName": "Website_Status",
+                        "IsDistinct": 1,
+                        "ControlName": "DropDownList",
+                        "Options": [
+                            "Yes",
+                            "No"
+                        ],
+                        "AttributeName": "Mobius Website_Status",
+                        "MainGroupId": 69,
+                        "SubGroupId": 0
+                    },
+                    "4": {
+                        "AttributeMasterId": 230,
+                        "ProjectAttributeMasterId": 8515,
+                        "DispalyOrder": "4",
+                        "DisplayAttributeName": "Company Name",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Company Name",
+                        "MainGroupId": 69,
+                        "SubGroupId": 0
+                    },
+                    "5": {
+                        "AttributeMasterId": 3589,
+                        "ProjectAttributeMasterId": 8516,
+                        "DispalyOrder": "5",
+                        "DisplayAttributeName": "Company Name_Status",
+                        "IsDistinct": 1,
+                        "ControlName": "DropDownList",
+                        "Options": [
+                            "Yes",
+                            "No"
+                        ],
+                        "AttributeName": "Company Name_Status",
+                        "MainGroupId": 69,
+                        "SubGroupId": 0
+                    },
+                    "6": {
+                        "AttributeMasterId": 24,
+                        "ProjectAttributeMasterId": 8446,
+                        "DispalyOrder": "6",
+                        "DisplayAttributeName": "Address",
+                        "IsDistinct": 1,
+                        "ControlName": "MultiTextBox",
+                        "Options": null,
+                        "AttributeName": "Address",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "7": {
+                        "AttributeMasterId": 3599,
+                        "ProjectAttributeMasterId": 8526,
+                        "DispalyOrder": "7",
+                        "DisplayAttributeName": "Address_Status",
+                        "IsDistinct": 1,
+                        "ControlName": "DropDownList",
+                        "Options": [
+                            "Yes",
+                            "No"
+                        ],
+                        "AttributeName": "Address_Status",
+                        "MainGroupId": 69,
+                        "SubGroupId": 0
+                    },
+                    "8": {
+                        "AttributeMasterId": 3361,
+                        "ProjectAttributeMasterId": 8447,
+                        "DispalyOrder": "8",
+                        "DisplayAttributeName": "Phone",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Phone",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "9": {
+                        "AttributeMasterId": 3598,
+                        "ProjectAttributeMasterId": 8525,
+                        "DispalyOrder": "9",
+                        "DisplayAttributeName": "Phone_Status",
+                        "IsDistinct": 1,
+                        "ControlName": "DropDownList",
+                        "Options": [
+                            "Yes",
+                            "No"
+                        ],
+                        "AttributeName": "Phone_Status",
+                        "MainGroupId": 69,
+                        "SubGroupId": 0
+                    },
+                    "12": {
+                        "AttributeMasterId": 210,
+                        "ProjectAttributeMasterId": 8449,
+                        "DispalyOrder": "12",
+                        "DisplayAttributeName": "Category",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Category",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "13": {
+                        "AttributeMasterId": 3593,
+                        "ProjectAttributeMasterId": 8520,
+                        "DispalyOrder": "13",
+                        "DisplayAttributeName": "Category_Status",
+                        "IsDistinct": 1,
+                        "ControlName": "DropDownList",
+                        "Options": [
+                            "Yes",
+                            "No"
+                        ],
+                        "AttributeName": "Category_Status",
+                        "MainGroupId": 69,
+                        "SubGroupId": 0
+                    },
+                    "14": {
+                        "AttributeMasterId": 3556,
+                        "ProjectAttributeMasterId": 8457,
+                        "DispalyOrder": "14",
+                        "DisplayAttributeName": "Licensed",
+                        "IsDistinct": 1,
+                        "ControlName": "DropDownList",
+                        "Options": [
+                            "Yes",
+                            "No"
+                        ],
+                        "AttributeName": "Licensed",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "15": {
+                        "AttributeMasterId": 3557,
+                        "ProjectAttributeMasterId": 8458,
+                        "DispalyOrder": "15",
+                        "DisplayAttributeName": "Bonded",
+                        "IsDistinct": 1,
+                        "ControlName": "DropDownList",
+                        "Options": [
+                            "Yes",
+                            "No"
+                        ],
+                        "AttributeName": "Bonded",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "16": {
+                        "AttributeMasterId": 3558,
+                        "ProjectAttributeMasterId": 8459,
+                        "DispalyOrder": "16",
+                        "DisplayAttributeName": "Insured",
+                        "IsDistinct": 1,
+                        "ControlName": "DropDownList",
+                        "Options": [
+                            "Yes",
+                            "No"
+                        ],
+                        "AttributeName": "Insured",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "17": {
+                        "AttributeMasterId": 3559,
+                        "ProjectAttributeMasterId": 8460,
+                        "DispalyOrder": "17",
+                        "DisplayAttributeName": "Free Estimate",
+                        "IsDistinct": 1,
+                        "ControlName": "DropDownList",
+                        "Options": [
+                            "Yes",
+                            "No"
+                        ],
+                        "AttributeName": "Free_Estimate",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "18": {
+                        "AttributeMasterId": 3560,
+                        "ProjectAttributeMasterId": 8461,
+                        "DispalyOrder": "18",
+                        "DisplayAttributeName": "Commercial",
+                        "IsDistinct": 1,
+                        "ControlName": "DropDownList",
+                        "Options": [
+                            "Yes",
+                            "No"
+                        ],
+                        "AttributeName": "Commercial",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "19": {
+                        "AttributeMasterId": 3561,
+                        "ProjectAttributeMasterId": 8462,
+                        "DispalyOrder": "19",
+                        "DisplayAttributeName": "Residential",
+                        "IsDistinct": 1,
+                        "ControlName": "DropDownList",
+                        "Options": [
+                            "Yes",
+                            "No"
+                        ],
+                        "AttributeName": "Residential",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "20": {
+                        "AttributeMasterId": 3562,
+                        "ProjectAttributeMasterId": 8463,
+                        "DispalyOrder": "20",
+                        "DisplayAttributeName": "In Business Since",
+                        "IsDistinct": 1,
+                        "ControlName": "DropDownList",
+                        "Options": [
+                            "Yes",
+                            "No"
+                        ],
+                        "AttributeName": "Years_In_Business",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "21": {
+                        "AttributeMasterId": 3563,
+                        "ProjectAttributeMasterId": 8464,
+                        "DispalyOrder": "21",
+                        "DisplayAttributeName": "Accepts Credit Cards",
+                        "IsDistinct": 1,
+                        "ControlName": "DropDownList",
+                        "Options": [
+                            "Yes",
+                            "No"
+                        ],
+                        "AttributeName": "Accepts_Credit_Cards",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "22": {
+                        "AttributeMasterId": 3564,
+                        "ProjectAttributeMasterId": 8465,
+                        "DispalyOrder": "22",
+                        "DisplayAttributeName": "Warranties",
+                        "IsDistinct": 1,
+                        "ControlName": "DropDownList",
+                        "Options": [
+                            "Yes",
+                            "No"
+                        ],
+                        "AttributeName": "Warranties",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "23": {
+                        "AttributeMasterId": 2074,
+                        "ProjectAttributeMasterId": 8468,
+                        "DispalyOrder": "23",
+                        "DisplayAttributeName": "Business Hours",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "HOO",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "24": {
+                        "AttributeMasterId": 3600,
+                        "ProjectAttributeMasterId": 8527,
+                        "DispalyOrder": "24",
+                        "DisplayAttributeName": "Business Hours_Status",
+                        "IsDistinct": 1,
+                        "ControlName": "DropDownList",
+                        "Options": [
+                            "Yes",
+                            "No"
+                        ],
+                        "AttributeName": "HOO_Status",
+                        "MainGroupId": 69,
+                        "SubGroupId": 0
+                    }
+                }
+            }
+        }
+    },
+    "AttributeGroupMaster": {
+        "148": {
+            "69": "PH Details",
+            "41": "ProductAttributes"
+        }
+    },
+    "AttributeGroupMasterDirect": {
+        "69": "PH Details",
+        "41": "ProductAttributes"
+    },
+    "ExportAttributeGroupMaster": {
+        "3552": "ProductAttributes",
+        "3597": "PH Details",
+        "3596": "PH Details",
+        "3595": "PH Details",
+        "3594": "PH Details",
+        "230": "PH Details",
+        "3589": "PH Details",
+        "24": "ProductAttributes",
+        "3599": "PH Details",
+        "3361": "ProductAttributes",
+        "3598": "PH Details",
+        "210": "ProductAttributes",
+        "3593": "PH Details",
+        "3556": "ProductAttributes",
+        "3557": "ProductAttributes",
+        "3558": "ProductAttributes",
+        "3559": "ProductAttributes",
+        "3560": "ProductAttributes",
+        "3561": "ProductAttributes",
+        "3562": "ProductAttributes",
+        "3563": "ProductAttributes",
+        "3564": "ProductAttributes",
+        "2074": "ProductAttributes",
+        "3600": "PH Details"
+    },
+    "ExportAttributeSubGroupMaster": [],
+    "Menu": {
+        "31": {
+            "Core": {
+                "Production": "Getjobcore"
+            },
+            "Manage Project": {
+                "Production View": "ProductionView"
+            }
+        },
+        "3": {
+            "Manage Project": {
+                "Delivery Output": "DeliveryExport",
+                "Input Import": "Importinitiates",
+                "Production Dashboard": "ProductionDashBoards",
+                "Production View": "ProductionView"
+            },
+            "Queries": {
+                "PU Query": "puquery"
+            }
+        }
+    },
+    "ProjectStatus": {
+        "1": "Import Inprogress",
+        "2": "Import Completed",
+        "3": "Core Production Inprogress",
+        "4": "Ready for Core Production",
+        "5": "Core Query",
+        "6": "Core Production Completed"
+    },
+    "ProjectGroupStatus": {
+        "Input Import": {
+            "1": "Import Inprogress",
+            "2": "Import Completed"
+        },
+        "Production": {
+            "3": "Core Production Inprogress",
+            "4": "Ready for Core Production",
+            "5": "Core Query",
+            "6": "Core Production Completed"
+        }
+    },
+    "Module": {
+        "148": "Core",
+        "141": "Manage Project",
+        "140": "Queries"
+    },
+    "ModuleStatusList": {
+        "148": [
+            "Ready for Core Production",
+            "Core Production Inprogress",
+            "Core Production Completed",
+            "Core Query"
+        ]
+    },
+    "ModuleConfig": {
+        "148": {
+            "IsInputMandatory": 1,
+            "IsHistoryTrack": 1,
+            "IsUrlMonitoring": null,
+            "IsAllowedToDisplay": 1,
+            "IsModuleGroup": null,
+            "IsHygineCheck": null
+        },
+        "141": {
+            "IsInputMandatory": 2,
+            "IsHistoryTrack": 2,
+            "IsUrlMonitoring": null,
+            "IsAllowedToDisplay": null,
+            "IsModuleGroup": null,
+            "IsHygineCheck": null
+        },
+        "140": {
+            "IsInputMandatory": 2,
+            "IsHistoryTrack": 2,
+            "IsUrlMonitoring": null,
+            "IsAllowedToDisplay": null,
+            "IsModuleGroup": null,
+            "IsHygineCheck": null
+        }
+    },
+    "ModuleStatus": {
+        "148": {
+            "2": {
+                "ModuleId": 148,
+                "ModStatus": "Ready for Core Production",
+                "ModuleStatusIdentifier": "ReadyforCoreProduction",
+                "StatusId": 2,
+                "FromStatus": "Import Completed"
+            },
+            "4": {
+                "ModuleId": 148,
+                "ModStatus": "Core Production Inprogress",
+                "ModuleStatusIdentifier": "CoreProductionInprogress",
+                "StatusId": 4,
+                "FromStatus": "Ready for Core Production"
+            },
+            "3": {
+                "ModuleId": 148,
+                "ModStatus": "Core Production Completed",
+                "ModuleStatusIdentifier": "CoreProductionCompleted",
+                "StatusId": 3,
+                "FromStatus": "Core Production Inprogress"
+            },
+            "5": {
+                "ModuleId": 148,
+                "ModStatus": "Core Query",
+                "ModuleStatusIdentifier": "CoreQuery",
+                "StatusId": 5,
+                "FromStatus": "Core Query"
+            }
+        }
+    },
+    "ModuleStatus_Navigation": {
+        "2": [
+            "Ready for Core Production",
+            4
+        ],
+        "4": [
+            "Core Production Inprogress",
+            3
+        ],
+        "3": [
+            "Core Production Completed",
+            6
+        ],
+        "5": [
+            "Core Query",
+            5
+        ]
+    },
+    "ModuleUser": {
+        "148": {
+            "98676": {
+                "Id": 98676,
+                "Username": "ypproduser"
+            }
+        },
+        "141": {
+            "98676": {
+                "Id": 98676,
+                "Username": "ypproduser"
+            },
+            "98677": {
+                "Id": 98677,
+                "Username": "yptluser"
+            }
+        },
+        "140": {
+            "98677": {
+                "Id": 98677,
+                "Username": "yptluser"
+            }
+        }
+    },
+    "ProjectConfig": {
+        "DomainId": "3552",
+        "DomainUrl": "3597",
+        "ProdDB_PageLimit": "100",
+        "ProductionView": "2",
+        "HygineCheck": ""
+    },
+    "UserGroups": {
+        "6": "Team 1",
+        "7": "Team 2",
+        "8": "YP Group",
+        "1008": "Factset Group",
+        "1009": "LE Group",
+        "1010": "cengagenpo",
+        "1011": "NPO",
+        "1012": "MojoCengage",
+        "1013": "Content Aggregation Group",
+        "1014": "Vessel Enrichment Group"
+    }
+}

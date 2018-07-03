@@ -1,0 +1,746 @@
+{
+    "3351": "Content_Aggregation",
+    "UserList": {
+        "1": "admin",
+        "5004": "adminuser",
+        "91822": "userone",
+        "99080": "demoTL"
+    },
+    "UserListRole": {
+        "91822_31": "userone (Production User)",
+        "99080_3": "demoTL (Team Leader)"
+    },
+    "RegionList": {
+        "1011": "No Region"
+    },
+    "AttributeList": {
+        "1011": [
+            10842,
+            10826,
+            10844,
+            10827,
+            10828,
+            10829,
+            10830,
+            10831,
+            10840,
+            10841,
+            10834,
+            10835,
+            10836,
+            10837,
+            10838,
+            10839
+        ]
+    },
+    "AttributeOrder": {
+        "1011": {
+            "10842": {
+                "DispalyOrder": "1",
+                "ProjectAttributeId": 10842,
+                "AttributeName": "FDRID",
+                "AttributeId": 3263,
+                "DisplayAttributeName": "FDRID",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "10826": {
+                "DispalyOrder": "2",
+                "ProjectAttributeId": 10826,
+                "AttributeName": "Title",
+                "AttributeId": 761,
+                "DisplayAttributeName": "Title",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "10844": {
+                "DispalyOrder": "3",
+                "ProjectAttributeId": 10844,
+                "AttributeName": "Source_URL",
+                "AttributeId": 4772,
+                "DisplayAttributeName": "Source_URL",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "10827": {
+                "DispalyOrder": "4",
+                "ProjectAttributeId": 10827,
+                "AttributeName": "Source Type",
+                "AttributeId": 4476,
+                "DisplayAttributeName": "Source Type",
+                "IsDistinct": 1,
+                "ControlName": "DropDownList",
+                "Options": [
+                    "Corporate",
+                    "News",
+                    "Regulatory",
+                    "Forum",
+                    "Blog"
+                ],
+                "OptionsWithKey": {
+                    "77871": "Corporate",
+                    "77872": "News",
+                    "77873": "Regulatory",
+                    "77874": "Forum",
+                    "77875": "Blog"
+                }
+            },
+            "10828": {
+                "DispalyOrder": "5",
+                "ProjectAttributeId": 10828,
+                "AttributeName": "Publisher",
+                "AttributeId": 4477,
+                "DisplayAttributeName": "Publisher",
+                "IsDistinct": 1,
+                "ControlName": "DropDownList",
+                "Options": [
+                    "Ericsson",
+                    "Heavy Reading",
+                    "Nokia",
+                    "Government of Australia",
+                    "Government of UK",
+                    "Intel",
+                    "World Economic Forum",
+                    "Reuters",
+                    "Public Technology",
+                    "MIT Technology Review",
+                    "Financial Express",
+                    "5G.co.uk",
+                    "Alliance for Telecommunications Industry Solutions",
+                    "ZTE"
+                ],
+                "OptionsWithKey": {
+                    "77876": "Ericsson",
+                    "77877": "Heavy Reading",
+                    "77878": "Nokia",
+                    "77879": "Government of Australia",
+                    "77880": "Government of UK",
+                    "77881": "Intel",
+                    "77882": "World Economic Forum",
+                    "77883": "Reuters",
+                    "77884": "Public Technology",
+                    "77885": "MIT Technology Review",
+                    "77886": "Financial Express",
+                    "77887": "5G.co.uk",
+                    "77888": "Alliance for Telecommunications Industry Solutions",
+                    "77889": "ZTE"
+                }
+            },
+            "10829": {
+                "DispalyOrder": "6",
+                "ProjectAttributeId": 10829,
+                "AttributeName": "Publisher Type",
+                "AttributeId": 4478,
+                "DisplayAttributeName": "Publisher Type",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "10830": {
+                "DispalyOrder": "7",
+                "ProjectAttributeId": 10830,
+                "AttributeName": "Date of Publication",
+                "AttributeId": 4479,
+                "DisplayAttributeName": "Date of Publication",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "10831": {
+                "DispalyOrder": "8",
+                "ProjectAttributeId": 10831,
+                "AttributeName": "Geography",
+                "AttributeId": 4480,
+                "DisplayAttributeName": "Geography",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "10840": {
+                "DispalyOrder": "9",
+                "ProjectAttributeId": 10840,
+                "AttributeName": "Author_Profiles",
+                "AttributeId": 4487,
+                "DisplayAttributeName": "Author_Profiles",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "10841": {
+                "DispalyOrder": "10",
+                "ProjectAttributeId": 10841,
+                "AttributeName": "Authors",
+                "AttributeId": 4488,
+                "DisplayAttributeName": "Authors",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "10834": {
+                "DispalyOrder": "11",
+                "ProjectAttributeId": 10834,
+                "AttributeName": "Content Type",
+                "AttributeId": 4483,
+                "DisplayAttributeName": "Content Type",
+                "IsDistinct": 1,
+                "ControlName": "DropDownList",
+                "Options": [
+                    "Text",
+                    "Image"
+                ],
+                "OptionsWithKey": {
+                    "77890": "Text",
+                    "77891": "Image"
+                }
+            },
+            "10835": {
+                "DispalyOrder": "12",
+                "ProjectAttributeId": 10835,
+                "AttributeName": "Format",
+                "AttributeId": 4223,
+                "DisplayAttributeName": "Format",
+                "IsDistinct": 1,
+                "ControlName": "DropDownList",
+                "Options": [
+                    "HTML",
+                    "PDF"
+                ],
+                "OptionsWithKey": {
+                    "77892": "HTML",
+                    "77893": "PDF"
+                }
+            },
+            "10836": {
+                "DispalyOrder": "13",
+                "ProjectAttributeId": 10836,
+                "AttributeName": "Content Class",
+                "AttributeId": 4484,
+                "DisplayAttributeName": "Content Class",
+                "IsDistinct": 1,
+                "ControlName": "DropDownList",
+                "Options": [
+                    "Report",
+                    "News",
+                    "Buzz"
+                ],
+                "OptionsWithKey": {
+                    "77894": "Report",
+                    "77895": "News",
+                    "77896": "Buzz"
+                }
+            },
+            "10837": {
+                "DispalyOrder": "14",
+                "ProjectAttributeId": 10837,
+                "AttributeName": "Content Sub-Class",
+                "AttributeId": 4485,
+                "DisplayAttributeName": "Content Sub-Class",
+                "IsDistinct": 1,
+                "ControlName": "DropDownList",
+                "Options": [
+                    "White Paper",
+                    "Press Release",
+                    "Policy Paper",
+                    "Blog",
+                    "Corporate",
+                    "Government Policy"
+                ],
+                "OptionsWithKey": {
+                    "77897": "White Paper",
+                    "77898": "Press Release",
+                    "77899": "Policy Paper",
+                    "77900": "Blog",
+                    "77901": "Corporate",
+                    "77902": "Government Policy"
+                }
+            },
+            "10838": {
+                "DispalyOrder": "15",
+                "ProjectAttributeId": 10838,
+                "AttributeName": "Summary",
+                "AttributeId": 4486,
+                "DisplayAttributeName": "Summary",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "10839": {
+                "DispalyOrder": "16",
+                "ProjectAttributeId": 10839,
+                "AttributeName": "Tags",
+                "AttributeId": 754,
+                "DisplayAttributeName": "Tags",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            }
+        }
+    },
+    "ModuleAttributes": {
+        "1011": {
+            "6694018": {
+                "static": {
+                    "1": {
+                        "AttributeMasterId": 3263,
+                        "ProjectAttributeMasterId": 10842,
+                        "DispalyOrder": "1",
+                        "DisplayAttributeName": "FDRID",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "FDRID",
+                        "MainGroupId": 178,
+                        "SubGroupId": 248
+                    },
+                    "2": {
+                        "AttributeMasterId": 761,
+                        "ProjectAttributeMasterId": 10826,
+                        "DispalyOrder": "2",
+                        "DisplayAttributeName": "Title",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Title",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "3": {
+                        "AttributeMasterId": 3079,
+                        "ProjectAttributeMasterId": 10844,
+                        "DispalyOrder": "3",
+                        "DisplayAttributeName": "Source_URL",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Source_URL",
+                        "MainGroupId": 178,
+                        "SubGroupId": 248
+                    }
+                },
+                "production": {
+                    "4": {
+                        "AttributeMasterId": 4476,
+                        "ProjectAttributeMasterId": 10827,
+                        "DispalyOrder": "4",
+                        "DisplayAttributeName": "Source Type",
+                        "IsDistinct": 1,
+                        "ControlName": "DropDownList",
+                        "Options": [
+                            "Corporate",
+                            "News",
+                            "Regulatory",
+                            "Forum",
+                            "Blog"
+                        ],
+                        "AttributeName": "Source Type",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "5": {
+                        "AttributeMasterId": 4477,
+                        "ProjectAttributeMasterId": 10828,
+                        "DispalyOrder": "5",
+                        "DisplayAttributeName": "Publisher",
+                        "IsDistinct": 1,
+                        "ControlName": "DropDownList",
+                        "Options": [
+                            "Ericsson",
+                            "Heavy Reading",
+                            "Nokia",
+                            "Government of Australia",
+                            "Government of UK",
+                            "Intel",
+                            "World Economic Forum",
+                            "Reuters",
+                            "Public Technology",
+                            "MIT Technology Review",
+                            "Financial Express",
+                            "5G.co.uk",
+                            "Alliance for Telecommunications Industry Solutions",
+                            "ZTE"
+                        ],
+                        "AttributeName": "Publisher",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "6": {
+                        "AttributeMasterId": 4478,
+                        "ProjectAttributeMasterId": 10829,
+                        "DispalyOrder": "6",
+                        "DisplayAttributeName": "Publisher Type",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Publisher Type",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "7": {
+                        "AttributeMasterId": 4479,
+                        "ProjectAttributeMasterId": 10830,
+                        "DispalyOrder": "7",
+                        "DisplayAttributeName": "Date of Publication",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Date of Publication",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "8": {
+                        "AttributeMasterId": 4480,
+                        "ProjectAttributeMasterId": 10831,
+                        "DispalyOrder": "8",
+                        "DisplayAttributeName": "Geography",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Geography",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "9": {
+                        "AttributeMasterId": 4487,
+                        "ProjectAttributeMasterId": 10840,
+                        "DispalyOrder": "9",
+                        "DisplayAttributeName": "Author_Profiles",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Author_Profiles",
+                        "MainGroupId": 178,
+                        "SubGroupId": 248
+                    },
+                    "10": {
+                        "AttributeMasterId": 4488,
+                        "ProjectAttributeMasterId": 10841,
+                        "DispalyOrder": "10",
+                        "DisplayAttributeName": "Authors",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Authors",
+                        "MainGroupId": 178,
+                        "SubGroupId": 248
+                    },
+                    "11": {
+                        "AttributeMasterId": 4483,
+                        "ProjectAttributeMasterId": 10834,
+                        "DispalyOrder": "11",
+                        "DisplayAttributeName": "Content Type",
+                        "IsDistinct": 1,
+                        "ControlName": "DropDownList",
+                        "Options": [
+                            "Text",
+                            "Image"
+                        ],
+                        "AttributeName": "Content Type",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "12": {
+                        "AttributeMasterId": 4223,
+                        "ProjectAttributeMasterId": 10835,
+                        "DispalyOrder": "12",
+                        "DisplayAttributeName": "Format",
+                        "IsDistinct": 1,
+                        "ControlName": "DropDownList",
+                        "Options": [
+                            "HTML",
+                            "PDF"
+                        ],
+                        "AttributeName": "Format",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "13": {
+                        "AttributeMasterId": 4484,
+                        "ProjectAttributeMasterId": 10836,
+                        "DispalyOrder": "13",
+                        "DisplayAttributeName": "Content Class",
+                        "IsDistinct": 1,
+                        "ControlName": "DropDownList",
+                        "Options": [
+                            "Report",
+                            "News",
+                            "Buzz"
+                        ],
+                        "AttributeName": "Content Class",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "14": {
+                        "AttributeMasterId": 4485,
+                        "ProjectAttributeMasterId": 10837,
+                        "DispalyOrder": "14",
+                        "DisplayAttributeName": "Content Sub-Class",
+                        "IsDistinct": 1,
+                        "ControlName": "DropDownList",
+                        "Options": [
+                            "White Paper",
+                            "Press Release",
+                            "Policy Paper",
+                            "Blog",
+                            "Corporate",
+                            "Government Policy"
+                        ],
+                        "AttributeName": "Content Sub-Class",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "15": {
+                        "AttributeMasterId": 4486,
+                        "ProjectAttributeMasterId": 10838,
+                        "DispalyOrder": "15",
+                        "DisplayAttributeName": "Summary",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Summary",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "16": {
+                        "AttributeMasterId": 754,
+                        "ProjectAttributeMasterId": 10839,
+                        "DispalyOrder": "16",
+                        "DisplayAttributeName": "Tags",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Tags",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    }
+                }
+            }
+        }
+    },
+    "AttributeGroupMaster": {
+        "6694018": {
+            "41": "ProductAttributes",
+            "178": "Narratives"
+        }
+    },
+    "AttributeGroupMasterDirect": {
+        "41": "ProductAttributes",
+        "178": "Narratives"
+    },
+    "AttributeSubGroupMaster": {
+        "178": {
+            "236": "Narratives",
+            "248": "Organization_Description"
+        }
+    },
+    "ExportAttributeGroupMaster": {
+        "3263": "Narratives",
+        "761": "ProductAttributes",
+        "3079": "Narratives",
+        "4476": "ProductAttributes",
+        "4477": "ProductAttributes",
+        "4478": "ProductAttributes",
+        "4479": "ProductAttributes",
+        "4480": "ProductAttributes",
+        "4487": "Narratives",
+        "4488": "Narratives",
+        "4483": "ProductAttributes",
+        "4223": "ProductAttributes",
+        "4484": "ProductAttributes",
+        "4485": "ProductAttributes",
+        "4486": "ProductAttributes",
+        "754": "ProductAttributes"
+    },
+    "ExportAttributeSubGroupMaster": {
+        "3263": "Organization_Description",
+        "3079": "Organization_Description",
+        "4487": "Organization_Description",
+        "4488": "Organization_Description"
+    },
+    "Menu": {
+        "3": {
+            "Manage Project": {
+                "Project Config": "Projectconfig",
+                "Module Configuration": "ModuleConfigs",
+                "Job Definition": "UniqueIdFields",
+                "Possible Values Configuration": "OptionMaster",
+                "Validation Rule Engine": "Validationrules",
+                "Input Import": "Importinitiates",
+                "Production Dashboard": "ProductionDashBoards",
+                "Production View": "ProductionView",
+                "Manage User Group": "UserGroupMasters",
+                "Manage Users": "UserGroupMapping"
+            },
+            "Cengage Production": {
+                "Production": "GetJobCore"
+            },
+            "PU Queries": {
+                "PU Queries": "PuQueries"
+            }
+        },
+        "19": {
+            "Cengage Production": {
+                "Production": "GetJobCore"
+            }
+        },
+        "31": {
+            "Cengage Production": {
+                "Production": "GetJobCore"
+            },
+            "PU Queries": {
+                "PU Queries": "PuQueries"
+            }
+        }
+    },
+    "ProjectStatus": {
+        "1": "Production Completed",
+        "2": "Production Query",
+        "3": "Production Inprogress",
+        "4": "Ready for Production",
+        "5": "Import Completed"
+    },
+    "ProjectGroupStatus": {
+        "Input Import": {
+            "5": "Import Completed"
+        },
+        "Production": {
+            "2": "Production Query",
+            "3": "Production Inprogress",
+            "4": "Ready for Production"
+        },
+        "Ready for QC": {
+            "1": "Production Completed"
+        }
+    },
+    "Module": {
+        "141": "Manage Project",
+        "6694018": "Cengage Production",
+        "128": "PU Queries"
+    },
+    "ModuleConfig": {
+        "141": {
+            "IsInputMandatory": 2,
+            "IsHistoryTrack": 2,
+            "IsUrlMonitoring": null,
+            "IsAllowedToDisplay": null,
+            "IsModuleGroup": null,
+            "IsHygineCheck": 0
+        },
+        "6694018": {
+            "IsInputMandatory": 1,
+            "IsHistoryTrack": 1,
+            "IsUrlMonitoring": 1,
+            "IsAllowedToDisplay": 1,
+            "IsModuleGroup": null,
+            "IsHygineCheck": 0
+        },
+        "128": {
+            "IsInputMandatory": 2,
+            "IsHistoryTrack": 2,
+            "IsUrlMonitoring": null,
+            "IsAllowedToDisplay": 1,
+            "IsModuleGroup": null,
+            "IsHygineCheck": 0
+        }
+    },
+    "ModuleUser": {
+        "141": {
+            "99080": {
+                "Id": 99080,
+                "Username": "demoTL"
+            }
+        },
+        "6694018": {
+            "5004": {
+                "Id": 5004,
+                "Username": "adminuser"
+            },
+            "91822": {
+                "Id": 91822,
+                "Username": "userone"
+            },
+            "99080": {
+                "Id": 99080,
+                "Username": "demoTL"
+            }
+        },
+        "128": {
+            "91822": {
+                "Id": 91822,
+                "Username": "userone"
+            },
+            "99080": {
+                "Id": 99080,
+                "Username": "demoTL"
+            }
+        }
+    },
+    "ModuleStatusList": {
+        "6694018": [
+            "Bucket 1 Ready for Production",
+            "PU PEG Rework Inprogress",
+            "PU PEG Rework Completed",
+            "Bucket 1 Production Inprogress",
+            "Bucket 1 Production Completed",
+            "Bucket 1 Production Query",
+            "Ready for PU Rework",
+            "PU Rework Inprogress",
+            "PU Rework Completed",
+            "Ready for PU PEG Rework"
+        ]
+    },
+    "ModuleStatus": {
+        "6694018": {
+            "5": {
+                "ModuleId": 6694018,
+                "ModStatus": "Bucket 1 Ready for Production",
+                "ModuleStatusIdentifier": "ReadyforProduction",
+                "StatusId": 5,
+                "FromStatus": "Import Completed"
+            },
+            "3": {
+                "ModuleId": 6694018,
+                "ModStatus": "Bucket 1 Production Query",
+                "ModuleStatusIdentifier": "ProductionQuery",
+                "StatusId": 3,
+                "FromStatus": "Production Inprogress"
+            },
+            "1": {
+                "ModuleId": 6694018,
+                "ModStatus": "Bucket 1 Production Completed",
+                "ModuleStatusIdentifier": "ProductionCompleted",
+                "StatusId": 1,
+                "FromStatus": "Production Completed"
+            }
+        }
+    },
+    "ModuleStatus_Navigation": {
+        "5": [
+            "Bucket 1 Ready for Production",
+            false
+        ],
+        "3": [
+            "Bucket 1 Production Inprogress",
+            false,
+            [
+                "Bucket 1 Production Query",
+                false
+            ]
+        ],
+        "1": [
+            "Bucket 1 Production Completed",
+            false
+        ]
+    },
+    "ProjectConfig": {
+        "DomainId": "4471",
+        "DomainUrl": "3079",
+        "ProdDB_PageLimit": "20",
+        "ProductionView": "3",
+        "HygineCheck": ""
+    },
+    "UserGroups": {
+        "6": "Team 1",
+        "7": "Team 2",
+        "8": "YP Group",
+        "1008": "Factset Group",
+        "1009": "LE Group",
+        "1010": "cengagenpo",
+        "1011": "NPO",
+        "1012": "MojoCengage",
+        "1013": "Content Aggregation Group",
+        "1014": "Vessel Enrichment Group"
+    }
+}

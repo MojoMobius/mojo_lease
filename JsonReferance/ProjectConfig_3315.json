@@ -1,0 +1,720 @@
+{
+    "3315": "Cengage_Personnel",
+    "UserList": {
+        "1": "admin",
+        "83150": "UserA",
+        "91822": "userone",
+        "95431": "teamlead",
+        "98254": "usertwo",
+        "98255": "userthree"
+    },
+    "UserListRole": {
+        "83150_31": "UserA (Production User)",
+        "91822_31": "userone (Production User)",
+        "95431_3": "teamlead (Team Leader)",
+        "98254_31": "usertwo (Production User)",
+        "98255_31": "userthree (Production User)"
+    },
+    "RegionList": {
+        "6": "US"
+    },
+    "AttributeList": {
+        "6": [
+            8056,
+            8056,
+            8057,
+            8058,
+            8057,
+            8059,
+            8058,
+            8059,
+            8060,
+            8061,
+            8060,
+            8061,
+            8062,
+            8062,
+            8063,
+            8063,
+            8064,
+            8064,
+            8072
+        ]
+    },
+    "AttributeOrder": {
+        "6": {
+            "8056": {
+                "DispalyOrder": "1",
+                "ProjectAttributeId": 8056,
+                "AttributeName": "FDR_ID",
+                "AttributeId": 3289,
+                "DisplayAttributeName": "FDR_ID",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8057": {
+                "DispalyOrder": "3",
+                "ProjectAttributeId": 8057,
+                "AttributeName": "Organization_Name",
+                "AttributeId": 3264,
+                "DisplayAttributeName": "Organization Name",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8058": {
+                "DispalyOrder": "4",
+                "ProjectAttributeId": 8058,
+                "AttributeName": "Prefix",
+                "AttributeId": 2060,
+                "DisplayAttributeName": "Prefix",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8059": {
+                "DispalyOrder": "5",
+                "ProjectAttributeId": 8059,
+                "AttributeName": "First_Name",
+                "AttributeId": 3542,
+                "DisplayAttributeName": "First Name",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8060": {
+                "DispalyOrder": "6",
+                "ProjectAttributeId": 8060,
+                "AttributeName": "Last_Name",
+                "AttributeId": 2062,
+                "DisplayAttributeName": "Last Name",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8061": {
+                "DispalyOrder": "7",
+                "ProjectAttributeId": 8061,
+                "AttributeName": "Suffix",
+                "AttributeId": 722,
+                "DisplayAttributeName": "Suffix",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8062": {
+                "DispalyOrder": "8",
+                "ProjectAttributeId": 8062,
+                "AttributeName": "Title",
+                "AttributeId": 761,
+                "DisplayAttributeName": "Title",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8063": {
+                "DispalyOrder": "9",
+                "ProjectAttributeId": 8063,
+                "AttributeName": "Email",
+                "AttributeId": 3363,
+                "DisplayAttributeName": "Email",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8064": {
+                "DispalyOrder": "10",
+                "ProjectAttributeId": 8064,
+                "AttributeName": "Ref_Url",
+                "AttributeId": 3290,
+                "DisplayAttributeName": "Ref Url",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8072": {
+                "DispalyOrder": "11",
+                "ProjectAttributeId": 8072,
+                "AttributeName": "DOMAIN_ID",
+                "AttributeId": 306,
+                "DisplayAttributeName": "DOMAIN_ID",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            }
+        }
+    },
+    "ModuleAttributes": {
+        "6": {
+            "147": {
+                "static": {
+                    "1": {
+                        "AttributeMasterId": 3289,
+                        "ProjectAttributeMasterId": 8056,
+                        "DispalyOrder": "1",
+                        "DisplayAttributeName": "FDR_ID",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "FDR_ID",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    }
+                },
+                "readonly": {
+                    "2": {
+                        "AttributeMasterId": 3264,
+                        "ProjectAttributeMasterId": 8057,
+                        "DispalyOrder": "2",
+                        "DisplayAttributeName": "Organization Name",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Organization_Name",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "3": {
+                        "AttributeMasterId": 3264,
+                        "ProjectAttributeMasterId": 8057,
+                        "DispalyOrder": "3",
+                        "DisplayAttributeName": "Organization Name",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Organization_Name",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    }
+                },
+                "production": {
+                    "3": {
+                        "AttributeMasterId": 2060,
+                        "ProjectAttributeMasterId": 8058,
+                        "DispalyOrder": "3",
+                        "DisplayAttributeName": "Prefix",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Prefix",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "4": {
+                        "AttributeMasterId": 2060,
+                        "ProjectAttributeMasterId": 8058,
+                        "DispalyOrder": "4",
+                        "DisplayAttributeName": "Prefix",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Prefix",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "5": {
+                        "AttributeMasterId": 348,
+                        "ProjectAttributeMasterId": 8059,
+                        "DispalyOrder": "5",
+                        "DisplayAttributeName": "First Name",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "First_Name",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "6": {
+                        "AttributeMasterId": 2062,
+                        "ProjectAttributeMasterId": 8060,
+                        "DispalyOrder": "6",
+                        "DisplayAttributeName": "Last Name",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Last_Name",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "7": {
+                        "AttributeMasterId": 722,
+                        "ProjectAttributeMasterId": 8061,
+                        "DispalyOrder": "7",
+                        "DisplayAttributeName": "Suffix",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Suffix",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "8": {
+                        "AttributeMasterId": 761,
+                        "ProjectAttributeMasterId": 8062,
+                        "DispalyOrder": "8",
+                        "DisplayAttributeName": "Title",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Title",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "9": {
+                        "AttributeMasterId": 316,
+                        "ProjectAttributeMasterId": 8063,
+                        "DispalyOrder": "9",
+                        "DisplayAttributeName": "Email",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Email",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "10": {
+                        "AttributeMasterId": 3290,
+                        "ProjectAttributeMasterId": 8064,
+                        "DispalyOrder": "10",
+                        "DisplayAttributeName": "Ref Url",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Ref_Url",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    }
+                }
+            },
+            "151": {
+                "static": {
+                    "1": {
+                        "AttributeMasterId": 3289,
+                        "ProjectAttributeMasterId": 8056,
+                        "DispalyOrder": "1",
+                        "DisplayAttributeName": "FDR_ID",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "FDR_ID",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "11": {
+                        "AttributeMasterId": 306,
+                        "ProjectAttributeMasterId": 8072,
+                        "DispalyOrder": "11",
+                        "DisplayAttributeName": "DOMAIN_ID",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "DOMAIN_ID",
+                        "MainGroupId": 69,
+                        "SubGroupId": 0
+                    }
+                },
+                "readonly": {
+                    "2": {
+                        "AttributeMasterId": 3264,
+                        "ProjectAttributeMasterId": 8057,
+                        "DispalyOrder": "2",
+                        "DisplayAttributeName": "Organization Name",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Organization_Name",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "3": {
+                        "AttributeMasterId": 3264,
+                        "ProjectAttributeMasterId": 8057,
+                        "DispalyOrder": "3",
+                        "DisplayAttributeName": "Organization Name",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Organization_Name",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    }
+                },
+                "production": {
+                    "3": {
+                        "AttributeMasterId": 2060,
+                        "ProjectAttributeMasterId": 8058,
+                        "DispalyOrder": "3",
+                        "DisplayAttributeName": "Prefix",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Prefix",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "4": {
+                        "AttributeMasterId": 2060,
+                        "ProjectAttributeMasterId": 8058,
+                        "DispalyOrder": "4",
+                        "DisplayAttributeName": "Prefix",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Prefix",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "5": {
+                        "AttributeMasterId": 348,
+                        "ProjectAttributeMasterId": 8059,
+                        "DispalyOrder": "5",
+                        "DisplayAttributeName": "First Name",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "First_Name",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "6": {
+                        "AttributeMasterId": 2062,
+                        "ProjectAttributeMasterId": 8060,
+                        "DispalyOrder": "6",
+                        "DisplayAttributeName": "Last Name",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Last_Name",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "7": {
+                        "AttributeMasterId": 722,
+                        "ProjectAttributeMasterId": 8061,
+                        "DispalyOrder": "7",
+                        "DisplayAttributeName": "Suffix",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Suffix",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "8": {
+                        "AttributeMasterId": 761,
+                        "ProjectAttributeMasterId": 8062,
+                        "DispalyOrder": "8",
+                        "DisplayAttributeName": "Title",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Title",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "9": {
+                        "AttributeMasterId": 316,
+                        "ProjectAttributeMasterId": 8063,
+                        "DispalyOrder": "9",
+                        "DisplayAttributeName": "Email",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Email",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "10": {
+                        "AttributeMasterId": 3290,
+                        "ProjectAttributeMasterId": 8064,
+                        "DispalyOrder": "10",
+                        "DisplayAttributeName": "Ref Url",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Ref_Url",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    }
+                }
+            }
+        }
+    },
+    "AttributeGroupMaster": {
+        "147": {
+            "41": "ProductAttributes"
+        },
+        "151": {
+            "41": "ProductAttributes"
+        }
+    },
+    "AttributeGroupMasterDirect": {
+        "41": "ProductAttributes"
+    },
+    "ExportAttributeGroupMaster": {
+        "3289": "ProductAttributes",
+        "3264": "ProductAttributes",
+        "2060": "ProductAttributes",
+        "348": "ProductAttributes",
+        "2062": "ProductAttributes",
+        "722": "ProductAttributes",
+        "761": "ProductAttributes",
+        "316": "ProductAttributes",
+        "3290": "ProductAttributes",
+        "306": "PH Details"
+    },
+    "ExportAttributeSubGroupMaster": [],
+    "Menu": {
+        "31": {
+            "Contact": {
+                "Production": "Getjobcore"
+            },
+            "URL Monitoring": {
+                "Production": "Getjoburlmonitoring"
+            }
+        },
+        "3": {
+            "Manage Project": {
+                "Delivery Output": "DeliveryExport",
+                "Input Import": "Importinitiates",
+                "Production Dashboard": "ProductionDashBoards",
+                "Production View": "ProductionView",
+                "Output Summary": "UrlStatusReport",
+                "Change Report": "ChangeReport"
+            },
+            "Queries": {
+                "PU Query": "puquery"
+            }
+        }
+    },
+    "ProjectStatus": {
+        "1": "Ready for Contact Production",
+        "2": "Import Completed",
+        "3": "Import Inprogress",
+        "4": "Contact Production Completed",
+        "5": "ContactQuery",
+        "6": "Contact Production Inprogress",
+        "7": "URL Monitoring Completed",
+        "8": "URL Monitoring Query",
+        "9": "URL Monitoring Inprogress",
+        "10": "Ready for URL Monitoring"
+    },
+    "ProjectGroupStatus": {
+        "Input Import": {
+            "2": "Import Completed",
+            "3": "Import Inprogress"
+        },
+        "Contact": {
+            "1": "Ready for Contact Production",
+            "4": "Contact Production Completed",
+            "5": "ContactQuery",
+            "6": "Contact Production Inprogress"
+        },
+        "URL Monitoring": {
+            "7": "URL Monitoring Completed",
+            "8": "URL Monitoring Query",
+            "9": "URL Monitoring Inprogress",
+            "10": "Ready for URL Monitoring"
+        }
+    },
+    "Module": {
+        "141": "Manage Project",
+        "147": "Contact",
+        "151": "URL Monitoring",
+        "140": "Queries"
+    },
+    "ModuleConfig": {
+        "141": {
+            "IsInputMandatory": 2,
+            "IsHistoryTrack": 2,
+            "IsUrlMonitoring": null,
+            "IsAllowedToDisplay": null,
+            "IsModuleGroup": null,
+            "IsHygineCheck": null
+        },
+        "147": {
+            "IsInputMandatory": 1,
+            "IsHistoryTrack": 1,
+            "IsUrlMonitoring": null,
+            "IsAllowedToDisplay": 1,
+            "IsModuleGroup": null,
+            "IsHygineCheck": null
+        },
+        "151": {
+            "IsInputMandatory": 1,
+            "IsHistoryTrack": 1,
+            "IsUrlMonitoring": 1,
+            "IsAllowedToDisplay": 1,
+            "IsModuleGroup": null,
+            "IsHygineCheck": null
+        },
+        "140": {
+            "IsInputMandatory": 2,
+            "IsHistoryTrack": 2,
+            "IsUrlMonitoring": null,
+            "IsAllowedToDisplay": null,
+            "IsModuleGroup": null,
+            "IsHygineCheck": null
+        }
+    },
+    "ModuleUser": {
+        "141": {
+            "95431": {
+                "Id": 95431,
+                "Username": "teamlead"
+            }
+        },
+        "147": {
+            "83150": {
+                "Id": 83150,
+                "Username": "UserA"
+            },
+            "91822": {
+                "Id": 91822,
+                "Username": "userone"
+            },
+            "98254": {
+                "Id": 98254,
+                "Username": "usertwo"
+            },
+            "98255": {
+                "Id": 98255,
+                "Username": "userthree"
+            }
+        },
+        "151": {
+            "83150": {
+                "Id": 83150,
+                "Username": "UserA"
+            },
+            "91822": {
+                "Id": 91822,
+                "Username": "userone"
+            },
+            "98254": {
+                "Id": 98254,
+                "Username": "usertwo"
+            },
+            "98255": {
+                "Id": 98255,
+                "Username": "userthree"
+            }
+        },
+        "140": {
+            "95431": {
+                "Id": 95431,
+                "Username": "teamlead"
+            }
+        }
+    },
+    "ModuleStatusList": {
+        "147": [
+            "Ready for Contact Production",
+            "Contact Production InProgress",
+            "Contact Production Completed",
+            "Contact Query"
+        ],
+        "151": [
+            "Ready for URL Monitoring",
+            "URL Monitoring Inprogress",
+            "URL Monitoring Completed",
+            "URL Monitoring Query"
+        ]
+    },
+    "ModuleStatus": {
+        "147": {
+            "2": {
+                "ModuleId": 147,
+                "ModStatus": "Ready for Contact Production",
+                "ModuleStatusIdentifier": "ReadyforContactProduction",
+                "StatusId": 2,
+                "FromStatus": "Import Completed"
+            },
+            "1": {
+                "ModuleId": 147,
+                "ModStatus": "Contact Production InProgress",
+                "ModuleStatusIdentifier": "ContactProductionInProgress",
+                "StatusId": 1,
+                "FromStatus": "Ready for Contact Production"
+            },
+            "6": {
+                "ModuleId": 147,
+                "ModStatus": "Contact Production Completed",
+                "ModuleStatusIdentifier": "ContactProductionCompleted",
+                "StatusId": 6,
+                "FromStatus": "Contact Production Inprogress"
+            },
+            "5": {
+                "ModuleId": 147,
+                "ModStatus": "Contact Query",
+                "ModuleStatusIdentifier": "ContactQuery",
+                "StatusId": 5,
+                "FromStatus": "ContactQuery"
+            }
+        },
+        "151": {
+            "10": {
+                "ModuleId": 151,
+                "ModStatus": "URL Monitoring Inprogress",
+                "ModuleStatusIdentifier": "URLMonitoringInprogress",
+                "StatusId": 10,
+                "FromStatus": "Ready for URL Monitoring"
+            },
+            "9": {
+                "ModuleId": 151,
+                "ModStatus": "URL Monitoring Completed",
+                "ModuleStatusIdentifier": "URLMonitoringCompleted",
+                "StatusId": 9,
+                "FromStatus": "URL Monitoring Inprogress"
+            },
+            "8": {
+                "ModuleId": 151,
+                "ModStatus": "URL Monitoring Query",
+                "ModuleStatusIdentifier": "URLMonitoringQuery",
+                "StatusId": 8,
+                "FromStatus": "URL Monitoring Query"
+            }
+        }
+    },
+    "ModuleStatus_Navigation": {
+        "2": [
+            "Ready for Contact Production",
+            1
+        ],
+        "1": [
+            "Contact Production InProgress",
+            6
+        ],
+        "6": [
+            "Contact Production Completed",
+            4
+        ],
+        "5": [
+            "Contact Query",
+            false
+        ],
+        "10": [
+            "URL Monitoring Inprogress",
+            9
+        ],
+        "9": [
+            "URL Monitoring Completed",
+            7
+        ],
+        "8": [
+            "URL Monitoring Query",
+            8
+        ]
+    },
+    "ProjectConfig": {
+        "DomainId": "306",
+        "DomainUrl": "3290",
+        "InputId": "424",
+        "ProdDB_PageLimit": "20",
+        "ProductionView": "1",
+        "HygineCheck": ""
+    },
+    "UserGroups": {
+        "6": "Team 1",
+        "7": "Team 2",
+        "8": "YP Group",
+        "1008": "Factset Group",
+        "1009": "LE Group",
+        "1010": "cengagenpo",
+        "1011": "NPO",
+        "1012": "MojoCengage",
+        "1013": "Content Aggregation Group",
+        "1014": "Vessel Enrichment Group"
+    }
+}

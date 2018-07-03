@@ -1,0 +1,2226 @@
+{
+    "3334": "Cengage_NPO",
+    "UserList": {
+        "1": "admin",
+        "98810": "cengagebaseuser",
+        "98811": "cengageTL",
+        "98823": "cengagebasicinfouser",
+        "98835": "cengagelocuser",
+        "98836": "cengagephuser",
+        "98837": "cengageperuser"
+    },
+    "UserListRole": {
+        "98810_": "cengagebaseuser ()",
+        "98811_2": "cengageTL (Manager)",
+        "98823_32": "cengagebasicinfouser (Basic Info User)",
+        "98835_33": "cengagelocuser (Location Email User)",
+        "98836_34": "cengagephuser (Phone User)",
+        "98837_35": "cengageperuser (Personnel user)"
+    },
+    "RegionList": {
+        "6": "US"
+    },
+    "AttributeList": {
+        "6": [
+            8587,
+            8532,
+            8588,
+            8533,
+            8534,
+            8535,
+            8536,
+            8537,
+            8538,
+            8539,
+            8540,
+            8541,
+            8542,
+            8543,
+            8544,
+            8545,
+            8546,
+            8547,
+            8548,
+            8549,
+            8550,
+            8551,
+            8552,
+            8553,
+            8554,
+            8555,
+            8556,
+            8557,
+            8558,
+            8559,
+            8560,
+            8561,
+            8562,
+            8563,
+            8564,
+            8565,
+            8566,
+            8567,
+            8568,
+            8569,
+            8570,
+            8571,
+            8572,
+            8573,
+            8574,
+            8575,
+            8576,
+            8577,
+            8578,
+            8579,
+            8580,
+            8581,
+            8582,
+            8583,
+            8584,
+            8585,
+            8586,
+            8589,
+            8590,
+            8591,
+            8592,
+            8593,
+            8594,
+            8595,
+            8596,
+            8597,
+            8598,
+            8599,
+            8600,
+            8601,
+            8602,
+            8603,
+            8604,
+            8605
+        ]
+    },
+    "AttributeOrder": {
+        "6": {
+            "8587": {
+                "DispalyOrder": "1",
+                "ProjectAttributeId": 8587,
+                "AttributeName": "Personnel_RelationshipFDR-id",
+                "AttributeId": 3658,
+                "DisplayAttributeName": "Personnel_Relationship FDR-id",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8532": {
+                "DispalyOrder": "1",
+                "ProjectAttributeId": 8532,
+                "AttributeName": "FDRID",
+                "AttributeId": 3263,
+                "DisplayAttributeName": "FDRID",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8588": {
+                "DispalyOrder": "2",
+                "ProjectAttributeId": 8588,
+                "AttributeName": "PersonnelFDR-id",
+                "AttributeId": 3659,
+                "DisplayAttributeName": "Personnel FDR-id",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8533": {
+                "DispalyOrder": "2",
+                "ProjectAttributeId": 8533,
+                "AttributeName": "FDROrganizationName",
+                "AttributeId": 3605,
+                "DisplayAttributeName": "FDR Organization Name",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8534": {
+                "DispalyOrder": "3",
+                "ProjectAttributeId": 8534,
+                "AttributeName": "OrganizationCategory",
+                "AttributeId": 3606,
+                "DisplayAttributeName": "Organization Category",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8535": {
+                "DispalyOrder": "4",
+                "ProjectAttributeId": 8535,
+                "AttributeName": "FDR_URL",
+                "AttributeId": 3607,
+                "DisplayAttributeName": "FDR_URL",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8536": {
+                "DispalyOrder": "5",
+                "ProjectAttributeId": 8536,
+                "AttributeName": "OrganizationName_B",
+                "AttributeId": 3608,
+                "DisplayAttributeName": "Organization Name_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8537": {
+                "DispalyOrder": "6",
+                "ProjectAttributeId": 8537,
+                "AttributeName": "OrganizationName_A",
+                "AttributeId": 3609,
+                "DisplayAttributeName": "Organization Name_A",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8538": {
+                "DispalyOrder": "7",
+                "ProjectAttributeId": 8538,
+                "AttributeName": "Ref_URL_OrganizationName",
+                "AttributeId": 3610,
+                "DisplayAttributeName": "Ref_URL_Organization Name",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8539": {
+                "DispalyOrder": "8",
+                "ProjectAttributeId": 8539,
+                "AttributeName": "Acronym_B",
+                "AttributeId": 3611,
+                "DisplayAttributeName": "Acronym_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8540": {
+                "DispalyOrder": "9",
+                "ProjectAttributeId": 8540,
+                "AttributeName": "Acronym_A",
+                "AttributeId": 3612,
+                "DisplayAttributeName": "Acronym_A",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8541": {
+                "DispalyOrder": "10",
+                "ProjectAttributeId": 8541,
+                "AttributeName": "Ref_URL_Acronym",
+                "AttributeId": 3613,
+                "DisplayAttributeName": "Ref_URL_Acronym",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8542": {
+                "DispalyOrder": "11",
+                "ProjectAttributeId": 8542,
+                "AttributeName": "AddressType_B",
+                "AttributeId": 3614,
+                "DisplayAttributeName": "Address Type_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8543": {
+                "DispalyOrder": "12",
+                "ProjectAttributeId": 8543,
+                "AttributeName": "AddressType_A",
+                "AttributeId": 3615,
+                "DisplayAttributeName": "Address Type_A",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8544": {
+                "DispalyOrder": "13",
+                "ProjectAttributeId": 8544,
+                "AttributeName": "MainURLAddress_B",
+                "AttributeId": 3616,
+                "DisplayAttributeName": "Main URL Address_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8545": {
+                "DispalyOrder": "14",
+                "ProjectAttributeId": 8545,
+                "AttributeName": "MainURLAddress_A",
+                "AttributeId": 3617,
+                "DisplayAttributeName": "Main URL Address_A",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8546": {
+                "DispalyOrder": "15",
+                "ProjectAttributeId": 8546,
+                "AttributeName": "Address_Status_B",
+                "AttributeId": 3618,
+                "DisplayAttributeName": "Address Status_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8547": {
+                "DispalyOrder": "16",
+                "ProjectAttributeId": 8547,
+                "AttributeName": "Address_Status_A",
+                "AttributeId": 3619,
+                "DisplayAttributeName": "Address Status_A",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8548": {
+                "DispalyOrder": "17",
+                "ProjectAttributeId": 8548,
+                "AttributeName": "Street_B",
+                "AttributeId": 3620,
+                "DisplayAttributeName": "Street_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8549": {
+                "DispalyOrder": "18",
+                "ProjectAttributeId": 8549,
+                "AttributeName": "Street_A",
+                "AttributeId": 3621,
+                "DisplayAttributeName": "Street_A",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8550": {
+                "DispalyOrder": "19",
+                "ProjectAttributeId": 8550,
+                "AttributeName": "City_B",
+                "AttributeId": 3622,
+                "DisplayAttributeName": "City_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8551": {
+                "DispalyOrder": "20",
+                "ProjectAttributeId": 8551,
+                "AttributeName": "City_A",
+                "AttributeId": 3623,
+                "DisplayAttributeName": "City_A",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8552": {
+                "DispalyOrder": "21",
+                "ProjectAttributeId": 8552,
+                "AttributeName": "State_B",
+                "AttributeId": 3624,
+                "DisplayAttributeName": "State_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8553": {
+                "DispalyOrder": "22",
+                "ProjectAttributeId": 8553,
+                "AttributeName": "State_A",
+                "AttributeId": 3625,
+                "DisplayAttributeName": "State_A",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8554": {
+                "DispalyOrder": "23",
+                "ProjectAttributeId": 8554,
+                "AttributeName": "Country_B",
+                "AttributeId": 3626,
+                "DisplayAttributeName": "Country_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8555": {
+                "DispalyOrder": "24",
+                "ProjectAttributeId": 8555,
+                "AttributeName": "Country_A",
+                "AttributeId": 3627,
+                "DisplayAttributeName": "Country_A",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8556": {
+                "DispalyOrder": "25",
+                "ProjectAttributeId": 8556,
+                "AttributeName": "Postal1_B",
+                "AttributeId": 3628,
+                "DisplayAttributeName": "Postal1_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8557": {
+                "DispalyOrder": "26",
+                "ProjectAttributeId": 8557,
+                "AttributeName": "Postal1_A",
+                "AttributeId": 3629,
+                "DisplayAttributeName": "Postal1_A",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8558": {
+                "DispalyOrder": "27",
+                "ProjectAttributeId": 8558,
+                "AttributeName": "Subdivision_B",
+                "AttributeId": 3630,
+                "DisplayAttributeName": "Subdivision_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8559": {
+                "DispalyOrder": "28",
+                "ProjectAttributeId": 8559,
+                "AttributeName": "Subdivision_A",
+                "AttributeId": 3631,
+                "DisplayAttributeName": "Subdivision_A",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8560": {
+                "DispalyOrder": "29",
+                "ProjectAttributeId": 8560,
+                "AttributeName": "Ref_URL_Address",
+                "AttributeId": 3632,
+                "DisplayAttributeName": "Ref_URL_Address",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8561": {
+                "DispalyOrder": "30",
+                "ProjectAttributeId": 8561,
+                "AttributeName": "InceptionYear_B",
+                "AttributeId": 3633,
+                "DisplayAttributeName": "Inception Year_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8562": {
+                "DispalyOrder": "31",
+                "ProjectAttributeId": 8562,
+                "AttributeName": "InceptionYear_A",
+                "AttributeId": 3634,
+                "DisplayAttributeName": "Inception Year_A",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8563": {
+                "DispalyOrder": "32",
+                "ProjectAttributeId": 8563,
+                "AttributeName": "Ref_URL_Inception",
+                "AttributeId": 3635,
+                "DisplayAttributeName": "Ref_URL_Inception",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8564": {
+                "DispalyOrder": "33",
+                "ProjectAttributeId": 8564,
+                "AttributeName": "SocialMediaType_B",
+                "AttributeId": 3636,
+                "DisplayAttributeName": "Social Media Type_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8565": {
+                "DispalyOrder": "34",
+                "ProjectAttributeId": 8565,
+                "AttributeName": "SocialMediaType_A",
+                "AttributeId": 3637,
+                "DisplayAttributeName": "Social Media Type_A",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8566": {
+                "DispalyOrder": "35",
+                "ProjectAttributeId": 8566,
+                "AttributeName": "SocialMediaHandle_B",
+                "AttributeId": 3638,
+                "DisplayAttributeName": "Social Media Handle_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8567": {
+                "DispalyOrder": "36",
+                "ProjectAttributeId": 8567,
+                "AttributeName": "SocialMediaHandle_A",
+                "AttributeId": 3639,
+                "DisplayAttributeName": "Social Media Handle_A",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8568": {
+                "DispalyOrder": "37",
+                "ProjectAttributeId": 8568,
+                "AttributeName": "Ref_URL_SocialMedia",
+                "AttributeId": 3640,
+                "DisplayAttributeName": "Ref_URL_Social Media",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8569": {
+                "DispalyOrder": "38",
+                "ProjectAttributeId": 8569,
+                "AttributeName": "SocialMedia_Status",
+                "AttributeId": 3641,
+                "DisplayAttributeName": "Status",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8570": {
+                "DispalyOrder": "39",
+                "ProjectAttributeId": 8570,
+                "AttributeName": "SocialMedia_Comments",
+                "AttributeId": 3642,
+                "DisplayAttributeName": "Comments",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8571": {
+                "DispalyOrder": "41",
+                "ProjectAttributeId": 8571,
+                "AttributeName": "EmailAddress_B",
+                "AttributeId": 3643,
+                "DisplayAttributeName": "Email Address_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8572": {
+                "DispalyOrder": "42",
+                "ProjectAttributeId": 8572,
+                "AttributeName": "EmailAddress_A",
+                "AttributeId": 3644,
+                "DisplayAttributeName": "Email Address_A",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8573": {
+                "DispalyOrder": "43",
+                "ProjectAttributeId": 8573,
+                "AttributeName": "Ref_URL_EmailAddress",
+                "AttributeId": 3645,
+                "DisplayAttributeName": "Ref_URL_Email Address",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8574": {
+                "DispalyOrder": "44",
+                "ProjectAttributeId": 8574,
+                "AttributeName": "PhoneType_B",
+                "AttributeId": 3646,
+                "DisplayAttributeName": "PhoneType_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8575": {
+                "DispalyOrder": "45",
+                "ProjectAttributeId": 8575,
+                "AttributeName": "PhoneType_A",
+                "AttributeId": 3647,
+                "DisplayAttributeName": "PhoneType_A",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8576": {
+                "DispalyOrder": "46",
+                "ProjectAttributeId": 8576,
+                "AttributeName": "AreaCode_B",
+                "AttributeId": 3648,
+                "DisplayAttributeName": "Area Code_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8577": {
+                "DispalyOrder": "47",
+                "ProjectAttributeId": 8577,
+                "AttributeName": "AreaCode_A",
+                "AttributeId": 3649,
+                "DisplayAttributeName": "Area Code_A",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8578": {
+                "DispalyOrder": "48",
+                "ProjectAttributeId": 8578,
+                "AttributeName": "CityCode_B",
+                "AttributeId": 3650,
+                "DisplayAttributeName": "City Code_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8579": {
+                "DispalyOrder": "49",
+                "ProjectAttributeId": 8579,
+                "AttributeName": "CityCode_A",
+                "AttributeId": 3651,
+                "DisplayAttributeName": "City Code_A",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8580": {
+                "DispalyOrder": "50",
+                "ProjectAttributeId": 8580,
+                "AttributeName": "PhoneNumber_B",
+                "AttributeId": 3652,
+                "DisplayAttributeName": "Phone Number_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8581": {
+                "DispalyOrder": "51",
+                "ProjectAttributeId": 8581,
+                "AttributeName": "PhoneNumber_A",
+                "AttributeId": 3653,
+                "DisplayAttributeName": "Phone Number_A",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8582": {
+                "DispalyOrder": "52",
+                "ProjectAttributeId": 8582,
+                "AttributeName": "CountryCallingCode_B",
+                "AttributeId": 3654,
+                "DisplayAttributeName": "Country Calling Code_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8583": {
+                "DispalyOrder": "53",
+                "ProjectAttributeId": 8583,
+                "AttributeName": "CountryCallingCode_A",
+                "AttributeId": 3655,
+                "DisplayAttributeName": "Country Calling Code_A",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8584": {
+                "DispalyOrder": "54",
+                "ProjectAttributeId": 8584,
+                "AttributeName": "PhoneText_B",
+                "AttributeId": 3656,
+                "DisplayAttributeName": "Phone Text_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8585": {
+                "DispalyOrder": "55",
+                "ProjectAttributeId": 8585,
+                "AttributeName": "PhoneText_A",
+                "AttributeId": 3657,
+                "DisplayAttributeName": "Phone Text_A",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8586": {
+                "DispalyOrder": "56",
+                "ProjectAttributeId": 8586,
+                "AttributeName": "Ref_URL",
+                "AttributeId": 3290,
+                "DisplayAttributeName": "Ref_URL",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8589": {
+                "DispalyOrder": "59",
+                "ProjectAttributeId": 8589,
+                "AttributeName": "Prefix_B",
+                "AttributeId": 3660,
+                "DisplayAttributeName": "Prefix_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8590": {
+                "DispalyOrder": "60",
+                "ProjectAttributeId": 8590,
+                "AttributeName": "Prefix_A",
+                "AttributeId": 3661,
+                "DisplayAttributeName": "Prefix_A",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8591": {
+                "DispalyOrder": "61",
+                "ProjectAttributeId": 8591,
+                "AttributeName": "FirstName_B",
+                "AttributeId": 3662,
+                "DisplayAttributeName": "First Name_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8592": {
+                "DispalyOrder": "62",
+                "ProjectAttributeId": 8592,
+                "AttributeName": "FirstName_A",
+                "AttributeId": 3663,
+                "DisplayAttributeName": "First Name_A",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8593": {
+                "DispalyOrder": "63",
+                "ProjectAttributeId": 8593,
+                "AttributeName": "LastName_B",
+                "AttributeId": 3664,
+                "DisplayAttributeName": "Last Name_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8594": {
+                "DispalyOrder": "64",
+                "ProjectAttributeId": 8594,
+                "AttributeName": "LastName_A",
+                "AttributeId": 3665,
+                "DisplayAttributeName": "Last Name_A",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8595": {
+                "DispalyOrder": "65",
+                "ProjectAttributeId": 8595,
+                "AttributeName": "Suffix_B",
+                "AttributeId": 3666,
+                "DisplayAttributeName": "Suffix_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8596": {
+                "DispalyOrder": "66",
+                "ProjectAttributeId": 8596,
+                "AttributeName": "Suffix_A",
+                "AttributeId": 3667,
+                "DisplayAttributeName": "Suffix_A",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8597": {
+                "DispalyOrder": "67",
+                "ProjectAttributeId": 8597,
+                "AttributeName": "MiddleName_B",
+                "AttributeId": 3668,
+                "DisplayAttributeName": "Middle Name_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8598": {
+                "DispalyOrder": "68",
+                "ProjectAttributeId": 8598,
+                "AttributeName": "EmployeeTitle_B",
+                "AttributeId": 3669,
+                "DisplayAttributeName": "Employee Title_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8599": {
+                "DispalyOrder": "69",
+                "ProjectAttributeId": 8599,
+                "AttributeName": "EmployeeTitle_A",
+                "AttributeId": 3670,
+                "DisplayAttributeName": "Employee Title_A",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8600": {
+                "DispalyOrder": "70",
+                "ProjectAttributeId": 8600,
+                "AttributeName": "Personnel_EmailAddress_B",
+                "AttributeId": 3671,
+                "DisplayAttributeName": "Email Address_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8601": {
+                "DispalyOrder": "71",
+                "ProjectAttributeId": 8601,
+                "AttributeName": "Personnel_EmailAddress_A",
+                "AttributeId": 3672,
+                "DisplayAttributeName": "Email Address_A",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8602": {
+                "DispalyOrder": "72",
+                "ProjectAttributeId": 8602,
+                "AttributeName": "publishing-approval-status",
+                "AttributeId": 3673,
+                "DisplayAttributeName": "publishing-approval-status",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8603": {
+                "DispalyOrder": "73",
+                "ProjectAttributeId": 8603,
+                "AttributeName": "OverallStatus",
+                "AttributeId": 3674,
+                "DisplayAttributeName": "Overall Status",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8604": {
+                "DispalyOrder": "74",
+                "ProjectAttributeId": 8604,
+                "AttributeName": "OverallComments",
+                "AttributeId": 3675,
+                "DisplayAttributeName": "Comments",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "8605": {
+                "DispalyOrder": "75",
+                "ProjectAttributeId": 8605,
+                "AttributeName": "Ref_URL_Personnel",
+                "AttributeId": 3676,
+                "DisplayAttributeName": "Ref_URL_Personnel",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            }
+        }
+    },
+    "ModuleAttributes": {
+        "6": {
+            "6694016": {
+                "production": {
+                    "1": {
+                        "AttributeMasterId": 3658,
+                        "ProjectAttributeMasterId": 8587,
+                        "DispalyOrder": "1",
+                        "DisplayAttributeName": "Personnel_Relationship FDR-id",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Personnel_RelationshipFDR-id",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "2": {
+                        "AttributeMasterId": 3659,
+                        "ProjectAttributeMasterId": 8588,
+                        "DispalyOrder": "2",
+                        "DisplayAttributeName": "Personnel FDR-id",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "PersonnelFDR-id",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "59": {
+                        "AttributeMasterId": 3660,
+                        "ProjectAttributeMasterId": 8589,
+                        "DispalyOrder": "59",
+                        "DisplayAttributeName": "Prefix_B",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Prefix_B",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "60": {
+                        "AttributeMasterId": 3661,
+                        "ProjectAttributeMasterId": 8590,
+                        "DispalyOrder": "60",
+                        "DisplayAttributeName": "Prefix_A",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Prefix_A",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "61": {
+                        "AttributeMasterId": 3662,
+                        "ProjectAttributeMasterId": 8591,
+                        "DispalyOrder": "61",
+                        "DisplayAttributeName": "First Name_B",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "FirstName_B",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "62": {
+                        "AttributeMasterId": 3663,
+                        "ProjectAttributeMasterId": 8592,
+                        "DispalyOrder": "62",
+                        "DisplayAttributeName": "First Name_A",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "FirstName_A",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "63": {
+                        "AttributeMasterId": 3664,
+                        "ProjectAttributeMasterId": 8593,
+                        "DispalyOrder": "63",
+                        "DisplayAttributeName": "Last Name_B",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "LastName_B",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "64": {
+                        "AttributeMasterId": 3665,
+                        "ProjectAttributeMasterId": 8594,
+                        "DispalyOrder": "64",
+                        "DisplayAttributeName": "Last Name_A",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "LastName_A",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "65": {
+                        "AttributeMasterId": 3666,
+                        "ProjectAttributeMasterId": 8595,
+                        "DispalyOrder": "65",
+                        "DisplayAttributeName": "Suffix_B",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Suffix_B",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "66": {
+                        "AttributeMasterId": 3667,
+                        "ProjectAttributeMasterId": 8596,
+                        "DispalyOrder": "66",
+                        "DisplayAttributeName": "Suffix_A",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Suffix_A",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "67": {
+                        "AttributeMasterId": 3668,
+                        "ProjectAttributeMasterId": 8597,
+                        "DispalyOrder": "67",
+                        "DisplayAttributeName": "Middle Name_B",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "MiddleName_B",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "68": {
+                        "AttributeMasterId": 3669,
+                        "ProjectAttributeMasterId": 8598,
+                        "DispalyOrder": "68",
+                        "DisplayAttributeName": "Employee Title_B",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "EmployeeTitle_B",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "69": {
+                        "AttributeMasterId": 3670,
+                        "ProjectAttributeMasterId": 8599,
+                        "DispalyOrder": "69",
+                        "DisplayAttributeName": "Employee Title_A",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "EmployeeTitle_A",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "70": {
+                        "AttributeMasterId": 3671,
+                        "ProjectAttributeMasterId": 8600,
+                        "DispalyOrder": "70",
+                        "DisplayAttributeName": "Email Address_B",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Personnel_EmailAddress_B",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "71": {
+                        "AttributeMasterId": 3672,
+                        "ProjectAttributeMasterId": 8601,
+                        "DispalyOrder": "71",
+                        "DisplayAttributeName": "Email Address_A",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Personnel_EmailAddress_A",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "72": {
+                        "AttributeMasterId": 3673,
+                        "ProjectAttributeMasterId": 8602,
+                        "DispalyOrder": "72",
+                        "DisplayAttributeName": "publishing-approval-status",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "publishing-approval-status",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "73": {
+                        "AttributeMasterId": 3674,
+                        "ProjectAttributeMasterId": 8603,
+                        "DispalyOrder": "73",
+                        "DisplayAttributeName": "Overall Status",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "OverallStatus",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "74": {
+                        "AttributeMasterId": 3675,
+                        "ProjectAttributeMasterId": 8604,
+                        "DispalyOrder": "74",
+                        "DisplayAttributeName": "Comments",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "OverallComments",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "75": {
+                        "AttributeMasterId": 3676,
+                        "ProjectAttributeMasterId": 8605,
+                        "DispalyOrder": "75",
+                        "DisplayAttributeName": "Ref_URL_Personnel",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Ref_URL_Personnel",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    }
+                },
+                "static": {
+                    "1": {
+                        "AttributeMasterId": 3263,
+                        "ProjectAttributeMasterId": 8532,
+                        "DispalyOrder": "1",
+                        "DisplayAttributeName": "FDRID",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "FDRID",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "2": {
+                        "AttributeMasterId": 3605,
+                        "ProjectAttributeMasterId": 8533,
+                        "DispalyOrder": "2",
+                        "DisplayAttributeName": "FDR Organization Name",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "FDROrganizationName",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "3": {
+                        "AttributeMasterId": 3606,
+                        "ProjectAttributeMasterId": 8534,
+                        "DispalyOrder": "3",
+                        "DisplayAttributeName": "Organization Category",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "OrganizationCategory",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    }
+                }
+            },
+            "6694013": {
+                "static": {
+                    "1": {
+                        "AttributeMasterId": 3263,
+                        "ProjectAttributeMasterId": 8532,
+                        "DispalyOrder": "1",
+                        "DisplayAttributeName": "FDRID",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "FDRID",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "2": {
+                        "AttributeMasterId": 3605,
+                        "ProjectAttributeMasterId": 8533,
+                        "DispalyOrder": "2",
+                        "DisplayAttributeName": "FDR Organization Name",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "FDROrganizationName",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "3": {
+                        "AttributeMasterId": 3606,
+                        "ProjectAttributeMasterId": 8534,
+                        "DispalyOrder": "3",
+                        "DisplayAttributeName": "Organization Category",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "OrganizationCategory",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    }
+                },
+                "production": {
+                    "4": {
+                        "AttributeMasterId": 3607,
+                        "ProjectAttributeMasterId": 8535,
+                        "DispalyOrder": "4",
+                        "DisplayAttributeName": "FDR_URL",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "FDR_URL",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "5": {
+                        "AttributeMasterId": 3608,
+                        "ProjectAttributeMasterId": 8536,
+                        "DispalyOrder": "5",
+                        "DisplayAttributeName": "Organization Name_B",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "OrganizationName_B",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "6": {
+                        "AttributeMasterId": 3609,
+                        "ProjectAttributeMasterId": 8537,
+                        "DispalyOrder": "6",
+                        "DisplayAttributeName": "Organization Name_A",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "OrganizationName_A",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "7": {
+                        "AttributeMasterId": 3610,
+                        "ProjectAttributeMasterId": 8538,
+                        "DispalyOrder": "7",
+                        "DisplayAttributeName": "Ref_URL_Organization Name",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Ref_URL_OrganizationName",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "8": {
+                        "AttributeMasterId": 3611,
+                        "ProjectAttributeMasterId": 8539,
+                        "DispalyOrder": "8",
+                        "DisplayAttributeName": "Acronym_B",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Acronym_B",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "9": {
+                        "AttributeMasterId": 3612,
+                        "ProjectAttributeMasterId": 8540,
+                        "DispalyOrder": "9",
+                        "DisplayAttributeName": "Acronym_A",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Acronym_A",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "10": {
+                        "AttributeMasterId": 3613,
+                        "ProjectAttributeMasterId": 8541,
+                        "DispalyOrder": "10",
+                        "DisplayAttributeName": "Ref_URL_Acronym",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Ref_URL_Acronym",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "11": {
+                        "AttributeMasterId": 3614,
+                        "ProjectAttributeMasterId": 8542,
+                        "DispalyOrder": "11",
+                        "DisplayAttributeName": "Address Type_B",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "AddressType_B",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "12": {
+                        "AttributeMasterId": 3615,
+                        "ProjectAttributeMasterId": 8543,
+                        "DispalyOrder": "12",
+                        "DisplayAttributeName": "Address Type_A",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "AddressType_A",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "13": {
+                        "AttributeMasterId": 3616,
+                        "ProjectAttributeMasterId": 8544,
+                        "DispalyOrder": "13",
+                        "DisplayAttributeName": "Main URL Address_B",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "MainURLAddress_B",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "14": {
+                        "AttributeMasterId": 3617,
+                        "ProjectAttributeMasterId": 8545,
+                        "DispalyOrder": "14",
+                        "DisplayAttributeName": "Main URL Address_A",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "MainURLAddress_A",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "15": {
+                        "AttributeMasterId": 3618,
+                        "ProjectAttributeMasterId": 8546,
+                        "DispalyOrder": "15",
+                        "DisplayAttributeName": "Address Status_B",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Address_Status_B",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "16": {
+                        "AttributeMasterId": 3619,
+                        "ProjectAttributeMasterId": 8547,
+                        "DispalyOrder": "16",
+                        "DisplayAttributeName": "Address Status_A",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Address_Status_A",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "17": {
+                        "AttributeMasterId": 3620,
+                        "ProjectAttributeMasterId": 8548,
+                        "DispalyOrder": "17",
+                        "DisplayAttributeName": "Street_B",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Street_B",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "18": {
+                        "AttributeMasterId": 3621,
+                        "ProjectAttributeMasterId": 8549,
+                        "DispalyOrder": "18",
+                        "DisplayAttributeName": "Street_A",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Street_A",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "19": {
+                        "AttributeMasterId": 3622,
+                        "ProjectAttributeMasterId": 8550,
+                        "DispalyOrder": "19",
+                        "DisplayAttributeName": "City_B",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "City_B",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "20": {
+                        "AttributeMasterId": 3623,
+                        "ProjectAttributeMasterId": 8551,
+                        "DispalyOrder": "20",
+                        "DisplayAttributeName": "City_A",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "City_A",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "21": {
+                        "AttributeMasterId": 3624,
+                        "ProjectAttributeMasterId": 8552,
+                        "DispalyOrder": "21",
+                        "DisplayAttributeName": "State_B",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "State_B",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "22": {
+                        "AttributeMasterId": 3625,
+                        "ProjectAttributeMasterId": 8553,
+                        "DispalyOrder": "22",
+                        "DisplayAttributeName": "State_A",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "State_A",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "23": {
+                        "AttributeMasterId": 3626,
+                        "ProjectAttributeMasterId": 8554,
+                        "DispalyOrder": "23",
+                        "DisplayAttributeName": "Country_B",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Country_B",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "24": {
+                        "AttributeMasterId": 3627,
+                        "ProjectAttributeMasterId": 8555,
+                        "DispalyOrder": "24",
+                        "DisplayAttributeName": "Country_A",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Country_A",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "25": {
+                        "AttributeMasterId": 3628,
+                        "ProjectAttributeMasterId": 8556,
+                        "DispalyOrder": "25",
+                        "DisplayAttributeName": "Postal1_B",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Postal1_B",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "26": {
+                        "AttributeMasterId": 3629,
+                        "ProjectAttributeMasterId": 8557,
+                        "DispalyOrder": "26",
+                        "DisplayAttributeName": "Postal1_A",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Postal1_A",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "27": {
+                        "AttributeMasterId": 3630,
+                        "ProjectAttributeMasterId": 8558,
+                        "DispalyOrder": "27",
+                        "DisplayAttributeName": "Subdivision_B",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Subdivision_B",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "28": {
+                        "AttributeMasterId": 3631,
+                        "ProjectAttributeMasterId": 8559,
+                        "DispalyOrder": "28",
+                        "DisplayAttributeName": "Subdivision_A",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Subdivision_A",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "29": {
+                        "AttributeMasterId": 3632,
+                        "ProjectAttributeMasterId": 8560,
+                        "DispalyOrder": "29",
+                        "DisplayAttributeName": "Ref_URL_Address",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Ref_URL_Address",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "30": {
+                        "AttributeMasterId": 3633,
+                        "ProjectAttributeMasterId": 8561,
+                        "DispalyOrder": "30",
+                        "DisplayAttributeName": "Inception Year_B",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "InceptionYear_B",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "31": {
+                        "AttributeMasterId": 3634,
+                        "ProjectAttributeMasterId": 8562,
+                        "DispalyOrder": "31",
+                        "DisplayAttributeName": "Inception Year_A",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "InceptionYear_A",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "32": {
+                        "AttributeMasterId": 3635,
+                        "ProjectAttributeMasterId": 8563,
+                        "DispalyOrder": "32",
+                        "DisplayAttributeName": "Ref_URL_Inception",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Ref_URL_Inception",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "33": {
+                        "AttributeMasterId": 3636,
+                        "ProjectAttributeMasterId": 8564,
+                        "DispalyOrder": "33",
+                        "DisplayAttributeName": "Social Media Type_B",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "SocialMediaType_B",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "34": {
+                        "AttributeMasterId": 3637,
+                        "ProjectAttributeMasterId": 8565,
+                        "DispalyOrder": "34",
+                        "DisplayAttributeName": "Social Media Type_A",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "SocialMediaType_A",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "35": {
+                        "AttributeMasterId": 3638,
+                        "ProjectAttributeMasterId": 8566,
+                        "DispalyOrder": "35",
+                        "DisplayAttributeName": "Social Media Handle_B",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "SocialMediaHandle_B",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "36": {
+                        "AttributeMasterId": 3639,
+                        "ProjectAttributeMasterId": 8567,
+                        "DispalyOrder": "36",
+                        "DisplayAttributeName": "Social Media Handle_A",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "SocialMediaHandle_A",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "37": {
+                        "AttributeMasterId": 3640,
+                        "ProjectAttributeMasterId": 8568,
+                        "DispalyOrder": "37",
+                        "DisplayAttributeName": "Ref_URL_Social Media",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Ref_URL_SocialMedia",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "38": {
+                        "AttributeMasterId": 3641,
+                        "ProjectAttributeMasterId": 8569,
+                        "DispalyOrder": "38",
+                        "DisplayAttributeName": "Status",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "SocialMedia_Status",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "39": {
+                        "AttributeMasterId": 3642,
+                        "ProjectAttributeMasterId": 8570,
+                        "DispalyOrder": "39",
+                        "DisplayAttributeName": "Comments",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "SocialMedia_Comments",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    }
+                }
+            },
+            "6694014": {
+                "static": {
+                    "1": {
+                        "AttributeMasterId": 3263,
+                        "ProjectAttributeMasterId": 8532,
+                        "DispalyOrder": "1",
+                        "DisplayAttributeName": "FDRID",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "FDRID",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "2": {
+                        "AttributeMasterId": 3605,
+                        "ProjectAttributeMasterId": 8533,
+                        "DispalyOrder": "2",
+                        "DisplayAttributeName": "FDR Organization Name",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "FDROrganizationName",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "3": {
+                        "AttributeMasterId": 3606,
+                        "ProjectAttributeMasterId": 8534,
+                        "DispalyOrder": "3",
+                        "DisplayAttributeName": "Organization Category",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "OrganizationCategory",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    }
+                },
+                "production": {
+                    "41": {
+                        "AttributeMasterId": 3643,
+                        "ProjectAttributeMasterId": 8571,
+                        "DispalyOrder": "41",
+                        "DisplayAttributeName": "Email Address_B",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "EmailAddress_B",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "42": {
+                        "AttributeMasterId": 3644,
+                        "ProjectAttributeMasterId": 8572,
+                        "DispalyOrder": "42",
+                        "DisplayAttributeName": "Email Address_A",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "EmailAddress_A",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "43": {
+                        "AttributeMasterId": 3645,
+                        "ProjectAttributeMasterId": 8573,
+                        "DispalyOrder": "43",
+                        "DisplayAttributeName": "Ref_URL_Email Address",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Ref_URL_EmailAddress",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    }
+                }
+            },
+            "6694015": {
+                "static": {
+                    "1": {
+                        "AttributeMasterId": 3263,
+                        "ProjectAttributeMasterId": 8532,
+                        "DispalyOrder": "1",
+                        "DisplayAttributeName": "FDRID",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "FDRID",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "2": {
+                        "AttributeMasterId": 3605,
+                        "ProjectAttributeMasterId": 8533,
+                        "DispalyOrder": "2",
+                        "DisplayAttributeName": "FDR Organization Name",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "FDROrganizationName",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "3": {
+                        "AttributeMasterId": 3606,
+                        "ProjectAttributeMasterId": 8534,
+                        "DispalyOrder": "3",
+                        "DisplayAttributeName": "Organization Category",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "OrganizationCategory",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    }
+                },
+                "production": {
+                    "44": {
+                        "AttributeMasterId": 3646,
+                        "ProjectAttributeMasterId": 8574,
+                        "DispalyOrder": "44",
+                        "DisplayAttributeName": "PhoneType_B",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "PhoneType_B",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "45": {
+                        "AttributeMasterId": 3647,
+                        "ProjectAttributeMasterId": 8575,
+                        "DispalyOrder": "45",
+                        "DisplayAttributeName": "PhoneType_A",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "PhoneType_A",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "46": {
+                        "AttributeMasterId": 3648,
+                        "ProjectAttributeMasterId": 8576,
+                        "DispalyOrder": "46",
+                        "DisplayAttributeName": "Area Code_B",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "AreaCode_B",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "47": {
+                        "AttributeMasterId": 3649,
+                        "ProjectAttributeMasterId": 8577,
+                        "DispalyOrder": "47",
+                        "DisplayAttributeName": "Area Code_A",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "AreaCode_A",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "48": {
+                        "AttributeMasterId": 3650,
+                        "ProjectAttributeMasterId": 8578,
+                        "DispalyOrder": "48",
+                        "DisplayAttributeName": "City Code_B",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "CityCode_B",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "49": {
+                        "AttributeMasterId": 3651,
+                        "ProjectAttributeMasterId": 8579,
+                        "DispalyOrder": "49",
+                        "DisplayAttributeName": "City Code_A",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "CityCode_A",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "50": {
+                        "AttributeMasterId": 3652,
+                        "ProjectAttributeMasterId": 8580,
+                        "DispalyOrder": "50",
+                        "DisplayAttributeName": "Phone Number_B",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "PhoneNumber_B",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "51": {
+                        "AttributeMasterId": 3653,
+                        "ProjectAttributeMasterId": 8581,
+                        "DispalyOrder": "51",
+                        "DisplayAttributeName": "Phone Number_A",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "PhoneNumber_A",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "52": {
+                        "AttributeMasterId": 3654,
+                        "ProjectAttributeMasterId": 8582,
+                        "DispalyOrder": "52",
+                        "DisplayAttributeName": "Country Calling Code_B",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "CountryCallingCode_B",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "53": {
+                        "AttributeMasterId": 3655,
+                        "ProjectAttributeMasterId": 8583,
+                        "DispalyOrder": "53",
+                        "DisplayAttributeName": "Country Calling Code_A",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "CountryCallingCode_A",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "54": {
+                        "AttributeMasterId": 3656,
+                        "ProjectAttributeMasterId": 8584,
+                        "DispalyOrder": "54",
+                        "DisplayAttributeName": "Phone Text_B",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "PhoneText_B",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "55": {
+                        "AttributeMasterId": 3657,
+                        "ProjectAttributeMasterId": 8585,
+                        "DispalyOrder": "55",
+                        "DisplayAttributeName": "Phone Text_A",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "PhoneText_A",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "56": {
+                        "AttributeMasterId": 3290,
+                        "ProjectAttributeMasterId": 8586,
+                        "DispalyOrder": "56",
+                        "DisplayAttributeName": "Ref_URL",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Ref_URL",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    }
+                }
+            }
+        }
+    },
+    "AttributeGroupMaster": {
+        "6694016": {
+            "41": "ProductAttributes"
+        },
+        "6694013": {
+            "41": "ProductAttributes"
+        },
+        "6694014": {
+            "41": "ProductAttributes"
+        },
+        "6694015": {
+            "41": "ProductAttributes"
+        }
+    },
+    "AttributeGroupMasterDirect": {
+        "41": "ProductAttributes"
+    },
+    "ExportAttributeGroupMaster": {
+        "3658": "ProductAttributes",
+        "3659": "ProductAttributes",
+        "3660": "ProductAttributes",
+        "3661": "ProductAttributes",
+        "3662": "ProductAttributes",
+        "3663": "ProductAttributes",
+        "3664": "ProductAttributes",
+        "3665": "ProductAttributes",
+        "3666": "ProductAttributes",
+        "3667": "ProductAttributes",
+        "3668": "ProductAttributes",
+        "3669": "ProductAttributes",
+        "3670": "ProductAttributes",
+        "3671": "ProductAttributes",
+        "3672": "ProductAttributes",
+        "3673": "ProductAttributes",
+        "3674": "ProductAttributes",
+        "3675": "ProductAttributes",
+        "3676": "ProductAttributes",
+        "3263": "ProductAttributes",
+        "3605": "ProductAttributes",
+        "3606": "ProductAttributes",
+        "3607": "ProductAttributes",
+        "3608": "ProductAttributes",
+        "3609": "ProductAttributes",
+        "3610": "ProductAttributes",
+        "3611": "ProductAttributes",
+        "3612": "ProductAttributes",
+        "3613": "ProductAttributes",
+        "3614": "ProductAttributes",
+        "3615": "ProductAttributes",
+        "3616": "ProductAttributes",
+        "3617": "ProductAttributes",
+        "3618": "ProductAttributes",
+        "3619": "ProductAttributes",
+        "3620": "ProductAttributes",
+        "3621": "ProductAttributes",
+        "3622": "ProductAttributes",
+        "3623": "ProductAttributes",
+        "3624": "ProductAttributes",
+        "3625": "ProductAttributes",
+        "3626": "ProductAttributes",
+        "3627": "ProductAttributes",
+        "3628": "ProductAttributes",
+        "3629": "ProductAttributes",
+        "3630": "ProductAttributes",
+        "3631": "ProductAttributes",
+        "3632": "ProductAttributes",
+        "3633": "ProductAttributes",
+        "3634": "ProductAttributes",
+        "3635": "ProductAttributes",
+        "3636": "ProductAttributes",
+        "3637": "ProductAttributes",
+        "3638": "ProductAttributes",
+        "3639": "ProductAttributes",
+        "3640": "ProductAttributes",
+        "3641": "ProductAttributes",
+        "3642": "ProductAttributes",
+        "3643": "ProductAttributes",
+        "3644": "ProductAttributes",
+        "3645": "ProductAttributes",
+        "3646": "ProductAttributes",
+        "3647": "ProductAttributes",
+        "3648": "ProductAttributes",
+        "3649": "ProductAttributes",
+        "3650": "ProductAttributes",
+        "3651": "ProductAttributes",
+        "3652": "ProductAttributes",
+        "3653": "ProductAttributes",
+        "3654": "ProductAttributes",
+        "3655": "ProductAttributes",
+        "3656": "ProductAttributes",
+        "3657": "ProductAttributes",
+        "3290": "ProductAttributes"
+    },
+    "ExportAttributeSubGroupMaster": [],
+    "Menu": {
+        "2": {
+            "Manage Project": {
+                "Delivery Output": "DeliveryExport",
+                "Input Import": "Importinitiates",
+                "Production Dashboard": "ProductionDashBoards",
+                "Production View": "ProductionView"
+            }
+        },
+        "32": {
+            "BasicInfo": {
+                "Basic Info Production": "GetJobCore"
+            }
+        },
+        "34": {
+            "Phone": {
+                "Production": "GetJobCore"
+            }
+        },
+        "35": {
+            "Personnel": {
+                "Production": "GetJobCore"
+            }
+        },
+        "33": {
+            "Location Email": {
+                "Production": "GetJobCore"
+            }
+        }
+    },
+    "ProjectStatus": {
+        "4": "Import Completed",
+        "5": "Import Inprogress",
+        "6": "Personnel Production completed",
+        "7": "Personnel Production Inprogress",
+        "8": "Ready For Personnel",
+        "9": "Phone Production Completed",
+        "10": "Phone Production Inprogress",
+        "11": "Ready For Phone Production",
+        "12": "Location Email Production Completed",
+        "13": "Location Email Production Inprogress",
+        "14": "Ready For Location Email Production",
+        "15": "Base Info Production Completed",
+        "16": "Base Info Production Inprogress",
+        "17": "Ready for Base Info Production"
+    },
+    "ProjectGroupStatus": {
+        "Input Import": {
+            "4": "Import Completed",
+            "5": "Import Inprogress"
+        },
+        "Production": {
+            "6": "Personnel Production completed",
+            "7": "Personnel Production Inprogress",
+            "8": "Ready For Personnel",
+            "9": "Phone Production Completed",
+            "10": "Phone Production Inprogress",
+            "11": "Ready For Phone Production",
+            "12": "Location Email Production Completed",
+            "13": "Location Email Production Inprogress",
+            "14": "Ready For Location Email Production",
+            "15": "Base Info Production Completed",
+            "16": "Base Info Production Inprogress",
+            "17": "Ready for Base Info Production"
+        }
+    },
+    "Module": {
+        "141": "Manage Project",
+        "6694013": "BasicInfo",
+        "6694014": "Location Email",
+        "6694015": "Phone",
+        "6694016": "Personnel",
+        "128": "PU Queries"
+    },
+    "ModuleConfig": {
+        "141": {
+            "IsInputMandatory": 1,
+            "IsHistoryTrack": 2,
+            "IsUrlMonitoring": null,
+            "IsAllowedToDisplay": null,
+            "IsModuleGroup": null,
+            "IsHygineCheck": null
+        },
+        "6694013": {
+            "IsInputMandatory": 1,
+            "IsHistoryTrack": 2,
+            "IsUrlMonitoring": null,
+            "IsAllowedToDisplay": 1,
+            "IsModuleGroup": null,
+            "IsHygineCheck": null
+        },
+        "6694014": {
+            "IsInputMandatory": 1,
+            "IsHistoryTrack": 2,
+            "IsUrlMonitoring": null,
+            "IsAllowedToDisplay": 1,
+            "IsModuleGroup": null,
+            "IsHygineCheck": null
+        },
+        "6694015": {
+            "IsInputMandatory": 1,
+            "IsHistoryTrack": 2,
+            "IsUrlMonitoring": 0,
+            "IsAllowedToDisplay": 1,
+            "IsModuleGroup": null,
+            "IsHygineCheck": null
+        },
+        "6694016": {
+            "IsInputMandatory": 1,
+            "IsHistoryTrack": 2,
+            "IsUrlMonitoring": 0,
+            "IsAllowedToDisplay": 1,
+            "IsModuleGroup": null,
+            "IsHygineCheck": null
+        },
+        "128": {
+            "IsInputMandatory": 1,
+            "IsHistoryTrack": 2,
+            "IsUrlMonitoring": null,
+            "IsAllowedToDisplay": null,
+            "IsModuleGroup": null,
+            "IsHygineCheck": null
+        }
+    },
+    "ModuleUser": {
+        "141": {
+            "98811": {
+                "Id": 98811,
+                "Username": "cengageTL"
+            }
+        },
+        "6694013": {
+            "98823": {
+                "Id": 98823,
+                "Username": "cengagebasicinfouser"
+            }
+        },
+        "6694014": {
+            "98835": {
+                "Id": 98835,
+                "Username": "cengagelocuser"
+            }
+        },
+        "6694015": {
+            "98836": {
+                "Id": 98836,
+                "Username": "cengagephuser"
+            }
+        },
+        "6694016": {
+            "98837": {
+                "Id": 98837,
+                "Username": "cengageperuser"
+            }
+        }
+    },
+    "ModuleStatusList": {
+        "6694013": [
+            "Ready for Base Info Production",
+            "Base Info Production Inprogress",
+            "Base Info Production Completed"
+        ],
+        "6694014": [
+            "Ready For Location Email Production",
+            "Location Email Production Inprogress",
+            "Location Email Production Completed"
+        ],
+        "6694015": [
+            "Ready For Phone Production",
+            "Phone Production Inprogress",
+            "Phone Production Completed"
+        ],
+        "6694016": [
+            "Ready For Personnel",
+            "Personnel Production Inprogress",
+            "Personnel Production completed"
+        ]
+    },
+    "ModuleStatus": {
+        "6694013": {
+            "4": {
+                "ModuleId": 6694013,
+                "ModStatus": "Ready for Base Info Production",
+                "ModuleStatusIdentifier": "ReadyforBaseInfoProduction",
+                "StatusId": 4,
+                "FromStatus": "Import Completed"
+            },
+            "17": {
+                "ModuleId": 6694013,
+                "ModStatus": "Base Info Production Inprogress",
+                "ModuleStatusIdentifier": "BaseInfoProductionInprogress",
+                "StatusId": 17,
+                "FromStatus": "Ready for Base Info Production"
+            },
+            "16": {
+                "ModuleId": 6694013,
+                "ModStatus": "Base Info Production Completed",
+                "ModuleStatusIdentifier": "BaseInfoProductionCompleted",
+                "StatusId": 16,
+                "FromStatus": "Base Info Production Inprogress"
+            }
+        },
+        "6694014": {
+            "15": {
+                "ModuleId": 6694014,
+                "ModStatus": "Ready For Location Email Production",
+                "ModuleStatusIdentifier": "ReadyForLocationEmailProduction",
+                "StatusId": 15,
+                "FromStatus": "Base Info Production Completed"
+            },
+            "14": {
+                "ModuleId": 6694014,
+                "ModStatus": "Location Email Production Inprogress",
+                "ModuleStatusIdentifier": "LocationEmailProductionInprogress",
+                "StatusId": 14,
+                "FromStatus": "Ready For Location Email Production"
+            },
+            "13": {
+                "ModuleId": 6694014,
+                "ModStatus": "Location Email Production Completed",
+                "ModuleStatusIdentifier": "LocationEmailProductionCompleted",
+                "StatusId": 13,
+                "FromStatus": "Location Email Production Inprogress"
+            }
+        },
+        "6694015": {
+            "15": {
+                "ModuleId": 6694015,
+                "ModStatus": "Ready For Phone Production",
+                "ModuleStatusIdentifier": "ReadyForPhoneProduction",
+                "StatusId": 15,
+                "FromStatus": "Base Info Production Completed"
+            },
+            "11": {
+                "ModuleId": 6694015,
+                "ModStatus": "Phone Production Inprogress",
+                "ModuleStatusIdentifier": "ReadyforHOOProduction",
+                "StatusId": 11,
+                "FromStatus": "Ready For Phone Production"
+            },
+            "10": {
+                "ModuleId": 6694015,
+                "ModStatus": "Phone Production Completed",
+                "ModuleStatusIdentifier": "PhoneProductionCompleted",
+                "StatusId": 10,
+                "FromStatus": "Phone Production Inprogress"
+            }
+        },
+        "6694016": {
+            "15": {
+                "ModuleId": 6694016,
+                "ModStatus": "Ready For Personnel",
+                "ModuleStatusIdentifier": "ReadyForPersonnel",
+                "StatusId": 15,
+                "FromStatus": "Base Info Production Completed"
+            },
+            "8": {
+                "ModuleId": 6694016,
+                "ModStatus": "Personnel Production Inprogress",
+                "ModuleStatusIdentifier": "PersonnelProductionInprogress",
+                "StatusId": 8,
+                "FromStatus": "Ready For Personnel"
+            },
+            "7": {
+                "ModuleId": 6694016,
+                "ModStatus": "Personnel Production completed",
+                "ModuleStatusIdentifier": "PersonnelProductioncompleted",
+                "StatusId": 7,
+                "FromStatus": "Personnel Production Inprogress"
+            }
+        }
+    },
+    "ModuleStatus_Navigation": {
+        "4": [
+            "Ready for Base Info Production",
+            17
+        ],
+        "17": [
+            "Base Info Production Inprogress",
+            16
+        ],
+        "16": [
+            "Base Info Production Completed",
+            15
+        ],
+        "15": [
+            "Ready For Location Email Production",
+            14,
+            [
+                "Ready For Personnel",
+                8
+            ]
+        ],
+        "14": [
+            "Location Email Production Inprogress",
+            13
+        ],
+        "13": [
+            "Location Email Production Completed",
+            12
+        ],
+        "11": [
+            "Phone Production Inprogress",
+            10
+        ],
+        "10": [
+            "Phone Production Completed",
+            9
+        ],
+        "8": [
+            "Personnel Production Inprogress",
+            7
+        ],
+        "7": [
+            "Personnel Production completed",
+            6
+        ]
+    },
+    "ProjectConfig": {
+        "DomainId": "3263",
+        "DomainUrl": "3607",
+        "ProdDB_PageLimit": "100",
+        "ProductionView": "1",
+        "HygineCheck": ""
+    },
+    "UserGroups": {
+        "6": "Team 1",
+        "7": "Team 2",
+        "8": "YP Group",
+        "1008": "Factset Group",
+        "1009": "LE Group",
+        "1010": "cengagenpo",
+        "1011": "NPO",
+        "1012": "MojoCengage",
+        "1013": "Content Aggregation Group",
+        "1014": "Vessel Enrichment Group"
+    }
+}

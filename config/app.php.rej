@@ -1,0 +1,12 @@
+diff a/config/app.php b/config/app.php	(rejected hunks)
+@@ -232,8 +232,8 @@
+            // 'port' => '1433',
+             'username' => 'mojouser',
+ 
+-            'password' => 'Mojo@user8690',
+-            'database' => 'Demo_D2k_Mojo',
++            'password' => 'Mojo@user201',
++            'database' => 'D2K_Mojo_Entity_Validation',
+             'encoding' => PDO::SQLSRV_ENCODING_UTF8,
+             'timezone' => 'IST',
+             'flags' => [],

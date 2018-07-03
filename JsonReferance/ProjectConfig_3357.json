@@ -1,0 +1,878 @@
+{
+    "3357": "Clarksons_Vessel_Position",
+    "UserList": {
+        "1": "admin",
+        "91822": "userone",
+        "99079": "demouser",
+        "99080": "demoTL"
+    },
+    "UserListRole": {
+        "91822_31": "userone (Production User)",
+        "99079_31": "demouser (Production User)",
+        "99080_3": "demoTL (Team Leader)"
+    },
+    "RegionList": {
+        "1011": "No Region"
+    },
+    "AttributeList": {
+        "1011": [
+            11209,
+            11210,
+            11211,
+            11212,
+            11213,
+            10967,
+            10968,
+            10969,
+            10970,
+            10971,
+            10972,
+            10973,
+            10974,
+            10975,
+            10976,
+            10977,
+            10978,
+            10979,
+            10980,
+            10981,
+            10982,
+            10983,
+            10984,
+            10985,
+            10986,
+            10987,
+            11214,
+            11215,
+            10993,
+            10992
+        ]
+    },
+    "AttributeOrder": {
+        "1011": {
+            "11209": {
+                "DispalyOrder": "1",
+                "ProjectAttributeId": 11209,
+                "AttributeName": "FDRID",
+                "AttributeId": 3263,
+                "DisplayAttributeName": "INPUT_ID",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "11210": {
+                "DispalyOrder": "2",
+                "ProjectAttributeId": 11210,
+                "AttributeName": "DESK_NAME",
+                "AttributeId": 4598,
+                "DisplayAttributeName": "DESK_NAME",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "11211": {
+                "DispalyOrder": "3",
+                "ProjectAttributeId": 11211,
+                "AttributeName": "INPUT_FILE_NAME",
+                "AttributeId": 4599,
+                "DisplayAttributeName": "INPUT_FILE_NAME",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "11212": {
+                "DispalyOrder": "4",
+                "ProjectAttributeId": 11212,
+                "AttributeName": "EMAIL_SUBJECT",
+                "AttributeId": 4600,
+                "DisplayAttributeName": "EMAIL_SUBJECT",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "11213": {
+                "DispalyOrder": "5",
+                "ProjectAttributeId": 11213,
+                "AttributeName": "EMAIL_DATE_TIME",
+                "AttributeId": 4601,
+                "DisplayAttributeName": "EMAIL_DATE_TIME",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "10967": {
+                "DispalyOrder": "6",
+                "ProjectAttributeId": 10967,
+                "AttributeName": "VESSEL_NAME",
+                "AttributeId": 4602,
+                "DisplayAttributeName": "Vessel Name",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "10968": {
+                "DispalyOrder": "7",
+                "ProjectAttributeId": 10968,
+                "AttributeName": "VESSEL_POSITION_OPEN",
+                "AttributeId": 4603,
+                "DisplayAttributeName": "Vessel Position Open",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "10969": {
+                "DispalyOrder": "8",
+                "ProjectAttributeId": 10969,
+                "AttributeName": "VESSEL_POSITION_DATE",
+                "AttributeId": 4604,
+                "DisplayAttributeName": "Vessel Position Date",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "10970": {
+                "DispalyOrder": "9",
+                "ProjectAttributeId": 10970,
+                "AttributeName": "VESSEL_TYPE",
+                "AttributeId": 4605,
+                "DisplayAttributeName": "Vessel Type",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "10971": {
+                "DispalyOrder": "10",
+                "ProjectAttributeId": 10971,
+                "AttributeName": "IMO_NUMBER",
+                "AttributeId": 4606,
+                "DisplayAttributeName": "IMO Number",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "10972": {
+                "DispalyOrder": "11",
+                "ProjectAttributeId": 10972,
+                "AttributeName": "LOA",
+                "AttributeId": 4607,
+                "DisplayAttributeName": "LOA",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "10973": {
+                "DispalyOrder": "12",
+                "ProjectAttributeId": 10973,
+                "AttributeName": "BEAM",
+                "AttributeId": 4608,
+                "DisplayAttributeName": "Beam",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "10974": {
+                "DispalyOrder": "13",
+                "ProjectAttributeId": 10974,
+                "AttributeName": "DWT",
+                "AttributeId": 4609,
+                "DisplayAttributeName": "DWT",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "10975": {
+                "DispalyOrder": "14",
+                "ProjectAttributeId": 10975,
+                "AttributeName": "DRAFT",
+                "AttributeId": 4610,
+                "DisplayAttributeName": "Draft",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "10976": {
+                "DispalyOrder": "15",
+                "ProjectAttributeId": 10976,
+                "AttributeName": "BLT",
+                "AttributeId": 4611,
+                "DisplayAttributeName": "BLT",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "10977": {
+                "DispalyOrder": "16",
+                "ProjectAttributeId": 10977,
+                "AttributeName": "TPC",
+                "AttributeId": 4612,
+                "DisplayAttributeName": "TPC",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "10978": {
+                "DispalyOrder": "17",
+                "ProjectAttributeId": 10978,
+                "AttributeName": "GRT",
+                "AttributeId": 4613,
+                "DisplayAttributeName": "GRT",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "10979": {
+                "DispalyOrder": "18",
+                "ProjectAttributeId": 10979,
+                "AttributeName": "NRT",
+                "AttributeId": 4614,
+                "DisplayAttributeName": "NRT",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "10980": {
+                "DispalyOrder": "19",
+                "ProjectAttributeId": 10980,
+                "AttributeName": "CARGO_CAPACITY_GRAIN",
+                "AttributeId": 4615,
+                "DisplayAttributeName": "Cargo Capacity Grain",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "10981": {
+                "DispalyOrder": "20",
+                "ProjectAttributeId": 10981,
+                "AttributeName": "CARGO_CAPACITY_BALE",
+                "AttributeId": 4616,
+                "DisplayAttributeName": "Cargo Capacity Bale",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "10982": {
+                "DispalyOrder": "21",
+                "ProjectAttributeId": 10982,
+                "AttributeName": "CARGO_CAPACITY",
+                "AttributeId": 4617,
+                "DisplayAttributeName": "Cargo Capacity",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "10983": {
+                "DispalyOrder": "22",
+                "ProjectAttributeId": 10983,
+                "AttributeName": "BROKER_NAME",
+                "AttributeId": 4618,
+                "DisplayAttributeName": "Broker Name",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "10984": {
+                "DispalyOrder": "23",
+                "ProjectAttributeId": 10984,
+                "AttributeName": "BROKER_ADDRESS",
+                "AttributeId": 4619,
+                "DisplayAttributeName": "Broker Address",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "10985": {
+                "DispalyOrder": "24",
+                "ProjectAttributeId": 10985,
+                "AttributeName": "BROKER_TELEPHONE",
+                "AttributeId": 4620,
+                "DisplayAttributeName": "Broker Telephone",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "10986": {
+                "DispalyOrder": "25",
+                "ProjectAttributeId": 10986,
+                "AttributeName": "BROKER_MOBILE",
+                "AttributeId": 4621,
+                "DisplayAttributeName": "Broker Mobile",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "10987": {
+                "DispalyOrder": "26",
+                "ProjectAttributeId": 10987,
+                "AttributeName": "BROKER_FAX",
+                "AttributeId": 4622,
+                "DisplayAttributeName": "Broker Fax",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "11214": {
+                "DispalyOrder": "27",
+                "ProjectAttributeId": 11214,
+                "AttributeName": "BROKER_EMAIL",
+                "AttributeId": 4623,
+                "DisplayAttributeName": "BROKER_EMAIL",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "11215": {
+                "DispalyOrder": "28",
+                "ProjectAttributeId": 11215,
+                "AttributeName": "BROKER_WEBSITE",
+                "AttributeId": 4624,
+                "DisplayAttributeName": "BROKER_WEBSITE",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "10993": {
+                "DispalyOrder": "31",
+                "ProjectAttributeId": 10993,
+                "AttributeName": "SPEED_CONSUMPTION",
+                "AttributeId": 4626,
+                "DisplayAttributeName": "SPEED_CONSUMPTION",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "10992": {
+                "DispalyOrder": "32",
+                "ProjectAttributeId": 10992,
+                "AttributeName": "OWNER_NAME",
+                "AttributeId": 4625,
+                "DisplayAttributeName": "OWNER_NAME",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            }
+        }
+    },
+    "ModuleAttributes": {
+        "1011": {
+            "6694022": {
+                "static": {
+                    "1": {
+                        "AttributeMasterId": 3263,
+                        "ProjectAttributeMasterId": 11209,
+                        "DispalyOrder": "1",
+                        "DisplayAttributeName": "INPUT_ID",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "FDRID",
+                        "MainGroupId": 265,
+                        "SubGroupId": 0
+                    },
+                    "2": {
+                        "AttributeMasterId": 4598,
+                        "ProjectAttributeMasterId": 11210,
+                        "DispalyOrder": "2",
+                        "DisplayAttributeName": "DESK_NAME",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "DESK_NAME",
+                        "MainGroupId": 262,
+                        "SubGroupId": 0
+                    },
+                    "3": {
+                        "AttributeMasterId": 4599,
+                        "ProjectAttributeMasterId": 11211,
+                        "DispalyOrder": "3",
+                        "DisplayAttributeName": "INPUT_FILE_NAME",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "INPUT_FILE_NAME",
+                        "MainGroupId": 262,
+                        "SubGroupId": 0
+                    },
+                    "4": {
+                        "AttributeMasterId": 4600,
+                        "ProjectAttributeMasterId": 11212,
+                        "DispalyOrder": "4",
+                        "DisplayAttributeName": "EMAIL_SUBJECT",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "EMAIL_SUBJECT",
+                        "MainGroupId": 262,
+                        "SubGroupId": 0
+                    },
+                    "5": {
+                        "AttributeMasterId": 4601,
+                        "ProjectAttributeMasterId": 11213,
+                        "DispalyOrder": "5",
+                        "DisplayAttributeName": "EMAIL_DATE_TIME",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "EMAIL_DATE_TIME",
+                        "MainGroupId": 262,
+                        "SubGroupId": 0
+                    }
+                },
+                "production": {
+                    "6": {
+                        "AttributeMasterId": 4602,
+                        "ProjectAttributeMasterId": 10967,
+                        "DispalyOrder": "6",
+                        "DisplayAttributeName": "Vessel Name",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "VESSEL_NAME",
+                        "MainGroupId": 264,
+                        "SubGroupId": 0
+                    },
+                    "7": {
+                        "AttributeMasterId": 4603,
+                        "ProjectAttributeMasterId": 10968,
+                        "DispalyOrder": "7",
+                        "DisplayAttributeName": "Vessel Position Open",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "VESSEL_POSITION_OPEN",
+                        "MainGroupId": 264,
+                        "SubGroupId": 0
+                    },
+                    "8": {
+                        "AttributeMasterId": 4604,
+                        "ProjectAttributeMasterId": 10969,
+                        "DispalyOrder": "8",
+                        "DisplayAttributeName": "Vessel Position Date",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "VESSEL_POSITION_DATE",
+                        "MainGroupId": 264,
+                        "SubGroupId": 0
+                    },
+                    "9": {
+                        "AttributeMasterId": 4605,
+                        "ProjectAttributeMasterId": 10970,
+                        "DispalyOrder": "9",
+                        "DisplayAttributeName": "Vessel Type",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "VESSEL_TYPE",
+                        "MainGroupId": 264,
+                        "SubGroupId": 0
+                    },
+                    "10": {
+                        "AttributeMasterId": 4606,
+                        "ProjectAttributeMasterId": 10971,
+                        "DispalyOrder": "10",
+                        "DisplayAttributeName": "IMO Number",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "IMO_NUMBER",
+                        "MainGroupId": 264,
+                        "SubGroupId": 0
+                    },
+                    "11": {
+                        "AttributeMasterId": 4607,
+                        "ProjectAttributeMasterId": 10972,
+                        "DispalyOrder": "11",
+                        "DisplayAttributeName": "LOA",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "LOA",
+                        "MainGroupId": 264,
+                        "SubGroupId": 0
+                    },
+                    "12": {
+                        "AttributeMasterId": 4608,
+                        "ProjectAttributeMasterId": 10973,
+                        "DispalyOrder": "12",
+                        "DisplayAttributeName": "Beam",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "BEAM",
+                        "MainGroupId": 264,
+                        "SubGroupId": 0
+                    },
+                    "13": {
+                        "AttributeMasterId": 4609,
+                        "ProjectAttributeMasterId": 10974,
+                        "DispalyOrder": "13",
+                        "DisplayAttributeName": "DWT",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "DWT",
+                        "MainGroupId": 264,
+                        "SubGroupId": 0
+                    },
+                    "14": {
+                        "AttributeMasterId": 4610,
+                        "ProjectAttributeMasterId": 10975,
+                        "DispalyOrder": "14",
+                        "DisplayAttributeName": "Draft",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "DRAFT",
+                        "MainGroupId": 264,
+                        "SubGroupId": 0
+                    },
+                    "15": {
+                        "AttributeMasterId": 4611,
+                        "ProjectAttributeMasterId": 10976,
+                        "DispalyOrder": "15",
+                        "DisplayAttributeName": "BLT",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "BLT",
+                        "MainGroupId": 264,
+                        "SubGroupId": 0
+                    },
+                    "16": {
+                        "AttributeMasterId": 4612,
+                        "ProjectAttributeMasterId": 10977,
+                        "DispalyOrder": "16",
+                        "DisplayAttributeName": "TPC",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "TPC",
+                        "MainGroupId": 263,
+                        "SubGroupId": 0
+                    },
+                    "17": {
+                        "AttributeMasterId": 4613,
+                        "ProjectAttributeMasterId": 10978,
+                        "DispalyOrder": "17",
+                        "DisplayAttributeName": "GRT",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "GRT",
+                        "MainGroupId": 263,
+                        "SubGroupId": 0
+                    },
+                    "18": {
+                        "AttributeMasterId": 4614,
+                        "ProjectAttributeMasterId": 10979,
+                        "DispalyOrder": "18",
+                        "DisplayAttributeName": "NRT",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "NRT",
+                        "MainGroupId": 263,
+                        "SubGroupId": 0
+                    },
+                    "19": {
+                        "AttributeMasterId": 4615,
+                        "ProjectAttributeMasterId": 10980,
+                        "DispalyOrder": "19",
+                        "DisplayAttributeName": "Cargo Capacity Grain",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "CARGO_CAPACITY_GRAIN",
+                        "MainGroupId": 263,
+                        "SubGroupId": 0
+                    },
+                    "20": {
+                        "AttributeMasterId": 4616,
+                        "ProjectAttributeMasterId": 10981,
+                        "DispalyOrder": "20",
+                        "DisplayAttributeName": "Cargo Capacity Bale",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "CARGO_CAPACITY_BALE",
+                        "MainGroupId": 263,
+                        "SubGroupId": 0
+                    },
+                    "21": {
+                        "AttributeMasterId": 4617,
+                        "ProjectAttributeMasterId": 10982,
+                        "DispalyOrder": "21",
+                        "DisplayAttributeName": "Cargo Capacity",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "CARGO_CAPACITY",
+                        "MainGroupId": 263,
+                        "SubGroupId": 0
+                    },
+                    "22": {
+                        "AttributeMasterId": 4618,
+                        "ProjectAttributeMasterId": 10983,
+                        "DispalyOrder": "22",
+                        "DisplayAttributeName": "Broker Name",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "BROKER_NAME",
+                        "MainGroupId": 265,
+                        "SubGroupId": 0
+                    },
+                    "23": {
+                        "AttributeMasterId": 4619,
+                        "ProjectAttributeMasterId": 10984,
+                        "DispalyOrder": "23",
+                        "DisplayAttributeName": "Broker Address",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "BROKER_ADDRESS",
+                        "MainGroupId": 265,
+                        "SubGroupId": 0
+                    },
+                    "24": {
+                        "AttributeMasterId": 4620,
+                        "ProjectAttributeMasterId": 10985,
+                        "DispalyOrder": "24",
+                        "DisplayAttributeName": "Broker Telephone",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "BROKER_TELEPHONE",
+                        "MainGroupId": 265,
+                        "SubGroupId": 0
+                    },
+                    "25": {
+                        "AttributeMasterId": 4621,
+                        "ProjectAttributeMasterId": 10986,
+                        "DispalyOrder": "25",
+                        "DisplayAttributeName": "Broker Mobile",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "BROKER_MOBILE",
+                        "MainGroupId": 265,
+                        "SubGroupId": 0
+                    },
+                    "26": {
+                        "AttributeMasterId": 4622,
+                        "ProjectAttributeMasterId": 10987,
+                        "DispalyOrder": "26",
+                        "DisplayAttributeName": "Broker Fax",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "BROKER_FAX",
+                        "MainGroupId": 265,
+                        "SubGroupId": 0
+                    },
+                    "27": {
+                        "AttributeMasterId": 4623,
+                        "ProjectAttributeMasterId": 11214,
+                        "DispalyOrder": "27",
+                        "DisplayAttributeName": "BROKER_EMAIL",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "BROKER_EMAIL",
+                        "MainGroupId": 265,
+                        "SubGroupId": 0
+                    },
+                    "28": {
+                        "AttributeMasterId": 4624,
+                        "ProjectAttributeMasterId": 11215,
+                        "DispalyOrder": "28",
+                        "DisplayAttributeName": "BROKER_WEBSITE",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "BROKER_WEBSITE",
+                        "MainGroupId": 265,
+                        "SubGroupId": 0
+                    }
+                }
+            }
+        }
+    },
+    "AttributeGroupMaster": {
+        "6694022": {
+            "264": "Vessel Details",
+            "263": "Cargo Details",
+            "265": "Broker"
+        }
+    },
+    "AttributeGroupMasterDirect": {
+        "264": "Vessel Details",
+        "263": "Cargo Details",
+        "265": "Broker"
+    },
+    "ExportAttributeGroupMaster": {
+        "3263": "Broker",
+        "4598": "Email Details",
+        "4599": "Email Details",
+        "4600": "Email Details",
+        "4601": "Email Details",
+        "4602": "Vessel Details",
+        "4603": "Vessel Details",
+        "4604": "Vessel Details",
+        "4605": "Vessel Details",
+        "4606": "Vessel Details",
+        "4607": "Vessel Details",
+        "4608": "Vessel Details",
+        "4609": "Vessel Details",
+        "4610": "Vessel Details",
+        "4611": "Vessel Details",
+        "4612": "Cargo Details",
+        "4613": "Cargo Details",
+        "4614": "Cargo Details",
+        "4615": "Cargo Details",
+        "4616": "Cargo Details",
+        "4617": "Cargo Details",
+        "4618": "Broker",
+        "4619": "Broker",
+        "4620": "Broker",
+        "4621": "Broker",
+        "4622": "Broker",
+        "4623": "Broker",
+        "4624": "Broker"
+    },
+    "ExportAttributeSubGroupMaster": [],
+    "Menu": {
+        "3": {
+            "Manage Project": {
+                "Input Import": "Importinitiates",
+                "Production Dashboard": "ProductionDashBoards"
+            }
+        },
+        "31": {
+            "Vessel Enrichment": {
+                "Production": "getjobcore"
+            }
+        }
+    },
+    "ProjectStatus": {
+        "1": "Production Query",
+        "2": "Ready for QC",
+        "3": "Ready for Production",
+        "4": "Production Inprogress",
+        "5": "Production Completed",
+        "6": "Import Completed"
+    },
+    "ProjectGroupStatus": {
+        "Input Import": {
+            "6": "Import Completed"
+        },
+        "Production": {
+            "1": "Production Query",
+            "3": "Ready for Production",
+            "4": "Production Inprogress"
+        },
+        "Ready for QC": {
+            "5": "Production Completed"
+        },
+        "QC In Progress": {
+            "2": "Ready for QC"
+        }
+    },
+    "Module": {
+        "141": "Manage Project",
+        "6694022": "Vessel Enrichment",
+        "128": "PU Queries"
+    },
+    "ModuleConfig": {
+        "141": {
+            "IsInputMandatory": 2,
+            "IsHistoryTrack": 2,
+            "IsUrlMonitoring": null,
+            "IsAllowedToDisplay": null,
+            "IsModuleGroup": null,
+            "IsHygineCheck": 0
+        },
+        "6694022": {
+            "IsInputMandatory": 1,
+            "IsHistoryTrack": 1,
+            "IsUrlMonitoring": 1,
+            "IsAllowedToDisplay": 1,
+            "IsModuleGroup": 1,
+            "IsHygineCheck": null
+        },
+        "128": {
+            "IsInputMandatory": 2,
+            "IsHistoryTrack": 1,
+            "IsUrlMonitoring": null,
+            "IsAllowedToDisplay": null,
+            "IsModuleGroup": null,
+            "IsHygineCheck": 0
+        }
+    },
+    "ModuleUser": {
+        "141": {
+            "99080": {
+                "Id": 99080,
+                "Username": "demoTL"
+            }
+        },
+        "6694022": {
+            "91822": {
+                "Id": 91822,
+                "Username": "userone"
+            },
+            "99079": {
+                "Id": 99079,
+                "Username": "demouser"
+            }
+        }
+    },
+    "ModuleStatusList": {
+        "6694022": [
+            "Ready for Production",
+            "Production Inprogress",
+            "Production Completed",
+            "Production Query"
+        ]
+    },
+    "ModuleStatus": {
+        "6694022": {
+            "1": {
+                "ModuleId": 6694022,
+                "ModStatus": "Production Query",
+                "ModuleStatusIdentifier": "ProductionQuery",
+                "StatusId": 1,
+                "FromStatus": "Production Query"
+            },
+            "4": {
+                "ModuleId": 6694022,
+                "ModStatus": "Production Completed",
+                "ModuleStatusIdentifier": "ProductionCompleted",
+                "StatusId": 4,
+                "FromStatus": "Production Inprogress"
+            },
+            "3": {
+                "ModuleId": 6694022,
+                "ModStatus": "Production Inprogress",
+                "ModuleStatusIdentifier": "ProductionInprogress",
+                "StatusId": 3,
+                "FromStatus": "Ready for Production"
+            },
+            "6": {
+                "ModuleId": 6694022,
+                "ModStatus": "Ready for Production",
+                "ModuleStatusIdentifier": "ReadyforProduction",
+                "StatusId": 6,
+                "FromStatus": "Import Completed"
+            }
+        }
+    },
+    "ModuleStatus_Navigation": {
+        "1": [
+            "Production Query",
+            1
+        ],
+        "4": [
+            "Production Completed",
+            5
+        ],
+        "3": [
+            "Production Inprogress",
+            4
+        ],
+        "6": [
+            "Ready for Production",
+            3
+        ]
+    },
+    "ProjectConfig": {
+        "DomainId": "3263",
+        "DomainUrl": "4623",
+        "InputId": "4599",
+        "ProdDB_PageLimit": "20",
+        "ProductionView": "3",
+        "HygineCheck": ""
+    },
+    "UserGroups": {
+        "6": "Team 1",
+        "7": "Team 2",
+        "8": "YP Group",
+        "1008": "Factset Group",
+        "1009": "LE Group",
+        "1010": "cengagenpo",
+        "1011": "NPO",
+        "1012": "MojoCengage",
+        "1013": "Content Aggregation Group",
+        "1014": "Vessel Enrichment Group"
+    }
+}

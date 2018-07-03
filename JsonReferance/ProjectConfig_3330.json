@@ -1,0 +1,747 @@
+{
+    "3330": "LN_ADMV_Test",
+    "UserList": {
+        "1": "admin",
+        "98624": "lntesttl",
+        "98625": "lntestuser"
+    },
+    "UserListRole": {
+        "98624_3": "lntesttl (Team Leader)",
+        "98625_31": "lntestuser (Production User)"
+    },
+    "RegionList": {
+        "1011": "No Region"
+    },
+    "AttributeList": {
+        "1011": [
+            8424,
+            8426,
+            8427,
+            8428,
+            8429,
+            8430,
+            8431,
+            8432,
+            8433,
+            8434,
+            8435,
+            8436,
+            8437,
+            8438,
+            8439,
+            8440,
+            8441,
+            8442,
+            8443
+        ]
+    },
+    "AttributeOrder": {
+        "1011": {
+            "8424": {
+                "DispalyOrder": "1",
+                "ProjectAttributeId": 8424,
+                "AttributeName": "FDR ID",
+                "AttributeId": 3541,
+                "DisplayAttributeName": "FDR ID",
+                "IsDistinct": 1,
+                "ControlName": "Label"
+            },
+            "8426": {
+                "DispalyOrder": "3",
+                "ProjectAttributeId": 8426,
+                "AttributeName": "Country",
+                "AttributeId": 263,
+                "DisplayAttributeName": "Country",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "8427": {
+                "DispalyOrder": "4",
+                "ProjectAttributeId": 8427,
+                "AttributeName": "URL",
+                "AttributeId": 4688,
+                "DisplayAttributeName": "URL",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "8428": {
+                "DispalyOrder": "5",
+                "ProjectAttributeId": 8428,
+                "AttributeName": "Personnel_ID",
+                "AttributeId": 3242,
+                "DisplayAttributeName": "Personnel_ID",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "8429": {
+                "DispalyOrder": "6",
+                "ProjectAttributeId": 8429,
+                "AttributeName": "First_Name",
+                "AttributeId": 3542,
+                "DisplayAttributeName": "First_Name",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "8430": {
+                "DispalyOrder": "7",
+                "ProjectAttributeId": 8430,
+                "AttributeName": "Middle_Name",
+                "AttributeId": 2061,
+                "DisplayAttributeName": "Middle_Name",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "8431": {
+                "DispalyOrder": "8",
+                "ProjectAttributeId": 8431,
+                "AttributeName": "Last_Name",
+                "AttributeId": 2062,
+                "DisplayAttributeName": "Last_Name",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "8432": {
+                "DispalyOrder": "9",
+                "ProjectAttributeId": 8432,
+                "AttributeName": "Suffix",
+                "AttributeId": 722,
+                "DisplayAttributeName": "Suffix",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "8433": {
+                "DispalyOrder": "10",
+                "ProjectAttributeId": 8433,
+                "AttributeName": "Exec_Title",
+                "AttributeId": 3543,
+                "DisplayAttributeName": "Exec_Title",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "8434": {
+                "DispalyOrder": "11",
+                "ProjectAttributeId": 8434,
+                "AttributeName": "Custom_Title",
+                "AttributeId": 3544,
+                "DisplayAttributeName": "Custom_Title",
+                "IsDistinct": 1,
+                "ControlName": "DropDownList",
+                "Options": [
+                    "A",
+                    "D",
+                    "M",
+                    "V",
+                    "X",
+                    "PT"
+                ],
+                "OptionsWithKey": {
+                    "169": "A",
+                    "170": "D",
+                    "171": "M",
+                    "172": "V",
+                    "173": "X",
+                    "174": "PT"
+                }
+            },
+            "8435": {
+                "DispalyOrder": "12",
+                "ProjectAttributeId": 8435,
+                "AttributeName": "Exec_Email",
+                "AttributeId": 3545,
+                "DisplayAttributeName": "Exec_Email",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "8436": {
+                "DispalyOrder": "13",
+                "ProjectAttributeId": 8436,
+                "AttributeName": "Disp",
+                "AttributeId": 3546,
+                "DisplayAttributeName": "Disp",
+                "IsDistinct": 1,
+                "ControlName": "DropDownList",
+                "Options": [
+                    "A",
+                    "D",
+                    "M",
+                    "V",
+                    "X",
+                    "PT"
+                ],
+                "OptionsWithKey": {
+                    "175": "A",
+                    "176": "D",
+                    "177": "M",
+                    "178": "V",
+                    "179": "X",
+                    "180": "PT"
+                }
+            },
+            "8437": {
+                "DispalyOrder": "14",
+                "ProjectAttributeId": 8437,
+                "AttributeName": "Last_Verified_Date",
+                "AttributeId": 3547,
+                "DisplayAttributeName": "Last_Verified_Date",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "8438": {
+                "DispalyOrder": "15",
+                "ProjectAttributeId": 8438,
+                "AttributeName": "Board_Ind",
+                "AttributeId": 3548,
+                "DisplayAttributeName": "Board_Ind",
+                "IsDistinct": 1,
+                "ControlName": "DropDownList",
+                "Options": [
+                    "N",
+                    "Y"
+                ],
+                "OptionsWithKey": {
+                    "181": "N",
+                    "182": "Y"
+                }
+            },
+            "8439": {
+                "DispalyOrder": "16",
+                "ProjectAttributeId": 8439,
+                "AttributeName": "Title_Type",
+                "AttributeId": 3549,
+                "DisplayAttributeName": "Title_Type",
+                "IsDistinct": 1,
+                "ControlName": "DropDownList",
+                "Options": [
+                    "B",
+                    "D",
+                    "V",
+                    "T",
+                    "P"
+                ],
+                "OptionsWithKey": {
+                    "183": "B",
+                    "184": "D",
+                    "185": "V",
+                    "186": "T",
+                    "187": "P"
+                }
+            },
+            "8440": {
+                "DispalyOrder": "17",
+                "ProjectAttributeId": 8440,
+                "AttributeName": "Chairman_Ind",
+                "AttributeId": 3550,
+                "DisplayAttributeName": "Chairman_Ind",
+                "IsDistinct": 1,
+                "ControlName": "DropDownList",
+                "Options": [
+                    "N",
+                    "Y"
+                ],
+                "OptionsWithKey": {
+                    "188": "N",
+                    "189": "Y"
+                }
+            },
+            "8441": {
+                "DispalyOrder": "18",
+                "ProjectAttributeId": 8441,
+                "AttributeName": "SOURCE_URL",
+                "AttributeId": 4772,
+                "DisplayAttributeName": "SOURCE_URL",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "8442": {
+                "DispalyOrder": "19",
+                "ProjectAttributeId": 8442,
+                "AttributeName": "Remark",
+                "AttributeId": 3551,
+                "DisplayAttributeName": "Remark",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "8443": {
+                "DispalyOrder": "20",
+                "ProjectAttributeId": 8443,
+                "AttributeName": "Comments",
+                "AttributeId": 4474,
+                "DisplayAttributeName": "Comments",
+                "IsDistinct": 1,
+                "ControlName": "MultiTextBox"
+            }
+        }
+    },
+    "ModuleAttributes": {
+        "1011": {
+            "148": {
+                "static": {
+                    "1": {
+                        "AttributeMasterId": 3541,
+                        "ProjectAttributeMasterId": 8424,
+                        "DispalyOrder": "1",
+                        "DisplayAttributeName": "FDR ID",
+                        "IsDistinct": 1,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "FDR ID",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "4": {
+                        "AttributeMasterId": 3351,
+                        "ProjectAttributeMasterId": 8427,
+                        "DispalyOrder": "4",
+                        "DisplayAttributeName": "URL",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "URL",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    }
+                },
+                "production": {
+                    "3": {
+                        "AttributeMasterId": 263,
+                        "ProjectAttributeMasterId": 8426,
+                        "DispalyOrder": "3",
+                        "DisplayAttributeName": "Country",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Country",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "5": {
+                        "AttributeMasterId": 3242,
+                        "ProjectAttributeMasterId": 8428,
+                        "DispalyOrder": "5",
+                        "DisplayAttributeName": "Personnel_ID",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Personnel_ID",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "6": {
+                        "AttributeMasterId": 3542,
+                        "ProjectAttributeMasterId": 8429,
+                        "DispalyOrder": "6",
+                        "DisplayAttributeName": "First_Name",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "First_Name",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "7": {
+                        "AttributeMasterId": 2061,
+                        "ProjectAttributeMasterId": 8430,
+                        "DispalyOrder": "7",
+                        "DisplayAttributeName": "Middle_Name",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Middle_Name",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "8": {
+                        "AttributeMasterId": 2062,
+                        "ProjectAttributeMasterId": 8431,
+                        "DispalyOrder": "8",
+                        "DisplayAttributeName": "Last_Name",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Last_Name",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "9": {
+                        "AttributeMasterId": 722,
+                        "ProjectAttributeMasterId": 8432,
+                        "DispalyOrder": "9",
+                        "DisplayAttributeName": "Suffix",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Suffix",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "10": {
+                        "AttributeMasterId": 3543,
+                        "ProjectAttributeMasterId": 8433,
+                        "DispalyOrder": "10",
+                        "DisplayAttributeName": "Exec_Title",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Exec_Title",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "11": {
+                        "AttributeMasterId": 3544,
+                        "ProjectAttributeMasterId": 8434,
+                        "DispalyOrder": "11",
+                        "DisplayAttributeName": "Custom_Title",
+                        "IsDistinct": 1,
+                        "ControlName": "DropDownList",
+                        "Options": [
+                            "A",
+                            "D",
+                            "M",
+                            "V",
+                            "X",
+                            "PT"
+                        ],
+                        "AttributeName": "Custom_Title",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "12": {
+                        "AttributeMasterId": 3545,
+                        "ProjectAttributeMasterId": 8435,
+                        "DispalyOrder": "12",
+                        "DisplayAttributeName": "Exec_Email",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Exec_Email",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "13": {
+                        "AttributeMasterId": 3546,
+                        "ProjectAttributeMasterId": 8436,
+                        "DispalyOrder": "13",
+                        "DisplayAttributeName": "Disp",
+                        "IsDistinct": 1,
+                        "ControlName": "DropDownList",
+                        "Options": [
+                            "A",
+                            "D",
+                            "M",
+                            "V",
+                            "X",
+                            "PT"
+                        ],
+                        "AttributeName": "Disp",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "14": {
+                        "AttributeMasterId": 3547,
+                        "ProjectAttributeMasterId": 8437,
+                        "DispalyOrder": "14",
+                        "DisplayAttributeName": "Last_Verified_Date",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Last_Verified_Date",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "15": {
+                        "AttributeMasterId": 3548,
+                        "ProjectAttributeMasterId": 8438,
+                        "DispalyOrder": "15",
+                        "DisplayAttributeName": "Board_Ind",
+                        "IsDistinct": 1,
+                        "ControlName": "DropDownList",
+                        "Options": [
+                            "N",
+                            "Y"
+                        ],
+                        "AttributeName": "Board_Ind",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "16": {
+                        "AttributeMasterId": 3549,
+                        "ProjectAttributeMasterId": 8439,
+                        "DispalyOrder": "16",
+                        "DisplayAttributeName": "Title_Type",
+                        "IsDistinct": 1,
+                        "ControlName": "DropDownList",
+                        "Options": [
+                            "B",
+                            "D",
+                            "V",
+                            "T",
+                            "P"
+                        ],
+                        "AttributeName": "Title_Type",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "17": {
+                        "AttributeMasterId": 3550,
+                        "ProjectAttributeMasterId": 8440,
+                        "DispalyOrder": "17",
+                        "DisplayAttributeName": "Chairman_Ind",
+                        "IsDistinct": 1,
+                        "ControlName": "DropDownList",
+                        "Options": [
+                            "N",
+                            "Y"
+                        ],
+                        "AttributeName": "Chairman_Ind",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "18": {
+                        "AttributeMasterId": 3079,
+                        "ProjectAttributeMasterId": 8441,
+                        "DispalyOrder": "18",
+                        "DisplayAttributeName": "SOURCE_URL",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "SOURCE_URL",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "19": {
+                        "AttributeMasterId": 3551,
+                        "ProjectAttributeMasterId": 8442,
+                        "DispalyOrder": "19",
+                        "DisplayAttributeName": "Remark",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Remark",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "20": {
+                        "AttributeMasterId": 3367,
+                        "ProjectAttributeMasterId": 8443,
+                        "DispalyOrder": "20",
+                        "DisplayAttributeName": "Comments",
+                        "IsDistinct": 1,
+                        "ControlName": "MultiTextBox",
+                        "Options": null,
+                        "AttributeName": "Comments",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    }
+                }
+            }
+        }
+    },
+    "AttributeGroupMaster": {
+        "148": {
+            "41": "ProductAttributes"
+        }
+    },
+    "AttributeGroupMasterDirect": {
+        "41": "ProductAttributes"
+    },
+    "ExportAttributeGroupMaster": {
+        "3541": "ProductAttributes",
+        "3351": "ProductAttributes",
+        "263": "ProductAttributes",
+        "3242": "ProductAttributes",
+        "3542": "ProductAttributes",
+        "2061": "ProductAttributes",
+        "2062": "ProductAttributes",
+        "722": "ProductAttributes",
+        "3543": "ProductAttributes",
+        "3544": "ProductAttributes",
+        "3545": "ProductAttributes",
+        "3546": "ProductAttributes",
+        "3547": "ProductAttributes",
+        "3548": "ProductAttributes",
+        "3549": "ProductAttributes",
+        "3550": "ProductAttributes",
+        "3079": "ProductAttributes",
+        "3551": "ProductAttributes",
+        "3367": "ProductAttributes"
+    },
+    "ExportAttributeSubGroupMaster": [],
+    "Menu": {
+        "3": {
+            "Manage Project": {
+                "Delivery Output": "DeliveryExport",
+                "Input Import": "Importinitiates",
+                "Production Dashboard": "ProductionDashBoards",
+                "Production View": "ProductionView",
+                "Manage Users": "UserGroupMapping"
+            },
+            "Queries": {
+                "PU Query": "puquery"
+            }
+        },
+        "31": {
+            "Manage Project": {
+                "Production View": "ProductionView"
+            },
+            "Core": {
+                "Production": "Getjobcore"
+            }
+        }
+    },
+    "ProjectStatus": {
+        "1": "Core Query",
+        "2": "Core Production Completed",
+        "3": "Core Production Inprogress",
+        "4": "Ready for Core Production",
+        "5": "Import Completed",
+        "6": "Import in Progress"
+    },
+    "ProjectGroupStatus": {
+        "Import": {
+            "5": "Import Completed",
+            "6": "Import in Progress"
+        },
+        "LN": {
+            "3": "Core Production Inprogress",
+            "4": "Ready for Core Production"
+        },
+        "Production Completed": {
+            "2": "Core Production Completed"
+        },
+        "Query": {
+            "1": "Core Query"
+        }
+    },
+    "Module": {
+        "141": "Manage Project",
+        "148": "Core",
+        "140": "Queries"
+    },
+    "ModuleConfig": {
+        "141": {
+            "IsInputMandatory": 1,
+            "IsHistoryTrack": 1,
+            "IsUrlMonitoring": null,
+            "IsAllowedToDisplay": null,
+            "IsModuleGroup": null,
+            "IsHygineCheck": null
+        },
+        "148": {
+            "IsInputMandatory": 1,
+            "IsHistoryTrack": 1,
+            "IsUrlMonitoring": null,
+            "IsAllowedToDisplay": 1,
+            "IsModuleGroup": null,
+            "IsHygineCheck": null
+        },
+        "140": {
+            "IsInputMandatory": 1,
+            "IsHistoryTrack": 1,
+            "IsUrlMonitoring": null,
+            "IsAllowedToDisplay": null,
+            "IsModuleGroup": null,
+            "IsHygineCheck": null
+        }
+    },
+    "ModuleUser": {
+        "141": {
+            "98624": {
+                "Id": 98624,
+                "Username": "lntesttl"
+            },
+            "98625": {
+                "Id": 98625,
+                "Username": "lntestuser"
+            }
+        },
+        "148": {
+            "98625": {
+                "Id": 98625,
+                "Username": "lntestuser"
+            }
+        },
+        "140": {
+            "98624": {
+                "Id": 98624,
+                "Username": "lntesttl"
+            }
+        }
+    },
+    "ModuleStatusList": {
+        "148": [
+            "Ready for Core Production",
+            "Core Production Inprogress",
+            "Core Production Completed",
+            "Core Query"
+        ]
+    },
+    "ModuleStatus": {
+        "148": {
+            "5": {
+                "ModuleId": 148,
+                "ModStatus": "Ready for Core Production",
+                "ModuleStatusIdentifier": "ReadyforCoreProduction",
+                "StatusId": 5,
+                "FromStatus": "Import Completed"
+            },
+            "4": {
+                "ModuleId": 148,
+                "ModStatus": "Core Production Inprogress",
+                "ModuleStatusIdentifier": "CoreProductionInprogress",
+                "StatusId": 4,
+                "FromStatus": "Ready for Core Production"
+            },
+            "3": {
+                "ModuleId": 148,
+                "ModStatus": "Core Production Completed",
+                "ModuleStatusIdentifier": "CoreProductionCompleted",
+                "StatusId": 3,
+                "FromStatus": "Core Production Inprogress"
+            },
+            "1": {
+                "ModuleId": 148,
+                "ModStatus": "Core Query",
+                "ModuleStatusIdentifier": "CoreQuery",
+                "StatusId": 1,
+                "FromStatus": "Core Query"
+            }
+        }
+    },
+    "ModuleStatus_Navigation": {
+        "5": [
+            "Ready for Core Production",
+            4
+        ],
+        "4": [
+            "Core Production Inprogress",
+            3
+        ],
+        "3": [
+            "Core Production Completed",
+            2
+        ],
+        "1": [
+            "Core Query",
+            1
+        ]
+    },
+    "ProjectConfig": {
+        "DomainId": "3541",
+        "DomainUrl": "3351",
+        "ProdDB_PageLimit": "150",
+        "ProductionView": "1",
+        "HygineCheck": ""
+    },
+    "UserGroups": {
+        "6": "Team 1",
+        "7": "Team 2",
+        "8": "YP Group",
+        "1008": "Factset Group",
+        "1009": "LE Group",
+        "1010": "cengagenpo",
+        "1011": "NPO",
+        "1012": "MojoCengage",
+        "1013": "Content Aggregation Group",
+        "1014": "Vessel Enrichment Group"
+    }
+}

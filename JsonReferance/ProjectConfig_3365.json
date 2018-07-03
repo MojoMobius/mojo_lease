@@ -1,0 +1,433 @@
+{
+    "3365": "Infogroup_wwebsite",
+    "UserList": {
+        "1": "admin",
+        "12007": "manikandanm",
+        "99736": "Manju",
+        "99755": "tharani"
+    },
+    "UserListRole": {
+        "12007_": "manikandanm ()",
+        "99736_31": "Manju (Production User)",
+        "99755_3": "tharani (Team Leader)"
+    },
+    "RegionList": {
+        "1011": "No Region"
+    },
+    "AttributeList": {
+        "1011": [
+            11475,
+            11474,
+            11476,
+            11477,
+            11478,
+            11479,
+            11480,
+            11481,
+            11482,
+            11483
+        ]
+    },
+    "AttributeOrder": {
+        "1011": {
+            "11475": {
+                "DispalyOrder": "1",
+                "ProjectAttributeId": 11475,
+                "AttributeName": "FDRID",
+                "AttributeId": 3263,
+                "DisplayAttributeName": "MOB ID",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "11474": {
+                "DispalyOrder": "2",
+                "ProjectAttributeId": 11474,
+                "AttributeName": "Company_Name",
+                "AttributeId": 236,
+                "DisplayAttributeName": "Company Name",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "11476": {
+                "DispalyOrder": "3",
+                "ProjectAttributeId": 11476,
+                "AttributeName": "Address_one",
+                "AttributeId": 4983,
+                "DisplayAttributeName": "Address one",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "11477": {
+                "DispalyOrder": "4",
+                "ProjectAttributeId": 11477,
+                "AttributeName": "Address_two",
+                "AttributeId": 4984,
+                "DisplayAttributeName": "Address two",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "11478": {
+                "DispalyOrder": "5",
+                "ProjectAttributeId": 11478,
+                "AttributeName": "City",
+                "AttributeId": 3356,
+                "DisplayAttributeName": "City",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "11479": {
+                "DispalyOrder": "6",
+                "ProjectAttributeId": 11479,
+                "AttributeName": "State",
+                "AttributeId": 3357,
+                "DisplayAttributeName": "State",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "11480": {
+                "DispalyOrder": "7",
+                "ProjectAttributeId": 11480,
+                "AttributeName": "Zip_code",
+                "AttributeId": 3358,
+                "DisplayAttributeName": "Zip code",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "11481": {
+                "DispalyOrder": "8",
+                "ProjectAttributeId": 11481,
+                "AttributeName": "Country",
+                "AttributeId": 263,
+                "DisplayAttributeName": "Country",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "11482": {
+                "DispalyOrder": "9",
+                "ProjectAttributeId": 11482,
+                "AttributeName": "Phone_Number",
+                "AttributeId": 580,
+                "DisplayAttributeName": "Phone Number",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "11483": {
+                "DispalyOrder": "10",
+                "ProjectAttributeId": 11483,
+                "AttributeName": "URL",
+                "AttributeId": 4688,
+                "DisplayAttributeName": "URL",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            }
+        }
+    },
+    "ModuleAttributes": {
+        "1011": {
+            "6694028": {
+                "static": {
+                    "1": {
+                        "AttributeMasterId": 3263,
+                        "ProjectAttributeMasterId": 11475,
+                        "DispalyOrder": "1",
+                        "DisplayAttributeName": "MOB ID",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "FDRID",
+                        "MainGroupId": 29,
+                        "SubGroupId": 0
+                    },
+                    "10": {
+                        "AttributeMasterId": 4688,
+                        "ProjectAttributeMasterId": 11483,
+                        "DispalyOrder": "10",
+                        "DisplayAttributeName": "URL",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "URL",
+                        "MainGroupId": 29,
+                        "SubGroupId": 0
+                    }
+                },
+                "production": {
+                    "2": {
+                        "AttributeMasterId": 236,
+                        "ProjectAttributeMasterId": 11474,
+                        "DispalyOrder": "2",
+                        "DisplayAttributeName": "Company Name",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Company_Name",
+                        "MainGroupId": 310,
+                        "SubGroupId": 0
+                    },
+                    "3": {
+                        "AttributeMasterId": 4983,
+                        "ProjectAttributeMasterId": 11476,
+                        "DispalyOrder": "3",
+                        "DisplayAttributeName": "Address one",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Address_one",
+                        "MainGroupId": 29,
+                        "SubGroupId": 0
+                    },
+                    "4": {
+                        "AttributeMasterId": 4984,
+                        "ProjectAttributeMasterId": 11477,
+                        "DispalyOrder": "4",
+                        "DisplayAttributeName": "Address two",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Address_two",
+                        "MainGroupId": 29,
+                        "SubGroupId": 0
+                    },
+                    "5": {
+                        "AttributeMasterId": 3356,
+                        "ProjectAttributeMasterId": 11478,
+                        "DispalyOrder": "5",
+                        "DisplayAttributeName": "City",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "City",
+                        "MainGroupId": 29,
+                        "SubGroupId": 0
+                    },
+                    "6": {
+                        "AttributeMasterId": 3357,
+                        "ProjectAttributeMasterId": 11479,
+                        "DispalyOrder": "6",
+                        "DisplayAttributeName": "State",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "State",
+                        "MainGroupId": 29,
+                        "SubGroupId": 0
+                    },
+                    "7": {
+                        "AttributeMasterId": 3358,
+                        "ProjectAttributeMasterId": 11480,
+                        "DispalyOrder": "7",
+                        "DisplayAttributeName": "Zip code",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Zip_code",
+                        "MainGroupId": 29,
+                        "SubGroupId": 0
+                    },
+                    "8": {
+                        "AttributeMasterId": 263,
+                        "ProjectAttributeMasterId": 11481,
+                        "DispalyOrder": "8",
+                        "DisplayAttributeName": "Country",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Country",
+                        "MainGroupId": 29,
+                        "SubGroupId": 0
+                    },
+                    "9": {
+                        "AttributeMasterId": 580,
+                        "ProjectAttributeMasterId": 11482,
+                        "DispalyOrder": "9",
+                        "DisplayAttributeName": "Phone Number",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Phone_Number",
+                        "MainGroupId": 311,
+                        "SubGroupId": 0
+                    }
+                }
+            }
+        }
+    },
+    "AttributeGroupMaster": {
+        "6694028": {
+            "310": "Name",
+            "29": "Address",
+            "311": "Phone Number"
+        }
+    },
+    "AttributeGroupMasterDirect": {
+        "310": "Name",
+        "29": "Address",
+        "311": "Phone Number"
+    },
+    "ExportAttributeGroupMaster": {
+        "3263": "Address",
+        "4688": "Address",
+        "236": "Name",
+        "4983": "Address",
+        "4984": "Address",
+        "3356": "Address",
+        "3357": "Address",
+        "3358": "Address",
+        "263": "Address",
+        "580": "Phone Number"
+    },
+    "ExportAttributeSubGroupMaster": [],
+    "Menu": {
+        "3": {
+            "Manage Project": {
+                "Delivery Output": "DeliveryExport",
+                "Input Import": "Importinitiates"
+            }
+        },
+        "31": {
+            "Infogroup International": {
+                "Production": "GetJobCore"
+            }
+        }
+    },
+    "ProjectStatus": {
+        "1": "Production Inprogress",
+        "2": "Ready for Production",
+        "3": "Import Completed",
+        "4": "Production Completed",
+        "5": "Production Query"
+    },
+    "ProjectGroupStatus": {
+        "Import": {
+            "3": "Import Completed"
+        },
+        "Production": {
+            "1": "Production Inprogress",
+            "2": "Ready for Production",
+            "4": "Production Completed",
+            "5": "Production Query"
+        }
+    },
+    "Module": {
+        "6694017": "NPO Production",
+        "141": "Manage Project",
+        "6694028": "Infogroup International"
+    },
+    "ModuleStatusList": {
+        "6694017": [
+            "Ready for Production",
+            "Production Inprogress",
+            "Production Completed",
+            "Production Query"
+        ],
+        "6694028": [
+            "Ready for Production",
+            "Production Inprogress",
+            "Production Completed",
+            "Production Query"
+        ]
+    },
+    "ModuleConfig": {
+        "6694017": {
+            "IsInputMandatory": 2,
+            "IsHistoryTrack": 2,
+            "IsUrlMonitoring": null,
+            "IsAllowedToDisplay": null,
+            "IsModuleGroup": null,
+            "IsHygineCheck": 0
+        },
+        "141": {
+            "IsInputMandatory": 2,
+            "IsHistoryTrack": 2,
+            "IsUrlMonitoring": null,
+            "IsAllowedToDisplay": null,
+            "IsModuleGroup": null,
+            "IsHygineCheck": 0
+        },
+        "6694028": {
+            "IsInputMandatory": 1,
+            "IsHistoryTrack": 1,
+            "IsUrlMonitoring": null,
+            "IsAllowedToDisplay": 1,
+            "IsModuleGroup": 1,
+            "IsHygineCheck": 0
+        }
+    },
+    "ModuleUser": {
+        "141": {
+            "99755": {
+                "Id": 99755,
+                "Username": "tharani"
+            }
+        },
+        "6694028": {
+            "99736": {
+                "Id": 99736,
+                "Username": "Manju"
+            }
+        }
+    },
+    "ModuleStatus": {
+        "6694028": {
+            "3": {
+                "ModuleId": 6694028,
+                "ModStatus": "Ready for Production",
+                "ModuleStatusIdentifier": "ReadyforProduction",
+                "StatusId": 3,
+                "FromStatus": "Import Completed"
+            },
+            "2": {
+                "ModuleId": 6694028,
+                "ModStatus": "Production Inprogress",
+                "ModuleStatusIdentifier": "ProductionInprogress",
+                "StatusId": 2,
+                "FromStatus": "Ready for Production"
+            },
+            "1": {
+                "ModuleId": 6694028,
+                "ModStatus": "Production Query",
+                "ModuleStatusIdentifier": "ProductionQuery",
+                "StatusId": 1,
+                "FromStatus": "Production Inprogress"
+            }
+        }
+    },
+    "ModuleStatus_Navigation": {
+        "3": [
+            "Ready for Production",
+            2
+        ],
+        "2": [
+            "Production Inprogress",
+            1
+        ],
+        "1": [
+            "Production Completed",
+            4,
+            [
+                "Production Query",
+                5
+            ]
+        ]
+    },
+    "ProjectConfig": {
+        "DomainId": "3263",
+        "DomainUrl": "4688",
+        "InputId": "3358",
+        "ProdDB_PageLimit": "100",
+        "ProductionView": "3",
+        "HygineCheck": ""
+    },
+    "UserGroups": {
+        "6": "Team 1",
+        "7": "Team 2",
+        "8": "YP Group",
+        "1008": "Factset Group",
+        "1009": "LE Group",
+        "1010": "cengagenpo",
+        "1011": "NPO",
+        "1012": "MojoCengage",
+        "1013": "Content Aggregation Group",
+        "1014": "Vessel Enrichment Group"
+    }
+}

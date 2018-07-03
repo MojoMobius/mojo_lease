@@ -1,0 +1,1215 @@
+{
+    "3347": "RNI",
+    "UserList": {
+        "1": "admin"
+    },
+    "RegionList": {
+        "1011": "No Region"
+    },
+    "AttributeList": {
+        "1011": [
+            10342,
+            10343,
+            10344,
+            10346,
+            10347,
+            10454,
+            10349,
+            10350,
+            10455,
+            10418,
+            10417,
+            10419,
+            10356,
+            10357,
+            10420,
+            10474,
+            10475,
+            10476,
+            10421,
+            10422,
+            10423,
+            10424,
+            10425,
+            10426,
+            10427,
+            10428,
+            10429,
+            10430,
+            10431,
+            10432,
+            10433,
+            10434,
+            10435,
+            10436,
+            10437,
+            10438,
+            10439,
+            10440,
+            10441,
+            10442,
+            10443,
+            10444,
+            10445,
+            10446,
+            10447,
+            10448,
+            10449,
+            10450,
+            10451,
+            10452,
+            10453,
+            10371,
+            10372,
+            10456,
+            10457,
+            10458,
+            10381,
+            10382,
+            10459,
+            10374,
+            10375,
+            10460,
+            10376,
+            10377,
+            10461,
+            10384,
+            10385,
+            10462,
+            10386,
+            10387,
+            10463,
+            10388,
+            10389,
+            10464,
+            10390,
+            10391,
+            10465,
+            10392,
+            10393,
+            10466,
+            10394,
+            10395,
+            10467,
+            10397,
+            10398,
+            10399,
+            10400,
+            10468,
+            10401,
+            10402,
+            10469,
+            10407,
+            10416,
+            10477,
+            10403,
+            10404,
+            10470,
+            10405,
+            10406,
+            10471,
+            10408,
+            10409,
+            10472,
+            10410,
+            10411,
+            10473,
+            10412,
+            10413,
+            10414
+        ]
+    },
+    "AttributeOrder": {
+        "1011": {
+            "10342": {
+                "DispalyOrder": "1",
+                "ProjectAttributeId": 10342,
+                "AttributeName": "FDRID",
+                "AttributeId": 3263,
+                "DisplayAttributeName": "FDRID",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "10343": {
+                "DispalyOrder": "2",
+                "ProjectAttributeId": 10343,
+                "AttributeName": "FDROrganizationName",
+                "AttributeId": 3605,
+                "DisplayAttributeName": "FDR Organization Name",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "10344": {
+                "DispalyOrder": "3",
+                "ProjectAttributeId": 10344,
+                "AttributeName": "OrganizationCategory",
+                "AttributeId": 3606,
+                "DisplayAttributeName": "Organization Category",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "10346": {
+                "DispalyOrder": "4",
+                "ProjectAttributeId": 10346,
+                "AttributeName": "OrganizationName_B",
+                "AttributeId": 3608,
+                "DisplayAttributeName": "OrganizationName_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "10347": {
+                "DispalyOrder": "5",
+                "ProjectAttributeId": 10347,
+                "AttributeName": "OrganizationName_A",
+                "AttributeId": 3609,
+                "DisplayAttributeName": "Organization Name_A",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "10454": {
+                "DispalyOrder": "6",
+                "ProjectAttributeId": 10454,
+                "AttributeName": "Disposition_Organization Name",
+                "AttributeId": 3898,
+                "DisplayAttributeName": "Disposition_Organization Name",
+                "IsDistinct": 0,
+                "ControlName": "DropDownList"
+            },
+            "10349": {
+                "DispalyOrder": "7",
+                "ProjectAttributeId": 10349,
+                "AttributeName": "Acronym_B",
+                "AttributeId": 3611,
+                "DisplayAttributeName": "Acronym_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "10350": {
+                "DispalyOrder": "8",
+                "ProjectAttributeId": 10350,
+                "AttributeName": "Acronym_A",
+                "AttributeId": 3612,
+                "DisplayAttributeName": "Acronym_A",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "10455": {
+                "DispalyOrder": "9",
+                "ProjectAttributeId": 10455,
+                "AttributeName": "Disposition_Acronym",
+                "AttributeId": 3899,
+                "DisplayAttributeName": "Disposition_Acronym",
+                "IsDistinct": 0,
+                "ControlName": "DropDownList"
+            },
+            "10418": {
+                "DispalyOrder": "10",
+                "ProjectAttributeId": 10418,
+                "AttributeName": "Main URL Address_B",
+                "AttributeId": 3862,
+                "DisplayAttributeName": "Main URL Address_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "10417": {
+                "DispalyOrder": "11",
+                "ProjectAttributeId": 10417,
+                "AttributeName": "Main URL Address_A",
+                "AttributeId": 3861,
+                "DisplayAttributeName": "Main URL Address_A",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "10419": {
+                "DispalyOrder": "12",
+                "ProjectAttributeId": 10419,
+                "AttributeName": "Disposition_Main URL Address",
+                "AttributeId": 3863,
+                "DisplayAttributeName": "Disposition_Main URL Address",
+                "IsDistinct": 0,
+                "ControlName": "DropDownList"
+            },
+            "10356": {
+                "DispalyOrder": "13",
+                "ProjectAttributeId": 10356,
+                "AttributeName": "Address_Status_B",
+                "AttributeId": 3618,
+                "DisplayAttributeName": "Address Status_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "10357": {
+                "DispalyOrder": "14",
+                "ProjectAttributeId": 10357,
+                "AttributeName": "Address_Status_A",
+                "AttributeId": 3619,
+                "DisplayAttributeName": "Address Status_A",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "10420": {
+                "DispalyOrder": "15",
+                "ProjectAttributeId": 10420,
+                "AttributeName": "Disposition_Address Status",
+                "AttributeId": 3864,
+                "DisplayAttributeName": "Disposition_Address Status",
+                "IsDistinct": 0,
+                "ControlName": "DropDownList"
+            },
+            "10474": {
+                "DispalyOrder": "16",
+                "ProjectAttributeId": 10474,
+                "AttributeName": "Mailing Street_B",
+                "AttributeId": 3917,
+                "DisplayAttributeName": "Mailing Street_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "10475": {
+                "DispalyOrder": "17",
+                "ProjectAttributeId": 10475,
+                "AttributeName": "Mailing Street_A",
+                "AttributeId": 3918,
+                "DisplayAttributeName": "Mailing Street_A",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "10476": {
+                "DispalyOrder": "18",
+                "ProjectAttributeId": 10476,
+                "AttributeName": "Disposition_Mailing Street",
+                "AttributeId": 3919,
+                "DisplayAttributeName": "Disposition_Mailing Street",
+                "IsDistinct": 0,
+                "ControlName": "DropDownList"
+            },
+            "10421": {
+                "DispalyOrder": "19",
+                "ProjectAttributeId": 10421,
+                "AttributeName": "Mailing City_B",
+                "AttributeId": 3865,
+                "DisplayAttributeName": "Mailing City_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "10422": {
+                "DispalyOrder": "20",
+                "ProjectAttributeId": 10422,
+                "AttributeName": "Mailing City_A",
+                "AttributeId": 3866,
+                "DisplayAttributeName": "Mailing City_A",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "10423": {
+                "DispalyOrder": "21",
+                "ProjectAttributeId": 10423,
+                "AttributeName": "Disposition_Mailing City",
+                "AttributeId": 3867,
+                "DisplayAttributeName": "Disposition_Mailing City",
+                "IsDistinct": 0,
+                "ControlName": "DropDownList"
+            },
+            "10424": {
+                "DispalyOrder": "22",
+                "ProjectAttributeId": 10424,
+                "AttributeName": "Mailing State_B",
+                "AttributeId": 3868,
+                "DisplayAttributeName": "Mailing State_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "10425": {
+                "DispalyOrder": "23",
+                "ProjectAttributeId": 10425,
+                "AttributeName": "Mailing State_A",
+                "AttributeId": 3869,
+                "DisplayAttributeName": "Mailing State_A",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "10426": {
+                "DispalyOrder": "24",
+                "ProjectAttributeId": 10426,
+                "AttributeName": "Disposition_Mailing State",
+                "AttributeId": 3870,
+                "DisplayAttributeName": "Disposition_Mailing State",
+                "IsDistinct": 0,
+                "ControlName": "DropDownList"
+            },
+            "10427": {
+                "DispalyOrder": "25",
+                "ProjectAttributeId": 10427,
+                "AttributeName": "Mailing Country_B",
+                "AttributeId": 3871,
+                "DisplayAttributeName": "Mailing Country_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "10428": {
+                "DispalyOrder": "26",
+                "ProjectAttributeId": 10428,
+                "AttributeName": "Mailing Country_A",
+                "AttributeId": 3872,
+                "DisplayAttributeName": "Mailing Country_A",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "10429": {
+                "DispalyOrder": "27",
+                "ProjectAttributeId": 10429,
+                "AttributeName": "Disposition_Mailing Country",
+                "AttributeId": 3873,
+                "DisplayAttributeName": "Disposition_Mailing Country",
+                "IsDistinct": 0,
+                "ControlName": "DropDownList"
+            },
+            "10430": {
+                "DispalyOrder": "28",
+                "ProjectAttributeId": 10430,
+                "AttributeName": "Mailing Postal1_B",
+                "AttributeId": 3874,
+                "DisplayAttributeName": "Mailing Postal1_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "10431": {
+                "DispalyOrder": "29",
+                "ProjectAttributeId": 10431,
+                "AttributeName": "Mailing Postal1_A",
+                "AttributeId": 3875,
+                "DisplayAttributeName": "Mailing Postal1_A",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "10432": {
+                "DispalyOrder": "30",
+                "ProjectAttributeId": 10432,
+                "AttributeName": "Disposition_Mailing Postal1",
+                "AttributeId": 3876,
+                "DisplayAttributeName": "Disposition_Mailing Postal1",
+                "IsDistinct": 0,
+                "ControlName": "DropDownList"
+            },
+            "10433": {
+                "DispalyOrder": "31",
+                "ProjectAttributeId": 10433,
+                "AttributeName": "Mailing Subdivision_B",
+                "AttributeId": 3877,
+                "DisplayAttributeName": "Mailing Subdivision_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "10434": {
+                "DispalyOrder": "32",
+                "ProjectAttributeId": 10434,
+                "AttributeName": "Mailing Subdivision_A",
+                "AttributeId": 3878,
+                "DisplayAttributeName": "Mailing Subdivision_A",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "10435": {
+                "DispalyOrder": "33",
+                "ProjectAttributeId": 10435,
+                "AttributeName": "Disposition_Mailing Subdivision",
+                "AttributeId": 3879,
+                "DisplayAttributeName": "Disposition_Mailing Subdivision",
+                "IsDistinct": 0,
+                "ControlName": "DropDownList"
+            },
+            "10436": {
+                "DispalyOrder": "34",
+                "ProjectAttributeId": 10436,
+                "AttributeName": "Physical Street_B",
+                "AttributeId": 3880,
+                "DisplayAttributeName": "Physical Street_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "10437": {
+                "DispalyOrder": "35",
+                "ProjectAttributeId": 10437,
+                "AttributeName": "Physical Street_A",
+                "AttributeId": 3881,
+                "DisplayAttributeName": "Physical Street_A",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "10438": {
+                "DispalyOrder": "36",
+                "ProjectAttributeId": 10438,
+                "AttributeName": "Disposition_Physical Street",
+                "AttributeId": 3882,
+                "DisplayAttributeName": "Disposition_Physical Street",
+                "IsDistinct": 0,
+                "ControlName": "DropDownList"
+            },
+            "10439": {
+                "DispalyOrder": "37",
+                "ProjectAttributeId": 10439,
+                "AttributeName": "Physical City_B",
+                "AttributeId": 3883,
+                "DisplayAttributeName": "Physical City_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "10440": {
+                "DispalyOrder": "38",
+                "ProjectAttributeId": 10440,
+                "AttributeName": "Physical City_A",
+                "AttributeId": 3884,
+                "DisplayAttributeName": "Physical City_A",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "10441": {
+                "DispalyOrder": "39",
+                "ProjectAttributeId": 10441,
+                "AttributeName": "Disposition_Physical City",
+                "AttributeId": 3885,
+                "DisplayAttributeName": "Disposition_Physical City",
+                "IsDistinct": 0,
+                "ControlName": "DropDownList"
+            },
+            "10442": {
+                "DispalyOrder": "40",
+                "ProjectAttributeId": 10442,
+                "AttributeName": "Physical State_B",
+                "AttributeId": 3886,
+                "DisplayAttributeName": "Physical State_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "10443": {
+                "DispalyOrder": "41",
+                "ProjectAttributeId": 10443,
+                "AttributeName": "Physical State_A",
+                "AttributeId": 3887,
+                "DisplayAttributeName": "Physical State_A",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "10444": {
+                "DispalyOrder": "42",
+                "ProjectAttributeId": 10444,
+                "AttributeName": "Disposition_Physical State",
+                "AttributeId": 3888,
+                "DisplayAttributeName": "Disposition_Physical State",
+                "IsDistinct": 0,
+                "ControlName": "DropDownList"
+            },
+            "10445": {
+                "DispalyOrder": "43",
+                "ProjectAttributeId": 10445,
+                "AttributeName": "Physical Country_B",
+                "AttributeId": 3889,
+                "DisplayAttributeName": "Physical Country_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "10446": {
+                "DispalyOrder": "44",
+                "ProjectAttributeId": 10446,
+                "AttributeName": "Physical Country_A",
+                "AttributeId": 3890,
+                "DisplayAttributeName": "Physical Country_A",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "10447": {
+                "DispalyOrder": "45",
+                "ProjectAttributeId": 10447,
+                "AttributeName": "Disposition_Physical Country",
+                "AttributeId": 3891,
+                "DisplayAttributeName": "Disposition_Physical Country",
+                "IsDistinct": 0,
+                "ControlName": "DropDownList"
+            },
+            "10448": {
+                "DispalyOrder": "46",
+                "ProjectAttributeId": 10448,
+                "AttributeName": "Physical Postal1_B",
+                "AttributeId": 3892,
+                "DisplayAttributeName": "Physical Postal1_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "10449": {
+                "DispalyOrder": "47",
+                "ProjectAttributeId": 10449,
+                "AttributeName": "Physical Postal1_A",
+                "AttributeId": 3893,
+                "DisplayAttributeName": "Physical Postal1_A",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "10450": {
+                "DispalyOrder": "48",
+                "ProjectAttributeId": 10450,
+                "AttributeName": "Disposition_Physical Postal1",
+                "AttributeId": 3894,
+                "DisplayAttributeName": "Disposition_Physical Postal1",
+                "IsDistinct": 0,
+                "ControlName": "DropDownList"
+            },
+            "10451": {
+                "DispalyOrder": "49",
+                "ProjectAttributeId": 10451,
+                "AttributeName": "Physical Subdivision_B",
+                "AttributeId": 3895,
+                "DisplayAttributeName": "Physical Subdivision_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "10452": {
+                "DispalyOrder": "50",
+                "ProjectAttributeId": 10452,
+                "AttributeName": "Physical Subdivision_A",
+                "AttributeId": 3896,
+                "DisplayAttributeName": "Physical Subdivision_A",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "10453": {
+                "DispalyOrder": "51",
+                "ProjectAttributeId": 10453,
+                "AttributeName": "Disposition_Physical Subdivision",
+                "AttributeId": 3897,
+                "DisplayAttributeName": "Disposition_Physical Subdivision",
+                "IsDistinct": 0,
+                "ControlName": "DropDownList"
+            },
+            "10371": {
+                "DispalyOrder": "52",
+                "ProjectAttributeId": 10371,
+                "AttributeName": "InceptionYear_B",
+                "AttributeId": 3633,
+                "DisplayAttributeName": "Inception Year_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "10372": {
+                "DispalyOrder": "53",
+                "ProjectAttributeId": 10372,
+                "AttributeName": "InceptionYear_A",
+                "AttributeId": 3634,
+                "DisplayAttributeName": "Inception Year_A",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "10456": {
+                "DispalyOrder": "54",
+                "ProjectAttributeId": 10456,
+                "AttributeName": "Disposition_Inception Year",
+                "AttributeId": 3900,
+                "DisplayAttributeName": "Disposition_Inception Year",
+                "IsDistinct": 0,
+                "ControlName": "DropDownList"
+            },
+            "10457": {
+                "DispalyOrder": "55",
+                "ProjectAttributeId": 10457,
+                "AttributeName": "Status",
+                "AttributeId": 3368,
+                "DisplayAttributeName": "Status",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "10458": {
+                "DispalyOrder": "56",
+                "ProjectAttributeId": 10458,
+                "AttributeName": "Comments",
+                "AttributeId": 4474,
+                "DisplayAttributeName": "Comments",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "10381": {
+                "DispalyOrder": "57",
+                "ProjectAttributeId": 10381,
+                "AttributeName": "EmailAddress_B",
+                "AttributeId": 3643,
+                "DisplayAttributeName": "Email Address_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "10382": {
+                "DispalyOrder": "58",
+                "ProjectAttributeId": 10382,
+                "AttributeName": "EmailAddress_A",
+                "AttributeId": 3644,
+                "DisplayAttributeName": "Email Address_A",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "10459": {
+                "DispalyOrder": "59",
+                "ProjectAttributeId": 10459,
+                "AttributeName": "Disposition_Email Address",
+                "AttributeId": 3902,
+                "DisplayAttributeName": "Disposition_Email Address",
+                "IsDistinct": 0,
+                "ControlName": "DropDownList"
+            },
+            "10374": {
+                "DispalyOrder": "60",
+                "ProjectAttributeId": 10374,
+                "AttributeName": "SocialMediaType_B",
+                "AttributeId": 3636,
+                "DisplayAttributeName": "Social Media Type_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "10375": {
+                "DispalyOrder": "61",
+                "ProjectAttributeId": 10375,
+                "AttributeName": "SocialMediaType_A",
+                "AttributeId": 3637,
+                "DisplayAttributeName": "Social Media Type_A",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "10460": {
+                "DispalyOrder": "62",
+                "ProjectAttributeId": 10460,
+                "AttributeName": "Disposition_Social Media Type",
+                "AttributeId": 3903,
+                "DisplayAttributeName": "Disposition_Social Media Type",
+                "IsDistinct": 0,
+                "ControlName": "DropDownList"
+            },
+            "10376": {
+                "DispalyOrder": "63",
+                "ProjectAttributeId": 10376,
+                "AttributeName": "SocialMediaHandle_B",
+                "AttributeId": 3638,
+                "DisplayAttributeName": "Social Media Handle_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "10377": {
+                "DispalyOrder": "64",
+                "ProjectAttributeId": 10377,
+                "AttributeName": "SocialMediaHandle_A",
+                "AttributeId": 3639,
+                "DisplayAttributeName": "Social Media Handle_A",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "10461": {
+                "DispalyOrder": "65",
+                "ProjectAttributeId": 10461,
+                "AttributeName": "Disposition_Social Media Handle",
+                "AttributeId": 3904,
+                "DisplayAttributeName": "Disposition_Social Media Handle",
+                "IsDistinct": 0,
+                "ControlName": "DropDownList"
+            },
+            "10384": {
+                "DispalyOrder": "66",
+                "ProjectAttributeId": 10384,
+                "AttributeName": "PhoneType_B",
+                "AttributeId": 3646,
+                "DisplayAttributeName": "PhoneType_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "10385": {
+                "DispalyOrder": "67",
+                "ProjectAttributeId": 10385,
+                "AttributeName": "PhoneType_A",
+                "AttributeId": 3647,
+                "DisplayAttributeName": "PhoneType_A",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "10462": {
+                "DispalyOrder": "68",
+                "ProjectAttributeId": 10462,
+                "AttributeName": "Disposition_PhoneType",
+                "AttributeId": 3905,
+                "DisplayAttributeName": "Disposition_PhoneType",
+                "IsDistinct": 0,
+                "ControlName": "DropDownList"
+            },
+            "10386": {
+                "DispalyOrder": "69",
+                "ProjectAttributeId": 10386,
+                "AttributeName": "AreaCode_B",
+                "AttributeId": 3648,
+                "DisplayAttributeName": "Area Code_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "10387": {
+                "DispalyOrder": "70",
+                "ProjectAttributeId": 10387,
+                "AttributeName": "AreaCode_A",
+                "AttributeId": 3649,
+                "DisplayAttributeName": "Area Code_A",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "10463": {
+                "DispalyOrder": "71",
+                "ProjectAttributeId": 10463,
+                "AttributeName": "Disposition_Area Code",
+                "AttributeId": 3906,
+                "DisplayAttributeName": "Disposition_Area Code",
+                "IsDistinct": 0,
+                "ControlName": "DropDownList"
+            },
+            "10388": {
+                "DispalyOrder": "72",
+                "ProjectAttributeId": 10388,
+                "AttributeName": "CityCode_B",
+                "AttributeId": 3650,
+                "DisplayAttributeName": "City Code_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "10389": {
+                "DispalyOrder": "73",
+                "ProjectAttributeId": 10389,
+                "AttributeName": "CityCode_A",
+                "AttributeId": 3651,
+                "DisplayAttributeName": "City Code_A",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "10464": {
+                "DispalyOrder": "74",
+                "ProjectAttributeId": 10464,
+                "AttributeName": "Disposition_City Code",
+                "AttributeId": 3907,
+                "DisplayAttributeName": "Disposition_City Code",
+                "IsDistinct": 0,
+                "ControlName": "DropDownList"
+            },
+            "10390": {
+                "DispalyOrder": "75",
+                "ProjectAttributeId": 10390,
+                "AttributeName": "PhoneNumber_B",
+                "AttributeId": 3652,
+                "DisplayAttributeName": "Phone Number_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "10391": {
+                "DispalyOrder": "76",
+                "ProjectAttributeId": 10391,
+                "AttributeName": "PhoneNumber_A",
+                "AttributeId": 3653,
+                "DisplayAttributeName": "Phone Number_A",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "10465": {
+                "DispalyOrder": "77",
+                "ProjectAttributeId": 10465,
+                "AttributeName": "Disposition_Phone Number",
+                "AttributeId": 3908,
+                "DisplayAttributeName": "Disposition_Phone Number",
+                "IsDistinct": 0,
+                "ControlName": "DropDownList"
+            },
+            "10392": {
+                "DispalyOrder": "78",
+                "ProjectAttributeId": 10392,
+                "AttributeName": "CountryCallingCode_B",
+                "AttributeId": 3654,
+                "DisplayAttributeName": "Country Calling Code_B",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "10393": {
+                "DispalyOrder": "79",
+                "ProjectAttributeId": 10393,
+                "AttributeName": "CountryCallingCode_A",
+                "AttributeId": 3655,
+                "DisplayAttributeName": "Country Calling Code_A",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "10466": {
+                "DispalyOrder": "80",
+                "ProjectAttributeId": 10466,
+                "AttributeName": "Disposition_Country Calling Code",
+                "AttributeId": 3909,
+                "DisplayAttributeName": "Disposition_Country Calling Code",
+                "IsDistinct": 0,
+                "ControlName": "DropDownList"
+            },
+            "10394": {
+                "DispalyOrder": "81",
+                "ProjectAttributeId": 10394,
+                "AttributeName": "PhoneText_B",
+                "AttributeId": 3656,
+                "DisplayAttributeName": "Phone Text_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "10395": {
+                "DispalyOrder": "82",
+                "ProjectAttributeId": 10395,
+                "AttributeName": "PhoneText_A",
+                "AttributeId": 3657,
+                "DisplayAttributeName": "Phone Text_A",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "10467": {
+                "DispalyOrder": "83",
+                "ProjectAttributeId": 10467,
+                "AttributeName": "Disposition_Phone Text",
+                "AttributeId": 3910,
+                "DisplayAttributeName": "Disposition_Phone Text",
+                "IsDistinct": 0,
+                "ControlName": "DropDownList"
+            },
+            "10397": {
+                "DispalyOrder": "84",
+                "ProjectAttributeId": 10397,
+                "AttributeName": "Personnel_RelationshipFDR-id",
+                "AttributeId": 3658,
+                "DisplayAttributeName": "Personnel_Relationship FDR-id",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "10398": {
+                "DispalyOrder": "85",
+                "ProjectAttributeId": 10398,
+                "AttributeName": "PersonnelFDR-id",
+                "AttributeId": 3659,
+                "DisplayAttributeName": "Personnel FDR-id",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "10399": {
+                "DispalyOrder": "86",
+                "ProjectAttributeId": 10399,
+                "AttributeName": "Prefix_B",
+                "AttributeId": 3660,
+                "DisplayAttributeName": "Prefix_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "10400": {
+                "DispalyOrder": "87",
+                "ProjectAttributeId": 10400,
+                "AttributeName": "Prefix_A",
+                "AttributeId": 3661,
+                "DisplayAttributeName": "Prefix_A",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "10468": {
+                "DispalyOrder": "88",
+                "ProjectAttributeId": 10468,
+                "AttributeName": "Disposition_Prefix",
+                "AttributeId": 3911,
+                "DisplayAttributeName": "Disposition_Prefix",
+                "IsDistinct": 0,
+                "ControlName": "DropDownList"
+            },
+            "10401": {
+                "DispalyOrder": "89",
+                "ProjectAttributeId": 10401,
+                "AttributeName": "FirstName_B",
+                "AttributeId": 3662,
+                "DisplayAttributeName": "First Name_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "10402": {
+                "DispalyOrder": "90",
+                "ProjectAttributeId": 10402,
+                "AttributeName": "FirstName_A",
+                "AttributeId": 3663,
+                "DisplayAttributeName": "First Name_A",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "10469": {
+                "DispalyOrder": "91",
+                "ProjectAttributeId": 10469,
+                "AttributeName": "Disposition_First Name",
+                "AttributeId": 3912,
+                "DisplayAttributeName": "Disposition_First Name",
+                "IsDistinct": 0,
+                "ControlName": "DropDownList"
+            },
+            "10407": {
+                "DispalyOrder": "92",
+                "ProjectAttributeId": 10407,
+                "AttributeName": "MiddleName_B",
+                "AttributeId": 3668,
+                "DisplayAttributeName": "Middle Name_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "10416": {
+                "DispalyOrder": "93",
+                "ProjectAttributeId": 10416,
+                "AttributeName": "MiddleName_A",
+                "AttributeId": 3860,
+                "DisplayAttributeName": "MiddleName_A",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "10477": {
+                "DispalyOrder": "94",
+                "ProjectAttributeId": 10477,
+                "AttributeName": "DispositionMiddleName",
+                "AttributeId": 3920,
+                "DisplayAttributeName": "Dispositon Middle Name",
+                "IsDistinct": 0,
+                "ControlName": "DropDownList"
+            },
+            "10403": {
+                "DispalyOrder": "95",
+                "ProjectAttributeId": 10403,
+                "AttributeName": "LastName_B",
+                "AttributeId": 3664,
+                "DisplayAttributeName": "Last Name_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "10404": {
+                "DispalyOrder": "96",
+                "ProjectAttributeId": 10404,
+                "AttributeName": "LastName_A",
+                "AttributeId": 3665,
+                "DisplayAttributeName": "Last Name_A",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "10470": {
+                "DispalyOrder": "97",
+                "ProjectAttributeId": 10470,
+                "AttributeName": "Disposition_Last Name",
+                "AttributeId": 3913,
+                "DisplayAttributeName": "Disposition_Last Name",
+                "IsDistinct": 0,
+                "ControlName": "DropDownList"
+            },
+            "10405": {
+                "DispalyOrder": "98",
+                "ProjectAttributeId": 10405,
+                "AttributeName": "Suffix_B",
+                "AttributeId": 3666,
+                "DisplayAttributeName": "Suffix_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "10406": {
+                "DispalyOrder": "99",
+                "ProjectAttributeId": 10406,
+                "AttributeName": "Suffix_A",
+                "AttributeId": 3667,
+                "DisplayAttributeName": "Suffix_A",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "10471": {
+                "DispalyOrder": "100",
+                "ProjectAttributeId": 10471,
+                "AttributeName": "Disposition_Suffix",
+                "AttributeId": 3914,
+                "DisplayAttributeName": "Disposition_Suffix",
+                "IsDistinct": 0,
+                "ControlName": "DropDownList"
+            },
+            "10408": {
+                "DispalyOrder": "101",
+                "ProjectAttributeId": 10408,
+                "AttributeName": "EmployeeTitle_B",
+                "AttributeId": 3669,
+                "DisplayAttributeName": "Employee Title_B",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "10409": {
+                "DispalyOrder": "102",
+                "ProjectAttributeId": 10409,
+                "AttributeName": "EmployeeTitle_A",
+                "AttributeId": 3670,
+                "DisplayAttributeName": "Employee Title_A",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "10472": {
+                "DispalyOrder": "103",
+                "ProjectAttributeId": 10472,
+                "AttributeName": "Disposition_Employee Title",
+                "AttributeId": 3915,
+                "DisplayAttributeName": "Disposition_Employee Title",
+                "IsDistinct": 0,
+                "ControlName": "DropDownList"
+            },
+            "10410": {
+                "DispalyOrder": "104",
+                "ProjectAttributeId": 10410,
+                "AttributeName": "Personnel_EmailAddress_B",
+                "AttributeId": 3671,
+                "DisplayAttributeName": "Email Address_B",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "10411": {
+                "DispalyOrder": "105",
+                "ProjectAttributeId": 10411,
+                "AttributeName": "Personnel_EmailAddress_A",
+                "AttributeId": 3672,
+                "DisplayAttributeName": "Email Address_A",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "10473": {
+                "DispalyOrder": "106",
+                "ProjectAttributeId": 10473,
+                "AttributeName": "Disposition_Personnel_Email Address",
+                "AttributeId": 3916,
+                "DisplayAttributeName": "Disposition_Personnel_Email Address",
+                "IsDistinct": 0,
+                "ControlName": "DropDownList"
+            },
+            "10412": {
+                "DispalyOrder": "107",
+                "ProjectAttributeId": 10412,
+                "AttributeName": "publishing-approval-status",
+                "AttributeId": 3673,
+                "DisplayAttributeName": "publishing-approval-status",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "10413": {
+                "DispalyOrder": "108",
+                "ProjectAttributeId": 10413,
+                "AttributeName": "OverallStatus",
+                "AttributeId": 3674,
+                "DisplayAttributeName": "Overall Status",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "10414": {
+                "DispalyOrder": "109",
+                "ProjectAttributeId": 10414,
+                "AttributeName": "OverallComments",
+                "AttributeId": 3675,
+                "DisplayAttributeName": "Comments",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            }
+        }
+    },
+    "AttributeGroupMaster": [],
+    "AttributeGroupMasterDirect": [],
+    "ExportAttributeGroupMaster": [],
+    "ExportAttributeSubGroupMaster": [],
+    "Menu": {
+        "31": {
+            "NPO Production": {
+                "Production": "GetJobCore"
+            }
+        },
+        "3": {
+            "Manage Project": {
+                "Delivery Output": "DeliveryExport",
+                "Input Import": "Importinitiates",
+                "Production Dashboard": "ProductionDashBoards"
+            }
+        }
+    },
+    "ProjectStatus": {
+        "1": "Production Query",
+        "2": "Production Completed",
+        "3": "Production Inprogress",
+        "4": "Ready for Production",
+        "5": "Import Completed"
+    },
+    "ProjectGroupStatus": {
+        "Import": {
+            "5": "Import Completed"
+        },
+        "Production": {
+            "1": "Production Query",
+            "2": "Production Completed",
+            "3": "Production Inprogress",
+            "4": "Ready for Production"
+        }
+    },
+    "Module": {
+        "141": "Manage Project",
+        "6694017": "NPO Production"
+    },
+    "ModuleStatusList": {
+        "6694017": [
+            "Ready for Production",
+            "Production Inprogress",
+            "Production Completed",
+            "Production Query"
+        ]
+    },
+    "ModuleStatus": {
+        "6694017": {
+            "5": {
+                "ModuleId": 6694017,
+                "ModStatus": "Ready for Production",
+                "ModuleStatusIdentifier": "ReadyforProduction",
+                "StatusId": 5,
+                "FromStatus": "Import Completed"
+            },
+            "4": {
+                "ModuleId": 6694017,
+                "ModStatus": "Production Inprogress",
+                "ModuleStatusIdentifier": "ProductionInprogress",
+                "StatusId": 4,
+                "FromStatus": "Ready for Production"
+            },
+            "3": {
+                "ModuleId": 6694017,
+                "ModStatus": "Production Query",
+                "ModuleStatusIdentifier": "ProductionQuery",
+                "StatusId": 3,
+                "FromStatus": "Production Inprogress"
+            }
+        }
+    },
+    "ModuleStatus_Navigation": {
+        "5": [
+            "Ready for Production",
+            4
+        ],
+        "4": [
+            "Production Inprogress",
+            3
+        ],
+        "3": [
+            "Production Completed",
+            2,
+            [
+                "Production Query",
+                1
+            ]
+        ]
+    },
+    "ProjectConfig": {
+        "ProdDB_PageLimit": "50",
+        "ProductionView": "1",
+        "HygineCheck": ""
+    },
+    "UserGroups": {
+        "6": "Team 1",
+        "7": "Team 2",
+        "8": "YP Group",
+        "1008": "Factset Group",
+        "1009": "LE Group",
+        "1010": "cengagenpo",
+        "1011": "NPO",
+        "1012": "MojoCengage",
+        "1013": "Content Aggregation Group",
+        "1014": "Vessel Enrichment Group"
+    }
+}

@@ -1,0 +1,693 @@
+{
+    "3360": "Entity_Analysis",
+    "UserList": {
+        "1": "admin",
+        "99080": "demoTL",
+        "99706": "userdemo"
+    },
+    "UserListRole": {
+        "99080_3": "demoTL (Team Leader)",
+        "99706_31": "userdemo (Production User)"
+    },
+    "RegionList": {
+        "1011": "No Region"
+    },
+    "AttributeList": {
+        "1011": [
+            11201,
+            11060,
+            11206,
+            11062,
+            11063,
+            11064,
+            11065,
+            11066,
+            11067,
+            11068,
+            11069,
+            11070,
+            11071,
+            11072,
+            11073,
+            11074,
+            11075,
+            11076
+        ]
+    },
+    "AttributeOrder": {
+        "1011": {
+            "11201": {
+                "DispalyOrder": "1",
+                "ProjectAttributeId": 11201,
+                "AttributeName": "FDRID",
+                "AttributeId": 3263,
+                "DisplayAttributeName": "Parent_Company_Enterprise_Number",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "11060": {
+                "DispalyOrder": "2",
+                "ProjectAttributeId": 11060,
+                "AttributeName": "Parent_Company_Name",
+                "AttributeId": 4657,
+                "DisplayAttributeName": "Parent_Company_Name",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "11206": {
+                "DispalyOrder": "3",
+                "ProjectAttributeId": 11206,
+                "AttributeName": "Parent_Company_Website",
+                "AttributeId": 4771,
+                "DisplayAttributeName": "Parent_Company_Website",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "11062": {
+                "DispalyOrder": "4",
+                "ProjectAttributeId": 11062,
+                "AttributeName": "Parent_Company_Status_Code",
+                "AttributeId": 4659,
+                "DisplayAttributeName": "Parent_Company_Status_Code",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "11063": {
+                "DispalyOrder": "5",
+                "ProjectAttributeId": 11063,
+                "AttributeName": "Parent_Company_Country",
+                "AttributeId": 4660,
+                "DisplayAttributeName": "Parent_Company_Country",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "11064": {
+                "DispalyOrder": "6",
+                "ProjectAttributeId": 11064,
+                "AttributeName": "Parent_Company_Remarks",
+                "AttributeId": 4661,
+                "DisplayAttributeName": "Parent_Company_Remarks",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "11065": {
+                "DispalyOrder": "7",
+                "ProjectAttributeId": 11065,
+                "AttributeName": "Parent_Company_Research_URL",
+                "AttributeId": 4662,
+                "DisplayAttributeName": "Parent_Company_Research_URL",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "11066": {
+                "DispalyOrder": "8",
+                "ProjectAttributeId": 11066,
+                "AttributeName": "Subsidiary_ID",
+                "AttributeId": 4663,
+                "DisplayAttributeName": "Subsidiary_ID",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "11067": {
+                "DispalyOrder": "9",
+                "ProjectAttributeId": 11067,
+                "AttributeName": "New_Linkage_Company_Name",
+                "AttributeId": 4664,
+                "DisplayAttributeName": "New_Linkage_Company_Name",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "11068": {
+                "DispalyOrder": "10",
+                "ProjectAttributeId": 11068,
+                "AttributeName": "DB_Status",
+                "AttributeId": 4665,
+                "DisplayAttributeName": "DB_Status",
+                "IsDistinct": 1,
+                "ControlName": "DropDownList",
+                "Options": [
+                    "Non-match",
+                    "Not Applicable"
+                ],
+                "OptionsWithKey": {
+                    "77905": "Non-match",
+                    "77906": "Not Applicable"
+                }
+            },
+            "11069": {
+                "DispalyOrder": "11",
+                "ProjectAttributeId": 11069,
+                "AttributeName": "New_Linkage_Company_Code",
+                "AttributeId": 4666,
+                "DisplayAttributeName": "New_Linkage_Company_Code",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "11070": {
+                "DispalyOrder": "12",
+                "ProjectAttributeId": 11070,
+                "AttributeName": "New_Linkage_Enterprise_Number",
+                "AttributeId": 4667,
+                "DisplayAttributeName": "New_Linkage_Enterprise_Number",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "11071": {
+                "DispalyOrder": "13",
+                "ProjectAttributeId": 11071,
+                "AttributeName": "New_Linkage_Company_ID",
+                "AttributeId": 4668,
+                "DisplayAttributeName": "New_Linkage_Company_ID",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "11072": {
+                "DispalyOrder": "14",
+                "ProjectAttributeId": 11072,
+                "AttributeName": "New_Linkage_Company_Type",
+                "AttributeId": 4669,
+                "DisplayAttributeName": "New_Linkage_Company_Type",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "11073": {
+                "DispalyOrder": "15",
+                "ProjectAttributeId": 11073,
+                "AttributeName": "Immediate_Reportage",
+                "AttributeId": 4670,
+                "DisplayAttributeName": "Immediate_Reportage",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "11074": {
+                "DispalyOrder": "16",
+                "ProjectAttributeId": 11074,
+                "AttributeName": "Immediate_Reportage_Company_Name",
+                "AttributeId": 4671,
+                "DisplayAttributeName": "Immediate_Reportage_Company_Name",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "11075": {
+                "DispalyOrder": "17",
+                "ProjectAttributeId": 11075,
+                "AttributeName": "New_Linkage_Remarks",
+                "AttributeId": 4672,
+                "DisplayAttributeName": "New_Linkage_Remarks",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "11076": {
+                "DispalyOrder": "18",
+                "ProjectAttributeId": 11076,
+                "AttributeName": "New_Linkage_Status",
+                "AttributeId": 4673,
+                "DisplayAttributeName": "New_Linkage_Status",
+                "IsDistinct": 1,
+                "ControlName": "DropDownList",
+                "Options": [
+                    "Valid",
+                    "Non-Valid"
+                ],
+                "OptionsWithKey": {
+                    "77909": "Valid",
+                    "77910": "Non-Valid"
+                }
+            }
+        }
+    },
+    "ModuleAttributes": {
+        "1011": {
+            "6694023": {
+                "static": {
+                    "1": {
+                        "AttributeMasterId": 3263,
+                        "ProjectAttributeMasterId": 11201,
+                        "DispalyOrder": "1",
+                        "DisplayAttributeName": "Parent_Company_Enterprise_Number",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "FDRID",
+                        "MainGroupId": 254,
+                        "SubGroupId": 257
+                    },
+                    "2": {
+                        "AttributeMasterId": 4657,
+                        "ProjectAttributeMasterId": 11060,
+                        "DispalyOrder": "2",
+                        "DisplayAttributeName": "Parent_Company_Name",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Parent_Company_Name",
+                        "MainGroupId": 258,
+                        "SubGroupId": 261
+                    },
+                    "3": {
+                        "AttributeMasterId": 4771,
+                        "ProjectAttributeMasterId": 11206,
+                        "DispalyOrder": "3",
+                        "DisplayAttributeName": "Parent_Company_Website",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Parent_Company_Website",
+                        "MainGroupId": 258,
+                        "SubGroupId": 261
+                    }
+                },
+                "production": {
+                    "3": {
+                        "AttributeMasterId": 4771,
+                        "ProjectAttributeMasterId": 11206,
+                        "DispalyOrder": "3",
+                        "DisplayAttributeName": "Parent_Company_Website",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Parent_Company_Website",
+                        "MainGroupId": 258,
+                        "SubGroupId": 261
+                    },
+                    "4": {
+                        "AttributeMasterId": 4659,
+                        "ProjectAttributeMasterId": 11062,
+                        "DispalyOrder": "4",
+                        "DisplayAttributeName": "Parent_Company_Status_Code",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Parent_Company_Status_Code",
+                        "MainGroupId": 258,
+                        "SubGroupId": 261
+                    },
+                    "5": {
+                        "AttributeMasterId": 4660,
+                        "ProjectAttributeMasterId": 11063,
+                        "DispalyOrder": "5",
+                        "DisplayAttributeName": "Parent_Company_Country",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Parent_Company_Country",
+                        "MainGroupId": 258,
+                        "SubGroupId": 261
+                    },
+                    "6": {
+                        "AttributeMasterId": 4661,
+                        "ProjectAttributeMasterId": 11064,
+                        "DispalyOrder": "6",
+                        "DisplayAttributeName": "Parent_Company_Remarks",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Parent_Company_Remarks",
+                        "MainGroupId": 258,
+                        "SubGroupId": 261
+                    },
+                    "7": {
+                        "AttributeMasterId": 4662,
+                        "ProjectAttributeMasterId": 11065,
+                        "DispalyOrder": "7",
+                        "DisplayAttributeName": "Parent_Company_Research_URL",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Parent_Company_Research_URL",
+                        "MainGroupId": 258,
+                        "SubGroupId": 261
+                    },
+                    "8": {
+                        "AttributeMasterId": 4663,
+                        "ProjectAttributeMasterId": 11066,
+                        "DispalyOrder": "8",
+                        "DisplayAttributeName": "Subsidiary_ID",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Subsidiary_ID",
+                        "MainGroupId": 259,
+                        "SubGroupId": 260
+                    },
+                    "9": {
+                        "AttributeMasterId": 4664,
+                        "ProjectAttributeMasterId": 11067,
+                        "DispalyOrder": "9",
+                        "DisplayAttributeName": "New_Linkage_Company_Name",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "New_Linkage_Company_Name",
+                        "MainGroupId": 259,
+                        "SubGroupId": 260
+                    },
+                    "10": {
+                        "AttributeMasterId": 4665,
+                        "ProjectAttributeMasterId": 11068,
+                        "DispalyOrder": "10",
+                        "DisplayAttributeName": "DB_Status",
+                        "IsDistinct": 1,
+                        "ControlName": "DropDownList",
+                        "Options": [
+                            "Non-match",
+                            "Not Applicable"
+                        ],
+                        "AttributeName": "DB_Status",
+                        "MainGroupId": 259,
+                        "SubGroupId": 260
+                    },
+                    "11": {
+                        "AttributeMasterId": 4666,
+                        "ProjectAttributeMasterId": 11069,
+                        "DispalyOrder": "11",
+                        "DisplayAttributeName": "New_Linkage_Company_Code",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "New_Linkage_Company_Code",
+                        "MainGroupId": 259,
+                        "SubGroupId": 260
+                    },
+                    "12": {
+                        "AttributeMasterId": 4667,
+                        "ProjectAttributeMasterId": 11070,
+                        "DispalyOrder": "12",
+                        "DisplayAttributeName": "New_Linkage_Enterprise_Number",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "New_Linkage_Enterprise_Number",
+                        "MainGroupId": 259,
+                        "SubGroupId": 260
+                    },
+                    "13": {
+                        "AttributeMasterId": 4668,
+                        "ProjectAttributeMasterId": 11071,
+                        "DispalyOrder": "13",
+                        "DisplayAttributeName": "New_Linkage_Company_ID",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "New_Linkage_Company_ID",
+                        "MainGroupId": 259,
+                        "SubGroupId": 260
+                    },
+                    "14": {
+                        "AttributeMasterId": 4669,
+                        "ProjectAttributeMasterId": 11072,
+                        "DispalyOrder": "14",
+                        "DisplayAttributeName": "New_Linkage_Company_Type",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "New_Linkage_Company_Type",
+                        "MainGroupId": 259,
+                        "SubGroupId": 260
+                    },
+                    "15": {
+                        "AttributeMasterId": 4670,
+                        "ProjectAttributeMasterId": 11073,
+                        "DispalyOrder": "15",
+                        "DisplayAttributeName": "Immediate_Reportage",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Immediate_Reportage",
+                        "MainGroupId": 259,
+                        "SubGroupId": 260
+                    },
+                    "16": {
+                        "AttributeMasterId": 4671,
+                        "ProjectAttributeMasterId": 11074,
+                        "DispalyOrder": "16",
+                        "DisplayAttributeName": "Immediate_Reportage_Company_Name",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Immediate_Reportage_Company_Name",
+                        "MainGroupId": 259,
+                        "SubGroupId": 260
+                    },
+                    "17": {
+                        "AttributeMasterId": 4672,
+                        "ProjectAttributeMasterId": 11075,
+                        "DispalyOrder": "17",
+                        "DisplayAttributeName": "New_Linkage_Remarks",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "New_Linkage_Remarks",
+                        "MainGroupId": 259,
+                        "SubGroupId": 260
+                    },
+                    "18": {
+                        "AttributeMasterId": 4673,
+                        "ProjectAttributeMasterId": 11076,
+                        "DispalyOrder": "18",
+                        "DisplayAttributeName": "New_Linkage_Status",
+                        "IsDistinct": 1,
+                        "ControlName": "DropDownList",
+                        "Options": [
+                            "Valid",
+                            "Non-Valid"
+                        ],
+                        "AttributeName": "New_Linkage_Status",
+                        "MainGroupId": 259,
+                        "SubGroupId": 260
+                    }
+                }
+            }
+        }
+    },
+    "AttributeGroupMaster": {
+        "6694023": {
+            "258": "Parent_Data",
+            "259": "New_Linkage_Data"
+        }
+    },
+    "AttributeGroupMasterDirect": {
+        "258": "Parent_Data",
+        "259": "New_Linkage_Data"
+    },
+    "AttributeSubGroupMaster": {
+        "258": {
+            "261": "Parent_Data"
+        },
+        "259": {
+            "260": "New_Linkage_Data"
+        }
+    },
+    "ExportAttributeGroupMaster": {
+        "3263": "Budget",
+        "4657": "Parent_Data",
+        "4771": "Parent_Data",
+        "4659": "Parent_Data",
+        "4660": "Parent_Data",
+        "4661": "Parent_Data",
+        "4662": "Parent_Data",
+        "4663": "New_Linkage_Data",
+        "4664": "New_Linkage_Data",
+        "4665": "New_Linkage_Data",
+        "4666": "New_Linkage_Data",
+        "4667": "New_Linkage_Data",
+        "4668": "New_Linkage_Data",
+        "4669": "New_Linkage_Data",
+        "4670": "New_Linkage_Data",
+        "4671": "New_Linkage_Data",
+        "4672": "New_Linkage_Data",
+        "4673": "New_Linkage_Data"
+    },
+    "ExportAttributeSubGroupMaster": {
+        "3263": "Budget Info",
+        "4657": "Parent_Data",
+        "4771": "Parent_Data",
+        "4659": "Parent_Data",
+        "4660": "Parent_Data",
+        "4661": "Parent_Data",
+        "4662": "Parent_Data",
+        "4663": "New_Linkage_Data",
+        "4664": "New_Linkage_Data",
+        "4665": "New_Linkage_Data",
+        "4666": "New_Linkage_Data",
+        "4667": "New_Linkage_Data",
+        "4668": "New_Linkage_Data",
+        "4669": "New_Linkage_Data",
+        "4670": "New_Linkage_Data",
+        "4671": "New_Linkage_Data",
+        "4672": "New_Linkage_Data",
+        "4673": "New_Linkage_Data"
+    },
+    "Menu": {
+        "3": {
+            "Manage Project": {
+                "Input Import": "Importinitiates",
+                "Production Dashboard": "ProductionDashBoards"
+            }
+        },
+        "31": {
+            "Mining and Analysis": {
+                "Production": "GetJobCore"
+            }
+        }
+    },
+    "ProjectStatus": {
+        "1": "Import Completed",
+        "2": "Ready for Production",
+        "3": "Production Inprogress",
+        "4": "Production Query",
+        "5": "Production Completed",
+        "6": "Ready for QC"
+    },
+    "ProjectGroupStatus": {
+        "Input Import": {
+            "1": "Import Completed"
+        },
+        "Production": {
+            "2": "Ready for Production",
+            "3": "Production Inprogress",
+            "4": "Production Query"
+        },
+        "Ready for QC": {
+            "5": "Production Completed"
+        },
+        "QC In Progress": {
+            "6": "Ready for QC"
+        }
+    },
+    "Module": {
+        "141": "Manage Project",
+        "6694023": "Mining and Analysis",
+        "128": "PU Queries"
+    },
+    "ModuleConfig": {
+        "141": {
+            "IsInputMandatory": 2,
+            "IsHistoryTrack": 2,
+            "IsUrlMonitoring": null,
+            "IsAllowedToDisplay": null,
+            "IsModuleGroup": null,
+            "IsHygineCheck": 0
+        },
+        "6694023": {
+            "IsInputMandatory": 1,
+            "IsHistoryTrack": 1,
+            "IsUrlMonitoring": 1,
+            "IsAllowedToDisplay": 1,
+            "IsModuleGroup": 1,
+            "IsHygineCheck": null
+        },
+        "128": {
+            "IsInputMandatory": 2,
+            "IsHistoryTrack": 2,
+            "IsUrlMonitoring": null,
+            "IsAllowedToDisplay": null,
+            "IsModuleGroup": null,
+            "IsHygineCheck": 0
+        }
+    },
+    "ModuleUser": {
+        "141": {
+            "99080": {
+                "Id": 99080,
+                "Username": "demoTL"
+            }
+        },
+        "6694023": {
+            "99706": {
+                "Id": 99706,
+                "Username": "userdemo"
+            }
+        }
+    },
+    "ModuleStatusList": {
+        "6694023": [
+            "Ready for Production",
+            "Production Inprogress",
+            "Production Completed",
+            "Production Query",
+            "Ready for QC"
+        ]
+    },
+    "ModuleStatus": {
+        "6694023": {
+            "4": {
+                "ModuleId": 6694023,
+                "ModStatus": "Production Query",
+                "ModuleStatusIdentifier": "ProductionQuery",
+                "StatusId": 4,
+                "FromStatus": "Production Query"
+            },
+            "3": {
+                "ModuleId": 6694023,
+                "ModStatus": "Production Completed",
+                "ModuleStatusIdentifier": "ProductionComplete",
+                "StatusId": 3,
+                "FromStatus": "Production Inprogress"
+            },
+            "2": {
+                "ModuleId": 6694023,
+                "ModStatus": "Production Inprogress",
+                "ModuleStatusIdentifier": "ProductionInprogress",
+                "StatusId": 2,
+                "FromStatus": "Ready for Production"
+            },
+            "1": {
+                "ModuleId": 6694023,
+                "ModStatus": "Ready for Production",
+                "ModuleStatusIdentifier": "ReadyforProduction",
+                "StatusId": 1,
+                "FromStatus": "Import Completed"
+            },
+            "6": {
+                "ModuleId": 6694023,
+                "ModStatus": "Ready for QC",
+                "ModuleStatusIdentifier": "ReadyforQC",
+                "StatusId": 6,
+                "FromStatus": "Ready for QC"
+            }
+        }
+    },
+    "ModuleStatus_Navigation": {
+        "4": [
+            "Production Query",
+            4
+        ],
+        "3": [
+            "Production Completed",
+            5
+        ],
+        "2": [
+            "Production Inprogress",
+            3
+        ],
+        "1": [
+            "Ready for Production",
+            2
+        ],
+        "6": [
+            "Ready for QC",
+            6
+        ]
+    },
+    "ProjectConfig": {
+        "DomainId": "3263",
+        "DomainUrl": "4771",
+        "InputId": "4663",
+        "ProdDB_PageLimit": "20",
+        "ProductionView": "3",
+        "HygineCheck": ""
+    },
+    "UserGroups": {
+        "6": "Team 1",
+        "7": "Team 2",
+        "8": "YP Group",
+        "1008": "Factset Group",
+        "1009": "LE Group",
+        "1010": "cengagenpo",
+        "1011": "NPO",
+        "1012": "MojoCengage",
+        "1013": "Content Aggregation Group",
+        "1014": "Vessel Enrichment Group"
+    }
+}

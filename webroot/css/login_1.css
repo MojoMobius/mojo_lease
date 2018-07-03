@@ -1,0 +1,333 @@
+/*
+ *
+ * Awesome Flat Login Form
+ * http://lunarpixel.deviantart.com/
+ * Copyright 2014, LunarPixel
+ *
+ */
+
+
+
+body {
+  font: 13px/20px "Open Sans", Tahoma, Verdana, sans-serif;
+  color: #a7a599;
+
+}
+
+/* === Form === */
+.form {
+    width: 100%;
+}
+
+.form .field {
+    position: relative;
+    margin: 0 44px;
+}
+
+.form .field i {
+    font-size: 14px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    height: 32px;
+    width: 35px;
+    color: #f7f3eb;
+    background: #fff;
+    text-align: center;
+    line-height: 44px;
+    transition: all 0.3s ease-out;
+    pointer-events: none;
+	border:1px solid #cdcdcd;
+}
+
+/* === Logo === */
+.logo {
+  
+  background-position: center;
+  height: 60px;
+  width: 140px;
+  margin: 100px auto 30px auto;
+}
+
+/* === Login === */
+.login {
+  position: relative;
+  margin: 0 auto;
+  width: 352px;
+  height: 280px;
+  background: #fbfbfb;
+  border-radius: 3px;
+}
+
+.login:before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  bottom: -2px;
+  left: -1px;
+  z-index: -1;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  border:1px solid #e3e3e3;
+}
+
+.login h1 {
+  line-height: 7px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  background: #fbfbfb;
+
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  padding-top:15px;
+}
+
+.login div:first-child {
+  margin-top: 30px;
+}
+.space {
+    margin-top: 20px;
+}
+.login p.remember {
+  float: left;
+}
+
+.login p.remember label {
+  color: #a7a599;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.login p.submit {
+  text-align: center;
+  width:100%;
+}
+
+
+/* === Input Form === */
+::-webkit-input-placeholder {
+  color: #ded9cf;
+  font-family:'Open Sans';
+}
+
+:-moz-placeholder {
+  color: #ded9cf !important;
+  font-family:'Open Sans';
+}
+
+.form input[type=text],
+.form input[type=password] {
+    font-family: 'Open Sans', Calibri, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 6px 15px 10px 55px;
+    position: relative;
+    /*width: 170px;*/
+/*    height: 12px;*/
+    color: #676056;
+    border: none;
+    background: #fff;
+    color: #777;
+    transition: color 0.3s ease-out;
+	border:1px solid #e6e6e6;
+}
+.form input[type=text]:focus,
+.form input[type=password]:focus{
+	color:rgba(255,99,29,1.00);}
+	
+.form input[type="text"] ~ i{
+background: url(../img/user-16.png) no-repeat 50%;
+}
+.form input[type="text"]:focus ~ i{
+background:url(../img/user_change.png) no-repeat 50%;
+}
+.form input[type="password"] ~ i{
+background:url(../img/lock-24-16.png)no-repeat 50%;
+}
+.form input[type="password"]:focus ~ i{
+background:url(../img/lock_change.png)no-repeat 50%;
+}
+.form input[type=text] {
+    margin-bottom: 15px;
+}
+
+.form input[type=text]:hover ~ i,
+.form input[type=password]:hover ~ i {
+    color: #ded9cf;
+}
+
+.form input[type=text]:focus ~ i,
+.form input[type=password]:focus ~ i {
+    color: #f2672e;
+}
+
+.form input[type=text]:focus,
+.form input[type=password]:focus,
+.form button[type=submit]:focus {
+    outline: none;
+}
+
+.form input[type=submit] {
+  margin-top: 15px;
+  width:60px;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Open Sans',sans-serif;
+  font-weight: bold;
+  padding: 6px 0;
+  letter-spacing: 0;
+
+  -webkit-box-shadow: inset 0px 0px 0px 0px rgba(204,86,15,1);
+  -moz-box-shadow:    inset 0px 0px 0px 0px rgba(204,86,15,1);
+  box-shadow:         inset 0px 0px 0px 0px rgba(204,86,15,1);
+
+  color:#7a7a7a;
+  background-color: #e6e6e6;
+  text-shadow: none;
+  text-transform: uppercase;
+  border: 1px solid rgba(177,177,177,1.00);
+  cursor: pointer;
+  position: relative;
+  margin-bottom: 20px;
+  -webkit-animation: shadowFadeOut 0.4s;
+  -moz-animation: shadowFadeOut 0.4s;
+  float:left;
+  position:relative;
+  left:43px;
+  bottom:9px;
+}
+
+.form input[type="text"]:focus~.fa fa-lock .form input[type="password"]:focus~.fa fa-lock{background-color:green !important;}
+@keyframes shadowFade {
+    0% {
+      -webkit-box-shadow: inset 0px 0px 0px 0px rgba(204,86,15,1);
+      -moz-box-shadow:    inset 0px 0px 0px 0px rgba(204,86,15,1);
+      box-shadow:         inset 0px 0px 0px 0px rgba(204,86,15,1);
+      color: #fff;
+    }
+    100% {
+      -webkit-box-shadow: inset 0px 46px 0px 0px rgba(204,86,15,1);
+      -moz-box-shadow:    inset 0px 46px 0px 0px rgba(204,86,15,1);
+      box-shadow:         inset 0px 46px 0px 0px rgba(204,86,15,1);
+      color: #fff;
+    }
+}
+
+@keyframes shadowFadeOut {
+    0% {
+      -webkit-box-shadow: inset 0px 46px 0px 0px rgba(204,86,15,1);
+      -moz-box-shadow:    inset 0px 46px 0px 0px rgba(204,86,15,1);
+      box-shadow:         inset 0px 46px 0px 0px rgba(204,86,15,1);
+      color: #fff;
+    }
+    100% {
+      -webkit-box-shadow: inset 0px 0px 0px 0px rgba(204,86,15,1);
+      -moz-box-shadow:    inset 0px 0px 0px 0px rgba(204,86,15,1);
+      box-shadow:         inset 0px 0px 0px 0px rgba(204,86,15,1);
+      color: #fff;
+    }
+}
+
+@-webkit-keyframes shadowFade {
+    0% {
+      -webkit-box-shadow: inset 0px 0px 0px 0px rgba(204,86,15,1);
+      -moz-box-shadow:    inset 0px 0px 0px 0px rgba(204,86,15,1);
+      box-shadow:         inset 0px 0px 0px 0px rgba(204,86,15,1);
+      color: #fff;
+    }
+    100% {
+      -webkit-box-shadow: inset 0px 46px 0px 0px rgba(204,86,15,1);
+      -moz-box-shadow:    inset 0px 46px 0px 0px rgba(204,86,15,1);
+      box-shadow:         inset 0px 46px 0px 0px rgba(204,86,15,1);
+      color: #fff;
+    }
+}
+
+@-webkit-keyframes shadowFadeOut {
+    0% {
+      -webkit-box-shadow: inset 0px 46px 0px 0px rgba(204,86,15,1);
+      -moz-box-shadow:    inset 0px 46px 0px 0px rgba(204,86,15,1);
+      box-shadow:         inset 0px 46px 0px 0px rgba(204,86,15,1);
+      color: #fff;
+    }
+    100% {
+      -webkit-box-shadow: inset 0px 0px 0px 0px rgba(204,86,15,1);
+      -moz-box-shadow:    inset 0px 0px 0px 0px rgba(204,86,15,1);
+      box-shadow:         inset 0px 0px 0px 0px rgba(204,86,15,1);
+      color: #fff;
+    }
+}
+
+@-moz-keyframes shadowFade {
+    0% {
+      -webkit-box-shadow: inset 0px 0px 0px 0px rgba(204,86,15,1);
+      -moz-box-shadow:    inset 0px 0px 0px 0px rgba(204,86,15,1);
+      box-shadow:         inset 0px 0px 0px 0px rgba(204,86,15,1);
+      color: #fff;
+    }
+    100% {
+      -webkit-box-shadow: inset 0px 46px 0px 0px rgba(204,86,15,1);
+      -moz-box-shadow:    inset 0px 46px 0px 0px rgba(204,86,15,1);
+      box-shadow:         inset 0px 46px 0px 0px rgba(204,86,15,1);
+      color: #fff;
+    }
+}
+
+@-moz-keyframes shadowFadeOut {
+    0% {
+      -webkit-box-shadow: inset 0px 44px 0px 0px rgba(204,86,15,1);
+      -moz-box-shadow:    inset 0px 44px 0px 0px rgba(204,86,15,1);
+      box-shadow:         inset 0px 44px 0px 0px rgba(204,86,15,1);
+      color: #fff;
+    }
+    100% {
+      -webkit-box-shadow: inset 0px 0px 0px 0px rgba(204,86,15,1);
+      -moz-box-shadow:    inset 0px 0px 0px 0px rgba(204,86,15,1);
+      box-shadow:         inset 0px 0px 0px 0px rgba(204,86,15,1);
+      color: #fff;
+    }
+}
+
+
+/*my styles*/
+.logo_img{float:right;position:relative;top:5px;right:43px;}
+
+/*Media screen styles*/
+@media screen and (min-width: 320px) and (max-width: 480px){
+	.login{width:297px;}
+	.form .field{margin-left:28px;}
+	.form input[type="submit"]{left:26px;}
+	.logo_img{ right: 35px;top:14px;}
+	
+}
+input:focus .fa fa-user{color:red !important}
+
+.flash_good {
+    background: url("../img/true.png") no-repeat scroll 8px 5px #DFFFDF;
+    border: 1px solid #9FCF9F;    
+    color: #005F00;
+    font-weight: bold;
+    margin: 17px 32px;
+    padding: 6px 0;
+    text-align: center;
+    /*width: 98%;*/
+}
+.flash_bad {
+    background: url("../img/error.png") no-repeat scroll 8px 5px #F4B9BB;
+    border:1px solid #C2575B;
+    padding: 6px 0;
+    font-weight:bold;
+    margin: 17px 32px;
+    /*width: 100%;*/
+    text-align: center;
+    color:#DA1818; text-transform:capitalize; 
+}
